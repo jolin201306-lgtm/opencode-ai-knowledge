@@ -1,0 +1,72 @@
+[
+  {
+    "title": "TradingAgents",
+    "url": "https://github.com/TauricResearch/TradingAgents",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 62925,
+      "stars_today": 2225
+    },
+    "summary": "基于多智能体LLM的金融交易框架，利用多个AI Agent协同完成金融市场分析、策略生成与交易决策的自动化流程"
+  },
+  {
+    "title": "ruflo",
+    "url": "https://github.com/ruvnet/ruflo",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 36912,
+      "stars_today": 1299
+    },
+    "summary": "面向Claude的领先Agent编排平台，支持部署多智能体集群、协调自主工作流，具备企业级架构与RAG集成能力"
+  },
+  {
+    "title": "jcode",
+    "url": "https://github.com/1jehuang/jcode",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 2890,
+      "stars_today": 482
+    },
+    "summary": "编码Agent调度框架（Coding Agent Harness），用于编排和管理AI编程智能体的自动化代码生成与开发任务"
+  },
+  {
+    "title": "skills",
+    "url": "https://github.com/browserbase/skills",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 1542,
+      "stars_today": 346
+    },
+    "summary": "Claude Agent SDK的网页浏览扩展工具，为AI Agent提供网页交互能力，支持自主浏览和操作网页内容"
+  },
+  {
+    "title": "code-review-graph",
+    "url": "https://github.com/tirth8205/code-review-graph",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 14889,
+      "stars_today": 274
+    },
+    "summary": "为Claude Code构建本地知识图谱，映射代码库依赖关系，使AI仅读取关键代码，代码审查token消耗降低6.8倍"
+  },
+  {
+    "title": "ouroboros",
+    "url": "https://github.com/Q00/ouroboros",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 3101,
+      "stars_today": 231
+    },
+    "summary": "Agent OS操作系统，主张用规格说明替代提示词工程，为AI智能体提供结构化任务定义与执行环境"
+  },
+  {
+    "title": "AI-Trader",
+    "url": "https://github.com/HKUDS/AI-Trader",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 13900,
+      "stars_today": 27
+    },
+    "summary": "100%全自动化的Agent原生交易平台，基于AI智能体实现从市场分析到交易执行的全流程无人化运作"
+  }
+]

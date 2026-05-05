@@ -1,0 +1,19 @@
+{
+  "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+  "title": "TradingAgents",
+  "source": "github_trending",
+  "source_url": "https://github.com/TauricResearch/TradingAgents",
+  "summary": "基于多智能体 LLM 的金融交易框架，将大语言模型与自主决策系统结合，实现从市场数据采集、趋势分析到交易执行的端到端自动化流程，适用于量化投资研究和策略回测场景。",
+  "highlights": [
+    "多智能体协同架构，不同 Agent 分工负责市场分析、策略生成、风险控制",
+    "LLM 驱动的决策引擎，可理解非结构化金融数据并生成交易信号",
+    "支持策略回测与实盘对接，提供完整的量化研究工作流",
+    "今日增长 2,225 stars，反映 AI+金融赛道持续高热"
+  ],
+  "tags": ["Agent", "LLM", "Finance", "Multi-Agent"],
+  "language": "Python",
+  "stars": 63011,
+  "status": "analyzed",
+  "created_at": "2026-05-03T12:00:00Z",
+  "updated_at": "2026-05-03T12:00:00Z"
+}

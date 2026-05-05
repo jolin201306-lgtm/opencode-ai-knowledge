@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "source_agent": "analyzer",
+    "created_at": "2026-05-05T03:27:03.091533+00:00",
+    "version": "v1",
+    "status": "success",
+    "source_file": "knowledge\\raw\\20260505_trending.json"
+  },
+  "items": [
+    {
+      "title": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "source": "github_trending",
+      "popularity": {
+        "stars": 63011,
+        "stars_today": 2225
+      },
+      "language": "Python",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "tags": {
+        "tech_direction": [
+          "LLM",
+          "Agent",
+          "Multi-Agent"
+        ],
+        "maturity": "production-ready",
+        "impact_score": 10,
+        "impact_reason": "突破性创新，可能改变行业方向"
+      }
+    },
+    {
+      "title": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "source": "github_trending",
+      "popularity": {
+        "stars": 36953,
+        "stars_today": 1299
+      },
+      "language": "TypeScript",
+      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "tags": {
+        "tech_direction": [
+          "Agent",
+          "Multi-Agent",
+          "RAG"
+        ],
+        "maturity": "production-ready",
+        "impact_score": 9,
+        "impact_reason": "突破性创新，可能改变行业方向"
+      }
+    },
+    {
+      "title": "soxoj/maigret",
+      "url": "https://github.com/soxoj/maigret",
+      "source": "github_trending",
+      "popularity": {
+        "stars": 22860,
+        "stars_today": 1064
+      },
+      "language": "Python",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "tags": {
+        "tech_direction": [
+          "Agent"
+        ],
+        "maturity": "production-ready",
+        "impact_score": 8,
+        "impact_reason": "解决实际问题，可直接应用"
+      }
+    },
+    {
+      "title": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "source": "github_trending",
+      "popularity": {
+        "stars": 2900,
+        "stars_today": 482
+      },
+      "language": "Rust",
+      "description": "Coding Agent Harness",
+      "tags": {
+        "tech_direction": [
+          "Agent"
+        ],
+        "maturity": "MVP",
+        "impact_score": 5,
+        "impact_reason": "有新意但不够成熟，值得关注"
+      }
+    },
+    {
+      "title": "browserbase/skills",
+      "url": "https://github.com/browserbase/skills",
+      "source": "github_trending",
+      "popularity": {
+        "stars": 1548,
+        "stars_today": 346
+      },
+      "language": "JavaScript",
+      "description": "Claude Agent SDK with a web browsing tool",
+      "tags": {
+        "tech_direction": [
+          "Agent"
+        ],
+        "maturity": "MVP",
+        "impact_score": 5,
+        "impact_reason": "有新意但不够成熟，值得关注"
+      }
+    }
+  ]
+}

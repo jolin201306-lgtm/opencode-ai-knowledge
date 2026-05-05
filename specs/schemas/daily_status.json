@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Daily Agent Status",
+  "description": "每日 Agent 执行状态追踪文件",
+  "type": "object",
+  "properties": {
+    "date": { "type": "string", "format": "date" },
+    "collector": { "$ref": "#/$defs/agent_status" },
+    "analyzer": { "$ref": "#/$defs/agent_status" },
+    "organizer": { "$ref": "#/$defs/agent_status" }
+  },
+  "required": ["date", "collector", "analyzer", "organizer"],
+  "$defs": {
+    "agent_status": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["pending", "running", "success", "failed", "skipped", "partial"]
+        },
+        "started_at": { "type": "string", "format": "date-time" },
+        "completed_at": { "type": "string", "format": "date-time" },
+        "items_processed": { "type": "integer", "minimum": 0 },
+        "error": {
+          "type": "object",
+          "properties": {
+            "code": {
+              "type": "string",
+              "enum": ["network_timeout", "parse_error", "filter_empty", "schema_validation_error", "file_not_found", "rate_limited", "internal_error"]
+            },
+            "message": { "type": "string" }
+          },
+          "required": ["code", "message"]
+        },
+        "retry_count": { "type": "integer", "minimum": 0 }
+      },
+      "required": ["status", "started_at"]
+    }
+  }
+}

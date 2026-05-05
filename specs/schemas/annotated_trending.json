@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Annotated Trending Data",
+  "description": "Analyzer Agent 输出的标注数据",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "object",
+      "properties": {
+        "source_agent": { "const": "analyzer" },
+        "created_at": { "type": "string", "format": "date-time" },
+        "version": { "type": "string", "pattern": "^v\\d+$" },
+        "status": {
+          "type": "string",
+          "enum": ["pending", "running", "success", "failed", "skipped", "partial"]
+        },
+        "error": {
+          "type": "object",
+          "properties": {
+            "code": {
+              "type": "string",
+              "enum": ["network_timeout", "parse_error", "filter_empty", "schema_validation_error", "file_not_found", "rate_limited", "internal_error"]
+            },
+            "message": { "type": "string" }
+          },
+          "required": ["code", "message"]
+        },
+        "source_file": { "type": "string" }
+      },
+      "required": ["source_agent", "created_at", "version", "status", "source_file"]
+    },
+    "items": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/annotated_item" }
+    }
+  },
+  "required": ["meta", "items"],
+  "$defs": {
+    "annotated_item": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "source": { "const": "github_trending" },
+        "popularity": {
+          "type": "object",
+          "properties": {
+            "stars": { "type": "integer", "minimum": 0 },
+            "stars_today": { "type": "integer", "minimum": 0 }
+          },
+          "required": ["stars", "stars_today"]
+        },
+        "language": { "type": "string" },
+        "description": { "type": "string" },
+        "summary_zh": { "type": "string" },
+        "tags": {
+          "type": "object",
+          "properties": {
+            "tech_direction": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "LLM", "Agent", "RAG", "CV", "NLP",
+                  "Multi-Agent", "MCP", "Embedding",
+                  "Vector DB", "Fine-tuning", "Prompt Engineering"
+                ]
+              },
+              "minItems": 1
+            },
+            "maturity": {
+              "type": "string",
+              "enum": ["demo", "MVP", "production-ready"]
+            },
+            "impact_score": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 10
+            },
+            "impact_reason": { "type": "string" }
+          },
+          "required": ["tech_direction", "maturity", "impact_score", "impact_reason"]
+        }
+      },
+      "required": ["title", "url", "source", "popularity", "tags"]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "e7f8a9b0-c1d2-3456-efab-567890123456",
+  "title": "langchain",
+  "source": "github_trending",
+  "source_url": "https://github.com/langchain-ai/langchain",
+  "summary": "智能体工程平台，支持多种大模型和Agent框架，LangGraph支持有状态工作流",
+  "highlights": [
+    "LangGraph支持有状态工作流",
+    "136k stars生态庞大",
+    "行业标准事实上的标准"
+  ],
+  "tags": ["Agent", "LLM", "Infra"],
+  "language": "Python",
+  "stars": 136000,
+  "status": "analyzed",
+  "created_at": "2026-05-05T03:35:00Z",
+  "updated_at": "2026-05-05T03:35:00Z"
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "title": "AutoGPT",
+    "url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 183947
+    },
+    "summary": "AutoGPT 致力于让每个人都能使用和构建 AI，提供开发工具，让用户专注于核心业务"
+  },
+  {
+    "title": "prompts.chat",
+    "url": "https://github.com/f/prompts.chat",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 161399
+    },
+    "summary": "原名 Awesome ChatGPT Prompts，社区驱动的提示词分享平台，支持免费开源和私有化部署"
+  },
+  {
+    "title": "dify",
+    "url": "https://github.com/langgenius/dify",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 139890
+    },
+    "summary": "生产级 AI 智能体工作流开发平台，支持快速构建和部署基于大语言模型的应用"
+  },
+  {
+    "title": "langchain",
+    "url": "https://github.com/langchain-ai/langchain",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 135644
+    },
+    "summary": "智能体工程平台，提供构建和集成大语言模型应用的完整框架和工具链"
+  },
+  {
+    "title": "open-webui",
+    "url": "https://github.com/open-webui/open-webui",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 135239
+    },
+    "summary": "用户友好的 AI 交互界面，支持 Ollama 本地部署和 OpenAI API 等多种后端"
+  },
+  {
+    "title": "hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 129821
+    },
+    "summary": "由 NousResearch 开发的智能体框架，具备持续学习和自主进化能力"
+  },
+  {
+    "title": "firecrawl",
+    "url": "https://github.com/firecrawl/firecrawl",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 114286
+    },
+    "summary": "为 AI 提供网页数据抓取的 API 服务，支持搜索、爬取和网页交互功能"
+  },
+  {
+    "title": "LLMs-from-scratch",
+    "url": "https://github.com/rasbt/LLMs-from-scratch",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 91835
+    },
+    "summary": "从零开始用 PyTorch 实现类 ChatGPT 大语言模型的完整教程和代码"
+  },
+  {
+    "title": "LlamaFactory",
+    "url": "https://github.com/hiyouga/LlamaFactory",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 70846
+    },
+    "summary": "统一高效的 LLM 微调框架，支持上百种大语言模型和多模态模型的训练"
+  },
+  {
+    "title": "deer-flow",
+    "url": "https://github.com/bytedance/deer-flow",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 64531
+    },
+    "summary": "字节跳动开源的长周期智能体框架，具备研究、编码和创作等多任务能力"
+  }
+]

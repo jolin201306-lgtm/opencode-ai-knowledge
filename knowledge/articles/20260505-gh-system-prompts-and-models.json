@@ -1,0 +1,18 @@
+{
+  "id": "c5d6e7f8-a9b0-1234-cdef-345678901234",
+  "title": "system-prompts-and-models-of-ai-tools",
+  "source": "github_trending",
+  "source_url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+  "summary": "收集主流AI编码助手系统提示词和内部模型，包括Cursor、Claude Code等",
+  "highlights": [
+    "披露Cursor/Claude Code等提示词",
+    "揭示AI工具内部机制",
+    "137k stars"
+  ],
+  "tags": ["AI", "DevTools"],
+  "language": null,
+  "stars": 137000,
+  "status": "analyzed",
+  "created_at": "2026-05-05T03:35:00Z",
+  "updated_at": "2026-05-05T03:35:00Z"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "f2a3b4c5-d6e7-8901-fabc-de1234567890",
+  "title": "AutoGPT",
+  "source": "github_trending",
+  "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+  "summary": "面向大众的AI Agent平台，提供自主化工具降低使用门槛，184k stars验证市场",
+  "highlights": [
+    "184k stars验证市场",
+    "agentic-ai架构成熟",
+    "工具链完善"
+  ],
+  "tags": ["AI", "Agent", "LLM"],
+  "language": "Python",
+  "stars": 184000,
+  "status": "analyzed",
+  "created_at": "2026-05-05T03:35:00Z",
+  "updated_at": "2026-05-05T03:35:00Z"
+}

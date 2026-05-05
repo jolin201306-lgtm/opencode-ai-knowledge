@@ -1,0 +1,18 @@
+{
+  "id": "a3b4c5d6-e7f8-9012-abcd-ef2345678901",
+  "title": "n8n",
+  "source": "github_trending",
+  "source_url": "https://github.com/n8n-io/n8n",
+  "summary": "工作流自动化平台，内置AI能力和400+集成，支持自托管和MCP协议",
+  "highlights": [
+    "MCP协议支持，AI工具集成标准化",
+    "400+连接器，生态丰富",
+    "Fair-code模式，可商用"
+  ],
+  "tags": ["AI", "Agent", "MCP"],
+  "language": "TypeScript",
+  "stars": 187000,
+  "status": "analyzed",
+  "created_at": "2026-05-05T03:35:00Z",
+  "updated_at": "2026-05-05T03:35:00Z"
+}

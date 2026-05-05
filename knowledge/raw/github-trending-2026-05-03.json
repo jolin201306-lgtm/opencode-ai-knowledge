@@ -1,0 +1,92 @@
+[
+  {
+    "title": "TradingAgents",
+    "url": "https://github.com/TauricResearch/TradingAgents",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 62655,
+      "stars_today": 2225
+    },
+    "summary": "多智能体LLM金融交易框架，利用多个AI代理协同进行量化交易决策"
+  },
+  {
+    "title": "Qlib",
+    "url": "https://github.com/microsoft/qlib",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 41843,
+      "stars_today": 102
+    },
+    "summary": "微软AI量化投资平台，支持多种机器学习建模范式和自动化研发流程"
+  },
+  {
+    "title": "ruflo",
+    "url": "https://github.com/ruvnet/ruflo",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 36806,
+      "stars_today": 1299
+    },
+    "summary": "Claude多智能体编排平台，支持分布式群体智能、RAG集成和Codex协作"
+  },
+  {
+    "title": "TimesFM",
+    "url": "https://github.com/google-research/timesfm",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 19284,
+      "stars_today": 87
+    },
+    "summary": "谷歌预训练时间序列基础模型，用于高精度时间序列预测任务"
+  },
+  {
+    "title": "code-review-graph",
+    "url": "https://github.com/tirth8205/code-review-graph",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 14869,
+      "stars_today": 274
+    },
+    "summary": "Claude Code本地知识图谱工具，构建代码库映射以大幅降低Token消耗"
+  },
+  {
+    "title": "AI-Trader",
+    "url": "https://github.com/HKUDS/AI-Trader",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 13899,
+      "stars_today": 27
+    },
+    "summary": "香港大学全自动化智能体交易框架，实现Agent原生的量化投资策略"
+  },
+  {
+    "title": "jcode",
+    "url": "https://github.com/1jehuang/jcode",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 2849,
+      "stars_today": 482
+    },
+    "summary": "基于Rust的编程Agent编排框架，支持多智能体协同代码生成"
+  },
+  {
+    "title": "ouroboros",
+    "url": "https://github.com/Q00/ouroboros",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 3095,
+      "stars_today": 231
+    },
+    "summary": "智能体操作系统，用规范替代提示词，提供更精确的Agent控制方式"
+  },
+  {
+    "title": "skills",
+    "url": "https://github.com/browserbase/skills",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 1512,
+      "stars_today": 346
+    },
+    "summary": "Claude Agent SDK，赋予AI智能体网页浏览和交互能力的开发工具包"
+  }
+]
