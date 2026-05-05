@@ -1,0 +1,25 @@
+{
+  "id": "kb-safetensors-is-joining-the-pytorch-foundation-722fd444",
+  "title": "Safetensors is Joining the PyTorch Foundation",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/multimodal-sentence-transformers",
+  "summary": "Safetensors 加入 PyTorch 基金会，推动安全模型序列化标准。",
+  "highlights": [
+    "Safetensors 成为 PyTorch 基金会官方项目",
+    "提升模型加载安全性与性能",
+    "促进社区协作与标准化"
+  ],
+  "tags": [
+    "PyTorch",
+    "Safetensors",
+    "模型序列化",
+    "安全"
+  ],
+  "language": "",
+  "stars": 0,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-05T13:23:55Z",
+  "updated_at": "2026-05-05T13:23:55Z"
+}

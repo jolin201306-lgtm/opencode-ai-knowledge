@@ -1,0 +1,18 @@
+{
+  "reruns": [
+    {
+      "stage": "analyzer",
+      "date": "20260505",
+      "version": 1,
+      "output": "D:\\opencode-kw\\knowledge\\raw\\20260505_trending_annotated.json",
+      "completed_at": "2026-05-05T08:09:22.068848+00:00"
+    },
+    {
+      "stage": "organizer",
+      "date": "20260505",
+      "version": 1,
+      "output": "D:\\opencode-kw\\knowledge\\articles\\20260505_report.md",
+      "completed_at": "2026-05-05T08:09:42.268754+00:00"
+    }
+  ]
+}

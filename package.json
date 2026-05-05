@@ -1,0 +1,23 @@
+{
+  "name": "opencode-kw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jolin201306-lgtm/opencode-ai-knowledge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jolin201306-lgtm/opencode-ai-knowledge/issues"
+  },
+  "homepage": "https://github.com/jolin201306-lgtm/opencode-ai-knowledge#readme",
+  "dependencies": {
+    "@opencode-ai/plugin": "^1.14.37"
+  }
+}

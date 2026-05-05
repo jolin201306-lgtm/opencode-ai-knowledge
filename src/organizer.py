@@ -9,9 +9,11 @@ from pathlib import Path
 
 logger = logging.getLogger(__name__)
 
-RAW_DIR = Path("knowledge/raw")
-ARTICLES_DIR = Path("knowledge/articles")
-STATUS_DIR = Path("knowledge/status")
+# 确保路径相对于项目根目录
+PROJECT_ROOT = Path(__file__).parent.parent
+RAW_DIR = PROJECT_ROOT / "knowledge/raw"
+ARTICLES_DIR = PROJECT_ROOT / "knowledge/articles"
+STATUS_DIR = PROJECT_ROOT / "knowledge/status"
 
 
 def generate_report(items: list[dict], date: str) -> str:

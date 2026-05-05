@@ -1,0 +1,25 @@
+{
+  "id": "kb-pixelle-video-8781aad0",
+  "title": "Pixelle-Video",
+  "source": "github_trending",
+  "source_url": "https://github.com/AIDC-AI/Pixelle-Video",
+  "summary": "AI全自动短视频生成引擎，实现从内容到视频的自动化生产流程。",
+  "highlights": [
+    "全自动短视频生成，无需人工干预",
+    "集成AI内容理解与视频合成技术",
+    "开源项目，支持二次开发与定制"
+  ],
+  "tags": [
+    "AI",
+    "Video Generation",
+    "Automation",
+    "Open Source"
+  ],
+  "language": "unknown",
+  "stars": 1153,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-05T13:22:24Z",
+  "updated_at": "2026-05-05T13:22:24Z"
+}

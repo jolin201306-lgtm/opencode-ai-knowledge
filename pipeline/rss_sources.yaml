@@ -1,0 +1,52 @@
+sources:
+  # ========================
+  # 综合技术
+  # ========================
+  - name: Hacker News AI/ML
+    url: https://hnrss.org/best?q=ai+llm+machine+learning
+    category: 综合技术
+    enabled: true
+
+  - name: Lobsters AI/ML
+    url: https://lobste.rs/tags/ai.rss
+    category: 综合技术
+    enabled: true
+
+  # ========================
+  # AI 研究
+  # ========================
+  - name: arXiv cs.AI
+    url: http://export.arxiv.org/rss/cs.AI
+    category: AI 研究
+    enabled: false  # 数据量过大，默认关闭
+
+  # ========================
+  # 公司博客
+  # ========================
+  - name: OpenAI Blog
+    url: https://openai.com/blog/rss/
+    category: 公司博客
+    enabled: true
+
+  - name: Anthropic Research
+    url: https://www.anthropic.com/research/rss.xml
+    category: 公司博客
+    enabled: true
+
+  - name: Hugging Face Blog
+    url: https://huggingface.co/blog/feed.xml
+    category: 公司博客
+    enabled: true
+
+  # ========================
+  # 中文社区
+  # ========================
+  - name: 机器之心
+    url: https://www.jiqizhixin.com/rss
+    category: 中文社区
+    enabled: false  # 需确认 RSS 可用性
+
+  - name: 量子位
+    url: https://www.qbitai.com/rss
+    category: 中文社区
+    enabled: false  # 需确认 RSS 可用性

@@ -1,0 +1,30 @@
+{
+  "collected_at": "2026-05-05T13:12:54Z",
+  "count": 3,
+  "items": [
+    {
+      "title": "DeepSeek-TUI",
+      "url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "source": "github_trending",
+      "description": "Star\n\n\n  \n\n  \n    \n    \n\n\n      \n        Hmbown /\n\n      DeepSeek-TUI  \n\n    \n      Coding agent for DeepSeek models that runs in your terminal",
+      "stars": 2389,
+      "language": "unknown"
+    },
+    {
+      "title": "ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "source": "github_trending",
+      "description": "Star\n\n\n  \n\n  \n    \n    \n\n\n      \n        ruvnet /\n\n      ruflo  \n\n    \n      🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "stars": 2441,
+      "language": "unknown"
+    },
+    {
+      "title": "dexter",
+      "url": "https://github.com/virattt/dexter",
+      "source": "github_trending",
+      "description": "Star\n\n\n  \n\n  \n    \n    \n\n\n      \n        virattt /\n\n      dexter  \n\n    \n      An autonomous agent for deep financial research",
+      "stars": 660,
+      "language": "unknown"
+    }
+  ]
+}

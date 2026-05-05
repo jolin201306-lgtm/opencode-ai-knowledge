@@ -1,0 +1,20 @@
+{
+  "id": "github-20260505-008",
+  "title": "dexter: 自主深度金融研究 Agent",
+  "source": "github_trending",
+  "source_url": "https://github.com/virattt/dexter",
+  "summary": "自主深度金融研究 Agent，可独立完成数据收集、分析和研报生成的全流程自动化。",
+  "highlights": [
+    "端到端自主金融研究流程，从数据采集到报告生成",
+    "23K stars，垂直领域 Agent 应用标杆",
+    "深度研究（Deep Research）模式，超越简单问答"
+  ],
+  "tags": ["Agent", "AI"],
+  "language": "TypeScript",
+  "stars": 23381,
+  "score": 8,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-05T06:30:00Z",
+  "updated_at": "2026-05-05T06:30:00Z"
+}

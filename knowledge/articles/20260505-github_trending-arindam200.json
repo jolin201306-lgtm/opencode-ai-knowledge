@@ -1,0 +1,26 @@
+{
+  "id": "kb-arindam200-f9f676fa",
+  "title": "Arindam200",
+  "source": "github_trending",
+  "source_url": "https://github.com/sponsors/Arindam200",
+  "summary": "一个展示RAG、智能体、工作流等AI应用案例的开源项目集合。",
+  "highlights": [
+    "涵盖RAG、Agent、工作流等多种AI应用模式",
+    "提供实际可用的项目案例集合",
+    "便于学习和复现AI应用开发"
+  ],
+  "tags": [
+    "RAG",
+    "Agent",
+    "Workflow",
+    "AI应用",
+    "开源项目"
+  ],
+  "language": "unknown",
+  "stars": 170,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-05T13:22:19Z",
+  "updated_at": "2026-05-05T13:22:19Z"
+}

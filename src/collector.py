@@ -9,6 +9,11 @@ from pathlib import Path
 
 logger = logging.getLogger(__name__)
 
+# 确保路径相对于项目根目录
+PROJECT_ROOT = Path(__file__).parent.parent
+RAW_DIR = PROJECT_ROOT / "knowledge/raw"
+STATUS_DIR = PROJECT_ROOT / "knowledge/status"
+
 # AI 关键词白名单
 AI_KEYWORDS = [
     "ai", "artificial intelligence", "machine learning", "ml", "deep learning",
@@ -24,9 +29,6 @@ EXCLUDE_KEYWORDS = [
     "crypto", "blockchain", "web3", "nft", "defi",
     "minecraft", "game", "wordpress", "theme",
 ]
-
-RAW_DIR = Path("knowledge/raw")
-STATUS_DIR = Path("knowledge/status")
 
 
 def parse_trending_repos(text: str) -> list[dict]:

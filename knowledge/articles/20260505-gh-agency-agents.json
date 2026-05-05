@@ -1,0 +1,20 @@
+{
+  "id": "github-20260505-007",
+  "title": "agency-agents: 全栈 AI 智能体集合",
+  "source": "github_trending",
+  "source_url": "https://github.com/msitarzewski/agency-agents",
+  "summary": "全栈 AI 智能体集合，涵盖前端开发、社区运营、内容注入等专职 Agent，每个 Agent 有独立人格和交付物。",
+  "highlights": [
+    "93K stars 全榜最高，日增 1,189，社区影响力巨大",
+    "Agent 角色专业化分工（前端专家、Reddit 忍者、现实检查者等）",
+    "每个 Agent 有独立人格、工作流程和可验证交付物"
+  ],
+  "tags": ["Agent", "Multi-Agent", "AI"],
+  "language": "Shell",
+  "stars": 93008,
+  "score": 6,
+  "audience": "beginner",
+  "status": "analyzed",
+  "created_at": "2026-05-05T06:30:00Z",
+  "updated_at": "2026-05-05T06:30:00Z"
+}

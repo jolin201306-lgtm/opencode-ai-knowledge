@@ -8,8 +8,10 @@ from pathlib import Path
 
 logger = logging.getLogger(__name__)
 
-RAW_DIR = Path("knowledge/raw")
-STATUS_DIR = Path("knowledge/status")
+# 确保路径相对于项目根目录
+PROJECT_ROOT = Path(__file__).parent.parent
+RAW_DIR = PROJECT_ROOT / "knowledge/raw"
+STATUS_DIR = PROJECT_ROOT / "knowledge/status"
 
 # 技术方向标签库
 TECH_DIRECTIONS = {
