@@ -111,8 +111,7 @@ class ArticleItem:
         language: str = "",
         stars: int = 0,
     ):
-        slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
-        self.id = f"kb-{slug}-{uuid.uuid4().hex[:8]}"
+        self.id = f"{source}-{datetime.now(timezone.utc).strftime('%Y%m%d')}-{uuid.uuid4().hex[:3]}"
         self.title = title
         self.source = source
         self.source_url = source_url
@@ -661,6 +660,12 @@ async def run_pipeline(
 
     elapsed = time.time() - start_time
     stats["elapsed_seconds"] = round(elapsed, 1)
+
+    # 输出成本报告
+    from model_client import tracker
+    tracker.report()
+    if not dry_run:
+        tracker.save_to_json("knowledge/status/cost_report.json")
 
     logger.info("=" * 50)
     logger.info("流水线执行完成")

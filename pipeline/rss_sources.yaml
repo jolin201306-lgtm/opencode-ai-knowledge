@@ -10,7 +10,7 @@ sources:
   - name: Lobsters AI/ML
     url: https://lobste.rs/tags/ai.rss
     category: 综合技术
-    enabled: true
+    enabled: false  # 404 不可用
 
   # ========================
   # AI 研究
@@ -26,12 +26,12 @@ sources:
   - name: OpenAI Blog
     url: https://openai.com/blog/rss/
     category: 公司博客
-    enabled: true
+    enabled: false  # 403 不可用
 
   - name: Anthropic Research
     url: https://www.anthropic.com/research/rss.xml
     category: 公司博客
-    enabled: true
+    enabled: false  # 404 不可用
 
   - name: Hugging Face Blog
     url: https://huggingface.co/blog/feed.xml

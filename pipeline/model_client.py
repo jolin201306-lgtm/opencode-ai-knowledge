@@ -28,6 +28,177 @@ class Usage:
     total_tokens: int = 0
 
 
+# ── 模型定价表（USD / 1M tokens） ──────────────────────────────────────
+PRICING = {
+    # DeepSeek
+    "deepseek-chat": {"input": 0.27, "output": 1.10},
+    "deepseek-reasoner": {"input": 0.55, "output": 2.19},
+    # Qwen
+    "qwen-plus": {"input": 0.56, "output": 1.68},
+    "qwen-max": {"input": 2.80, "output": 8.40},
+    "qwen-turbo": {"input": 0.14, "output": 0.42},
+    # OpenAI
+    "gpt-4o": {"input": 2.50, "output": 10.00},
+    "gpt-4o-mini": {"input": 0.15, "output": 0.60},
+    "gpt-4": {"input": 30.00, "output": 60.00},
+}
+
+# ── 模型定价表（CNY / 1M tokens） ──────────────────────────────────────
+PRICING_CNY = {
+    "deepseek": {"input": 1.0, "output": 2.0},
+    "qwen": {"input": 4.0, "output": 12.0},
+    "openai": {"input": 150.0, "output": 600.0},
+}
+
+
+class CostTracker:
+    """追踪 LLM 调用的 token 消耗和成本。
+
+    Attributes:
+        _records: 记录列表，每次调用包含 provider、usage 和时间戳。
+    """
+
+    def __init__(self):
+        """初始化成本追踪器。"""
+        self._records: list[dict] = []
+
+    def record(self, usage: Usage, provider: str) -> None:
+        """记录一次 API 调用。
+
+        Args:
+            usage: Token 用量统计对象。
+            provider: LLM 提供商名称（如 deepseek、qwen、openai）。
+        """
+        self._records.append({
+            "provider": provider.lower(),
+            "usage": usage,
+            "timestamp": time.time(),
+        })
+
+    def estimated_cost(self, provider: str) -> float:
+        """返回指定提供商的估算成本（元）。
+
+        Args:
+            provider: LLM 提供商名称。
+
+        Returns:
+            估算成本（人民币），保留 4 位小数。
+        """
+        provider = provider.lower()
+        prices = PRICING_CNY.get(provider, PRICING_CNY["openai"])
+
+        total_input = sum(
+            r["usage"].prompt_tokens for r in self._records if r["provider"] == provider
+        )
+        total_output = sum(
+            r["usage"].completion_tokens for r in self._records if r["provider"] == provider
+        )
+
+        input_cost = (total_input / 1_000_000) * prices["input"]
+        output_cost = (total_output / 1_000_000) * prices["output"]
+        return round(input_cost + output_cost, 4)
+
+    def save_to_json(self, filepath: str) -> None:
+        """将统计结果保存到 JSON 文件。
+
+        Args:
+            filepath: 保存路径，如 "knowledge/status/cost_report.json"。
+        """
+        if not self._records:
+            logger.info("无成本记录，跳过保存")
+            return
+
+        providers = set(r["provider"] for r in self._records)
+        report_data = {
+            "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+            "total_calls": len(self._records),
+            "breakdown": {},
+        }
+
+        total_input = 0
+        total_output = 0
+        total_cost = 0.0
+
+        for p in providers:
+            calls = [r for r in self._records if r["provider"] == p]
+            input_tokens = sum(r["usage"].prompt_tokens for r in calls)
+            output_tokens = sum(r["usage"].completion_tokens for r in calls)
+            cost = self.estimated_cost(p)
+
+            total_input += input_tokens
+            total_output += output_tokens
+            total_cost += cost
+
+            report_data["breakdown"][p] = {
+                "calls": len(calls),
+                "input_tokens": input_tokens,
+                "output_tokens": output_tokens,
+                "estimated_cost_cny": cost,
+            }
+
+        report_data["total"] = {
+            "input_tokens": total_input,
+            "output_tokens": total_output,
+            "total_cost_cny": round(total_cost, 4),
+        }
+
+        path = Path(filepath)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(report_data, f, ensure_ascii=False, indent=2)
+
+        logger.info("成本报告已保存至: %s", filepath)
+
+    def report(self, provider: Optional[str] = None) -> None:
+        """打印成本报告。
+
+        Args:
+            provider: 指定提供商（可选），为 None 时打印所有提供商。
+        """
+        providers = (
+            [provider.lower()] if provider else set(r["provider"] for r in self._records)
+        )
+
+        logger.info("=" * 50)
+        logger.info("LLM 成本报告")
+        logger.info("=" * 50)
+
+        total_calls = 0
+        total_input = 0
+        total_output = 0
+        total_cost = 0.0
+
+        for p in providers:
+            calls = [r for r in self._records if r["provider"] == p]
+            if not calls:
+                continue
+
+            input_tokens = sum(r["usage"].prompt_tokens for r in calls)
+            output_tokens = sum(r["usage"].completion_tokens for r in calls)
+            cost = self.estimated_cost(p)
+
+            total_calls += len(calls)
+            total_input += input_tokens
+            total_output += output_tokens
+            total_cost += cost
+
+            logger.info(
+                "  %-10s | 调用: %d 次 | 输入: %d | 输出: %d | 成本: %.4f 元",
+                p, len(calls), input_tokens, output_tokens, cost
+            )
+
+        logger.info("-" * 50)
+        logger.info(
+            "  总计     | 调用: %d 次 | 输入: %d | 输出: %d | 成本: %.4f 元",
+            total_calls, total_input, total_output, total_cost
+        )
+        logger.info("=" * 50)
+
+
+# 全局成本追踪实例
+tracker = CostTracker()
+
+
 @dataclass
 class LLMResponse:
     """LLM 响应。
@@ -311,6 +482,7 @@ async def chat_with_retry(
         Exception: 达到最大重试次数后，抛出最后一次异常。
     """
     provider = get_provider()
+    provider_name = os.getenv("LLM_PROVIDER", "deepseek").lower()
     model_name = model or provider.default_model
 
     last_err: Optional[Exception] = None
@@ -321,6 +493,7 @@ async def chat_with_retry(
                 model=model_name,
                 **kwargs,
             )
+            tracker.record(response.usage, provider_name)
             cost = estimate_cost(response.model, response.usage)
             logger.info(
                 "LLM 调用成功 | model=%s | tokens=%d | cost=$%.6f | latency=%.0fms",
