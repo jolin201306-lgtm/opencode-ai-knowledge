@@ -229,7 +229,7 @@ async def collect_github(limit: int = 20) -> list[RawItem]:
                     RawItem(
                         title=repo_name,
                         url=url,
-                        source="github_trending",
+                        source="github",
                         description=desc,
                         stars=stars,
                         language="unknown",

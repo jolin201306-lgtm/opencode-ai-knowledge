@@ -22,7 +22,7 @@ REQUIRED_FIELDS: dict[str, type] = {
 VALID_STATUSES = {"raw", "analyzed", "published"}
 VALID_AUDIENCES = {"beginner", "intermediate", "advanced"}
 
-ID_PATTERN = re.compile(r"^[a-z]+-\d{8}-\d{3}$")
+ID_PATTERN = re.compile(r"^[a-z]+-\d{8}-[0-9a-f]{3}$")
 URL_PATTERN = re.compile(r"^https?://.+")
 
 
