@@ -1,26 +1,25 @@
 {
-  "id": "kb-granite-4-1-llms-how-they-re-built-8d84fec3",
+  "id": "rss-20260506-66b",
   "title": "Granite 4.1 LLMs: How They’re Built",
   "source": "rss",
-  "source_url": "https://huggingface.co/blog",
+  "source_url": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
   "summary": "介绍Granite 4.1大型语言模型的构建方法和技术细节。",
   "highlights": [
-    "模型架构与训练方法",
-    "性能优化与部署策略",
-    "开源社区协作与工具支持"
+    "详细说明模型架构与训练流程",
+    "强调数据清洗与对齐优化策略",
+    "提供开源实现与部署指导"
   ],
   "tags": [
     "LLM",
-    "Granite",
     "模型构建",
     "开源",
-    "Hugging Face"
+    "训练技术"
   ],
   "language": "",
   "stars": 0,
   "score": 7,
   "audience": "intermediate",
   "status": "analyzed",
-  "created_at": "2026-05-06T08:26:28Z",
-  "updated_at": "2026-05-06T08:26:28Z"
+  "created_at": "2026-05-06T15:16:34Z",
+  "updated_at": "2026-05-06T15:16:34Z"
 }

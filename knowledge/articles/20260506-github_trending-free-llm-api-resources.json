@@ -1,0 +1,26 @@
+{
+  "id": "github_trending-20260506-de7",
+  "title": "free-llm-api-resources",
+  "source": "github_trending",
+  "source_url": "https://github.com/cheahjs/free-llm-api-resources",
+  "summary": "汇总可通过API免费使用的LLM推理资源列表，便于开发者快速获取和集成。",
+  "highlights": [
+    "收集多种免费LLM推理API资源",
+    "提供可直接调用的接口列表",
+    "持续更新维护的开源项目"
+  ],
+  "tags": [
+    "LLM",
+    "API",
+    "免费资源",
+    "推理",
+    "开源"
+  ],
+  "language": "unknown",
+  "stars": 344,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-06T15:16:22Z",
+  "updated_at": "2026-05-06T15:16:22Z"
+}

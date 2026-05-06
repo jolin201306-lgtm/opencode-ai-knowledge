@@ -1,0 +1,26 @@
+{
+  "id": "github_trending-20260506-9c5",
+  "title": "deer-flow",
+  "source": "github_trending",
+  "source_url": "https://github.com/bytedance/deer-flow",
+  "summary": "字节跳动开源的长期任务超级智能体框架，支持研究、编码和创作，集成沙箱、记忆、工具等模块。",
+  "highlights": [
+    "支持分钟到小时级别的长周期任务处理",
+    "集成沙箱、记忆、工具、技能、子代理和消息网关",
+    "开源且模块化设计，便于扩展和定制"
+  ],
+  "tags": [
+    "LLM",
+    "Agent",
+    "开源",
+    "字节跳动",
+    "自动化"
+  ],
+  "language": "unknown",
+  "stars": 328,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-06T15:16:29Z",
+  "updated_at": "2026-05-06T15:16:29Z"
+}
