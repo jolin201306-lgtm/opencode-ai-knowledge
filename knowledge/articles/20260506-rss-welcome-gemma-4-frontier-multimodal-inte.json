@@ -1,0 +1,24 @@
+{
+  "id": "kb-welcome-gemma-4-frontier-multimodal-intelligence-on-device-1e390789",
+  "title": "Welcome Gemma 4: Frontier multimodal intelligence on device",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/safetensors-joins-pytorch-foundation",
+  "summary": "介绍Gemma 4模型，实现设备端多模态智能的前沿技术。",
+  "highlights": [
+    "支持设备端运行的多模态AI模型",
+    "前沿的多模态智能处理能力",
+    "面向边缘计算场景优化"
+  ],
+  "tags": [
+    "LLM",
+    "多模态",
+    "设备端AI"
+  ],
+  "language": "",
+  "stars": 0,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-06T08:27:06Z",
+  "updated_at": "2026-05-06T08:27:06Z"
+}

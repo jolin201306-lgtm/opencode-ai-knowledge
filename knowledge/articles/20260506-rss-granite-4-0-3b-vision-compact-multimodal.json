@@ -1,0 +1,25 @@
+{
+  "id": "kb-granite-4-0-3b-vision-compact-multimodal-intelligence-for-enterprise-documents-a50a1c83",
+  "title": "Granite 4.0 3B Vision: Compact Multimodal Intelligence for Enterprise Documents",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/introducing-gradio-server",
+  "summary": "Granite 4.0 3B Vision 是一款面向企业文档的紧凑型多模态AI模型。",
+  "highlights": [
+    "紧凑型3B参数规模，适合企业部署",
+    "专注于多模态文档理解与处理",
+    "针对企业场景优化，提升文档分析效率"
+  ],
+  "tags": [
+    "多模态",
+    "企业文档",
+    "紧凑模型",
+    "AI"
+  ],
+  "language": "",
+  "stars": 0,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-06T08:27:13Z",
+  "updated_at": "2026-05-06T08:27:13Z"
+}

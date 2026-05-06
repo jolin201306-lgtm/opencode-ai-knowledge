@@ -1,0 +1,25 @@
+{
+  "id": "kb-deepinfra-on-hugging-face-inference-providers-a5049002",
+  "title": "DeepInfra on Hugging Face Inference Providers 🔥",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+  "summary": "DeepInfra作为Hugging Face推理提供商，支持Granite 4.1模型部署，提升推理效率与可访问性。",
+  "highlights": [
+    "DeepInfra集成Hugging Face推理提供商生态",
+    "支持Granite 4.1模型的高效推理",
+    "降低开发者部署和调用大模型的门槛"
+  ],
+  "tags": [
+    "LLM",
+    "Inference",
+    "Hugging Face",
+    "Model Deployment"
+  ],
+  "language": "",
+  "stars": 0,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-06T08:26:31Z",
+  "updated_at": "2026-05-06T08:26:31Z"
+}
