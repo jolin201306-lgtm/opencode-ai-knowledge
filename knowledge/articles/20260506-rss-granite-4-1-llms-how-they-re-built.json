@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260506-b9c",
+  "title": "Granite 4.1 LLMs: How They’re Built",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
+  "summary": "介绍Granite 4.1大型语言模型的构建方法和技术细节。",
+  "highlights": [
+    "详细说明模型架构与训练流程",
+    "强调开源与可复现性",
+    "提供性能优化与部署建议"
+  ],
+  "tags": [
+    "LLM",
+    "Granite",
+    "模型构建",
+    "开源"
+  ],
+  "language": "",
+  "stars": 0,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-06T15:45:54Z",
+  "updated_at": "2026-05-06T15:45:54Z"
+}

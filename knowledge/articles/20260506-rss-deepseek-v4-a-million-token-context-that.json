@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260506-ddb",
+  "title": "DeepSeek-V4: a million-token context that agents can actually use",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
+  "summary": "DeepSeek-V4 支持百万级 token 上下文，使 AI 代理能高效处理长文本任务。",
+  "highlights": [
+    "百万 token 超长上下文支持",
+    "专为 AI 代理实际使用优化",
+    "提升长文本处理效率与准确性"
+  ],
+  "tags": [
+    "LLM",
+    "Agent",
+    "Long Context",
+    "DeepSeek"
+  ],
+  "language": "",
+  "stars": 0,
+  "score": 8,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-06T15:46:04Z",
+  "updated_at": "2026-05-06T15:46:04Z"
+}

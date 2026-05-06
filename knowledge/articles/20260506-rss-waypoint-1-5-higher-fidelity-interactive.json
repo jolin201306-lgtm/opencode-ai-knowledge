@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260506-db5",
+  "title": "Waypoint-1.5: Higher-Fidelity Interactive Worlds for Everyday GPUs",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/Hcompany/holotab",
+  "summary": "提出Waypoint-1.5方法，在普通GPU上实现更高保真度的交互式3D世界渲染。",
+  "highlights": [
+    "针对日常GPU优化，提升交互式3D世界的视觉保真度",
+    "在有限硬件资源下实现更高质量的实时渲染",
+    "可能结合神经渲染或轻量化模型技术"
+  ],
+  "tags": [
+    "3D渲染",
+    "GPU优化",
+    "交互式世界",
+    "神经渲染"
+  ],
+  "language": "",
+  "stars": 0,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-06T15:46:26Z",
+  "updated_at": "2026-05-06T15:46:26Z"
+}

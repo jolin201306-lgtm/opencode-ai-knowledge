@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260506-080",
+  "title": "Training and Finetuning Multimodal Embedding &amp; Reranker Models with Sentence Transformers",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/transformers-to-mlx",
+  "summary": "使用Sentence Transformers训练和微调多模态嵌入与重排序模型的指南。",
+  "highlights": [
+    "多模态嵌入模型训练与微调方法",
+    "重排序模型集成与优化",
+    "基于Sentence Transformers的实践流程"
+  ],
+  "tags": [
+    "Sentence Transformers",
+    "多模态嵌入",
+    "重排序模型",
+    "微调"
+  ],
+  "language": "",
+  "stars": 0,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-06T15:46:18Z",
+  "updated_at": "2026-05-06T15:46:18Z"
+}

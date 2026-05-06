@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260506-21c",
+  "title": "Ecom-RLVE: Adaptive Verifiable Environments for E-Commerce Conversational Agents",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/cybersecurity-openness",
+  "summary": "提出自适应可验证环境，提升电商对话代理的可靠性与交互质量。",
+  "highlights": [
+    "自适应可验证环境设计",
+    "提升电商对话代理的可靠性",
+    "面向实际应用的交互优化"
+  ],
+  "tags": [
+    "LLM",
+    "Agent",
+    "E-Commerce",
+    "Conversational AI"
+  ],
+  "language": "",
+  "stars": 0,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-06T15:46:14Z",
+  "updated_at": "2026-05-06T15:46:14Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260506-bb2",
+  "title": "Meet HoloTab by HCompany. Your AI browser companion.",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
+  "summary": "HCompany推出HoloTab，一款AI浏览器伴侣，旨在提升用户浏览体验。",
+  "highlights": [
+    "AI驱动的浏览器辅助功能",
+    "集成于浏览器中的智能助手",
+    "提升用户交互与效率"
+  ],
+  "tags": [
+    "AI",
+    "浏览器",
+    "助手",
+    "HoloTab"
+  ],
+  "language": "",
+  "stars": 0,
+  "score": 5,
+  "audience": "beginner",
+  "status": "analyzed",
+  "created_at": "2026-05-06T15:46:23Z",
+  "updated_at": "2026-05-06T15:46:23Z"
+}

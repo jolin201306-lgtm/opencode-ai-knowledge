@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260506-00e",
+  "title": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog",
+  "summary": "在开源ASR排行榜中引入防基准测试作弊机制，提升评估公正性。",
+  "highlights": [
+    "提出Benchmaxxer Repellant方法防止基准测试数据泄露",
+    "增强开源ASR排行榜的评估可靠性",
+    "通过技术手段维护模型性能比较的公平性"
+  ],
+  "tags": [
+    "ASR",
+    "Benchmark",
+    "Evaluation",
+    "Open Source"
+  ],
+  "language": "",
+  "stars": 0,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-06T15:45:52Z",
+  "updated_at": "2026-05-06T15:45:52Z"
+}

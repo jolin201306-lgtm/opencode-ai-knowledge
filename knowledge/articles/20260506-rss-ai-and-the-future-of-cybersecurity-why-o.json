@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260506-fbc",
+  "title": "AI and the Future of Cybersecurity: Why Openness Matters",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
+  "summary": "探讨AI在网络安全中的角色，强调开源对提升安全性和透明度的关键作用。",
+  "highlights": [
+    "AI可自动化威胁检测与响应，提升安全效率",
+    "开源模型促进社区协作，减少安全盲区",
+    "透明度是建立AI安全系统信任的基础"
+  ],
+  "tags": [
+    "AI",
+    "Cybersecurity",
+    "Open Source",
+    "Transparency"
+  ],
+  "language": "",
+  "stars": 0,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-06T15:46:11Z",
+  "updated_at": "2026-05-06T15:46:11Z"
+}

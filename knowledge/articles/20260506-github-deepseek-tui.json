@@ -1,0 +1,26 @@
+{
+  "id": "github-20260506-5f5",
+  "title": "DeepSeek-TUI",
+  "source": "github",
+  "source_url": "https://github.com/Hmbown/DeepSeek-TUI",
+  "summary": "一个在终端中运行的DeepSeek模型编码代理工具。",
+  "highlights": [
+    "基于DeepSeek模型的终端编码代理",
+    "提供命令行交互式编程体验",
+    "轻量级TUI界面设计"
+  ],
+  "tags": [
+    "LLM",
+    "Agent",
+    "DeepSeek",
+    "TUI",
+    "Coding"
+  ],
+  "language": "unknown",
+  "stars": 6184,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-06T15:45:26Z",
+  "updated_at": "2026-05-06T15:45:26Z"
+}
