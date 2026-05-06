@@ -278,3 +278,23 @@ CLI 设计：
 9. 自动 git commit + push，commit 消息包含文章数量和日期
 10. 如果没有新数据则不提交（避免空 commit）
 ```
+### No.8 CostTracker费用跟踪
+
+```plain
+请帮我在 pipeline/model_client.py 中添加 CostTracker 功能：
+
+需求：
+1. 创建一个 CostTracker 类，追踪 LLM 调用的 token 消耗和成本
+2. 包含国产模型价格表（单位：元/百万 tokens）：
+   - deepseek: 输入 1, 输出 2
+   - qwen: 输入 4, 输出 12
+   - openai (gpt-4o-mini): 输入 150, 输出 600
+3. CostTracker 方法：
+   - record(usage, provider): 记录一次 API 调用
+   - estimated_cost(provider): 返回估算成本（元）
+   - report(provider): 打印成本报告
+4. 在 chat() 函数中，每次调用成功后自动 record
+5. 创建全局 tracker 实例，Pipeline 结束时可以调 tracker.report()
+
+编码规范：遵循 PEP 8，Google 风格 docstring
+```
