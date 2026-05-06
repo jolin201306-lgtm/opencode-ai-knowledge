@@ -44,9 +44,9 @@ sources:
   - name: 机器之心
     url: https://www.jiqizhixin.com/rss
     category: 中文社区
-    enabled: false  # 需确认 RSS 可用性
+    enabled: true  # 需确认 RSS 可用性
 
   - name: 量子位
     url: https://www.qbitai.com/rss
     category: 中文社区
-    enabled: false  # 需确认 RSS 可用性
+    enabled: true  # 需确认 RSS 可用性

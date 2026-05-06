@@ -210,7 +210,7 @@ Agent 之间通过文件协作，不通过上下文共享
 4. Step 4: 保存（Save）— 将文章保存为独立 JSON 文件到 knowledge/articles/
 
 CLI 设计：
-- python pipeline/pipeline.py --sources github,rss --limit 20   # 完整流水线
+- python pipeline/pipeline.py --sources github,rss --limit 10   # 完整流水线
 - python pipeline/pipeline.py --sources github --limit 5         # 只采集 GitHub
 - python pipeline/pipeline.py --sources rss --limit 10           # 只采集 RSS
 - python pipeline/pipeline.py --sources github --limit 5 --dry-run  # 干跑模式

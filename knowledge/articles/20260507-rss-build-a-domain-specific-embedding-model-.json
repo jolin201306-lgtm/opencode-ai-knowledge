@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260506-8dc",
+  "title": "Build a Domain-Specific Embedding Model in Under a Day",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/ServiceNow-AI/eva",
+  "summary": "介绍如何在一天内构建领域特定嵌入模型，提升检索和生成效果。",
+  "highlights": [
+    "使用对比学习训练领域嵌入模型",
+    "利用合成数据生成和硬负样本挖掘",
+    "结合检索增强生成（RAG）优化下游任务"
+  ],
+  "tags": [
+    "Embedding Model",
+    "RAG",
+    "Contrastive Learning",
+    "Domain-Specific",
+    "NLP"
+  ],
+  "language": "",
+  "stars": 0,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-06T16:38:27Z",
+  "updated_at": "2026-05-06T16:38:27Z"
+}

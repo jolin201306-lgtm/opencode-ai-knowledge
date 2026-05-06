@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260506-a24",
+  "title": "Holotron-12B - High Throughput Computer Use Agent",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
+  "summary": "Holotron-12B是一个高吞吐量的计算机使用代理，旨在提升自动化操作效率。",
+  "highlights": [
+    "高吞吐量设计，适合大规模任务处理",
+    "专注于计算机使用场景的代理模型",
+    "基于12B参数规模，平衡性能与效率"
+  ],
+  "tags": [
+    "LLM",
+    "Agent",
+    "Computer Use",
+    "High Throughput"
+  ],
+  "language": "",
+  "stars": 0,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-06T16:38:36Z",
+  "updated_at": "2026-05-06T16:38:36Z"
+}

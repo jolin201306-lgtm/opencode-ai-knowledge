@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260506-2ef",
+  "title": "Liberate your OpenClaw",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/trl-v1",
+  "summary": "介绍TRL v1版本，旨在简化强化学习与开源大模型的集成，提升训练效率。",
+  "highlights": [
+    "支持多种强化学习算法（如PPO、DPO）与Hugging Face模型无缝集成",
+    "提供高效的数据处理和训练管线，降低RLHF实施门槛",
+    "开源工具链，便于社区复现和扩展强化学习训练流程"
+  ],
+  "tags": [
+    "LLM",
+    "RLHF",
+    "TRL",
+    "Hugging Face",
+    "强化学习"
+  ],
+  "language": "",
+  "stars": 0,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-06T16:38:18Z",
+  "updated_at": "2026-05-06T16:38:18Z"
+}

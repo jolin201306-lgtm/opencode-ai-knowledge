@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260506-92f",
+  "title": "Keep the Tokens Flowing: Lessons from 16 Open-Source RL Libraries",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/storage-buckets",
+  "summary": "从16个开源强化学习库中总结的实践经验和教训，帮助优化训练流程。",
+  "highlights": [
+    "对比了多个主流RL库的设计差异与性能表现",
+    "总结了分布式训练与数据存储的常见陷阱",
+    "提供了提升训练稳定性和效率的实用建议"
+  ],
+  "tags": [
+    "LLM",
+    "Reinforcement Learning",
+    "Open Source",
+    "Training Optimization"
+  ],
+  "language": "",
+  "stars": 0,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-06T16:38:45Z",
+  "updated_at": "2026-05-06T16:38:45Z"
+}

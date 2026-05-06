@@ -16,7 +16,7 @@ from typing import Any, Optional
 import httpx
 import yaml
 
-from model_client import Usage, chat_with_retry, estimate_cost, estimate_tokens
+from model_client import Usage, chat_with_retry, estimate_cost, estimate_tokens, tracker
 
 logger = logging.getLogger(__name__)
 
@@ -605,13 +605,33 @@ async def run_pipeline(
     if not dry_run:
         save_raw(all_items)
 
+    # Step 1.5: 提前去重检查，若无新增则跳过昂贵的 LLM 分析
+    logger.info("=" * 50)
+    logger.info("Step 1.5/4: 增量过滤")
+    logger.info("=" * 50)
+
+    existing = load_existing_articles()
+    existing_keys = set(existing.keys())
+    new_items = [item for item in all_items if normalize_url(item.url) not in existing_keys]
+    
+    stats["pre_deduplicated"] = len(new_items)
+    logger.info("增量过滤: 采集 %d 条，已存在 %d 条，新增 %d 条", 
+                len(all_items), len(all_items) - len(new_items), len(new_items))
+
+    if not new_items:
+        logger.info("无新增数据，跳过后续分析与保存步骤")
+        tracker.report()
+        if not dry_run:
+            tracker.save_to_json("knowledge/status/cost_report.json")
+        return stats
+
     # Step 2: 分析
     logger.info("=" * 50)
     logger.info("Step 2/4: 分析")
     logger.info("=" * 50)
 
     articles: list[ArticleItem] = []
-    for item in all_items:
+    for item in new_items:
         result = await analyze_item(item)
         if result:
             articles.append(result)
@@ -630,12 +650,11 @@ async def run_pipeline(
     logger.info("Step 3/4: 整理")
     logger.info("=" * 50)
 
-    existing = load_existing_articles()
-    unique_articles = deduplicate(articles, existing)
-    stats["deduplicated"] = len(unique_articles)
+    # 使用 Step 1.5 过滤后的结果，不再重复去重
+    stats["deduplicated"] = len(articles)
 
     valid_articles: list[ArticleItem] = []
-    for article in unique_articles:
+    for article in articles:
         errors = validate_article(article)
         if errors:
             logger.warning("条目校验失败 [%s]: %s", article.title, ", ".join(errors))
@@ -662,7 +681,6 @@ async def run_pipeline(
     stats["elapsed_seconds"] = round(elapsed, 1)
 
     # 输出成本报告
-    from model_client import tracker
     tracker.report()
     if not dry_run:
         tracker.save_to_json("knowledge/status/cost_report.json")
@@ -697,8 +715,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--limit",
         type=int,
-        default=20,
-        help="每个源的采集数量上限，默认: 20",
+        default=10,
+        help="每个源的采集数量上限，默认: 10",
     )
     parser.add_argument(
         "--dry-run",
