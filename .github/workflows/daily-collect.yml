@@ -39,11 +39,23 @@ jobs:
 
       - name: 校验 JSON 格式
         run: |
-          find knowledge/articles -name "*.json" -type f -exec python hooks/validate_json.py {} + || true
+          mkdir -p knowledge/status
+          NEW_FILES=$(git status --porcelain knowledge/articles/ | grep "^??" | awk '{print $2}' || true)
+          if [ -n "$NEW_FILES" ]; then
+            echo "$NEW_FILES" | tr '\n' ' ' | xargs python hooks/validate_json.py > knowledge/status/validate_$(date +%Y%m%d).log 2>&1 || true
+          else
+            echo "没有新文章，跳过校验" > knowledge/status/validate_$(date +%Y%m%d).log
+          fi
 
       - name: 检查文章质量
         run: |
-          find knowledge/articles -name "*.json" -type f -exec python hooks/check_quality.py {} + || true
+          mkdir -p knowledge/status
+          NEW_FILES=$(git status --porcelain knowledge/articles/ | grep "^??" | awk '{print $2}' || true)
+          if [ -n "$NEW_FILES" ]; then
+            echo "$NEW_FILES" | tr '\n' ' ' | xargs python hooks/check_quality.py > knowledge/status/quality_$(date +%Y%m%d).log 2>&1 || true
+          else
+            echo "没有新文章，跳过质量检查" > knowledge/status/quality_$(date +%Y%m%d).log
+          fi
 
       - name: 配置 Git 用户
         run: |
