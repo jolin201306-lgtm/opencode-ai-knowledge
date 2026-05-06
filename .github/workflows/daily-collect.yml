@@ -36,22 +36,11 @@ jobs:
 
       - name: 校验 JSON 格式
         run: |
-          # 使用 find 命令确保正确展开通配符
-          FILES=$(find knowledge/articles -name "*.json" -type f 2>/dev/null || true)
-          if [ -n "$FILES" ]; then
-            python hooks/validate_json.py knowledge/articles/*.json
-          else
-            echo "没有文章文件，跳过校验"
-          fi
+          find knowledge/articles -name "*.json" -type f -exec python hooks/validate_json.py {} + || true
 
       - name: 检查文章质量
         run: |
-          FILES=$(find knowledge/articles -name "*.json" -type f 2>/dev/null || true)
-          if [ -n "$FILES" ]; then
-            python hooks/check_quality.py knowledge/articles/*.json
-          else
-            echo "没有文章文件，跳过质量检查"
-          fi
+          find knowledge/articles -name "*.json" -type f -exec python hooks/check_quality.py {} + || true
 
       - name: 配置 Git 用户
         run: |
