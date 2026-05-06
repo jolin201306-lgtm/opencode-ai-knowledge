@@ -1,0 +1,27 @@
+{
+  "id": "kb-ruflo-2db16876",
+  "title": "ruflo",
+  "source": "github_trending",
+  "source_url": "https://github.com/ruvnet/ruflo",
+  "summary": "ruflo是面向Claude的领先智能体编排平台，支持多智能体集群、自主工作流与RAG集成。",
+  "highlights": [
+    "支持多智能体集群与自主工作流编排",
+    "集成RAG与自学习群体智能",
+    "原生支持Claude Code/Codex集成"
+  ],
+  "tags": [
+    "LLM",
+    "Agent",
+    "Orchestration",
+    "RAG",
+    "Claude",
+    "Workflow"
+  ],
+  "language": "unknown",
+  "stars": 2432,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-06T08:26:01Z",
+  "updated_at": "2026-05-06T08:26:01Z"
+}

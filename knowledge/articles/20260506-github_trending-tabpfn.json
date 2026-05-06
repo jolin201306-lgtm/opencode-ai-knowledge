@@ -1,0 +1,26 @@
+{
+  "id": "kb-tabpfn-fb01fdde",
+  "title": "TabPFN",
+  "source": "github_trending",
+  "source_url": "https://github.com/PriorLabs/TabPFN",
+  "summary": "TabPFN是一个针对表格数据的基础模型，旨在高效处理分类与回归任务。",
+  "highlights": [
+    "基于Transformer架构，专为表格数据设计",
+    "支持少样本学习，无需大量训练数据",
+    "提供预训练模型，可直接用于多种表格任务"
+  ],
+  "tags": [
+    "TabPFN",
+    "表格数据",
+    "基础模型",
+    "Transformer",
+    "少样本学习"
+  ],
+  "language": "unknown",
+  "stars": 57,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-06T08:26:25Z",
+  "updated_at": "2026-05-06T08:26:25Z"
+}
