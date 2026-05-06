@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260506-20f",
+  "title": "Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
+  "summary": "分析VAKRA智能体的推理、工具使用及失败模式，提供实践洞察。",
+  "highlights": [
+    "深入探讨智能体推理机制与工具调用策略",
+    "系统分类智能体常见失败模式及原因",
+    "提供可操作的优化建议与设计原则"
+  ],
+  "tags": [
+    "LLM",
+    "Agent",
+    "Reasoning",
+    "Tool Use",
+    "Failure Analysis"
+  ],
+  "language": "",
+  "stars": 0,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-06T15:28:09Z",
+  "updated_at": "2026-05-06T15:28:09Z"
+}

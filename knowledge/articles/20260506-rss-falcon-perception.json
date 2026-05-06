@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260506-954",
+  "title": "Falcon Perception",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/gemma4",
+  "summary": "Falcon Perception是Hugging Face博客中关于Gemma4模型的技术介绍，聚焦视觉感知能力。",
+  "highlights": [
+    "基于Gemma4架构的视觉语言模型",
+    "支持多模态感知与推理任务",
+    "开源模型，便于社区研究与部署"
+  ],
+  "tags": [
+    "LLM",
+    "视觉语言模型",
+    "多模态",
+    "开源",
+    "Hugging Face"
+  ],
+  "language": "",
+  "stars": 0,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-06T15:28:24Z",
+  "updated_at": "2026-05-06T15:28:24Z"
+}
