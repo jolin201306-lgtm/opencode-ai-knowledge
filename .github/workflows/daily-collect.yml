@@ -35,10 +35,10 @@ jobs:
         run: python pipeline/pipeline.py --sources github,rss --limit 20 --verbose
 
       - name: 校验 JSON 格式
-        run: python hooks/validate_json.py
+        run: python hooks/validate_json.py knowledge/articles/*.json
 
       - name: 检查文章质量
-        run: python hooks/check_quality.py
+        run: python hooks/check_quality.py knowledge/articles/
 
       - name: 配置 Git 用户
         run: |
