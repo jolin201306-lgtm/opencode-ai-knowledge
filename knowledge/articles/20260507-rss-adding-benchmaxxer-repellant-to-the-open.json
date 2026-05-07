@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260507-14c",
+  "title": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+  "summary": "Open ASR排行榜引入防基准测试攻击机制，提升评估可靠性。",
+  "highlights": [
+    "提出Benchmaxxer Repellant方法抵御基准测试作弊",
+    "增强语音识别模型评估的鲁棒性与公平性",
+    "基于实际正确性而非修正后分数进行排名"
+  ],
+  "tags": [
+    "ASR",
+    "Benchmark",
+    "Robustness",
+    "Evaluation"
+  ],
+  "language": "",
+  "stars": 0,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-07T00:49:46Z",
+  "updated_at": "2026-05-07T00:49:46Z"
+}
