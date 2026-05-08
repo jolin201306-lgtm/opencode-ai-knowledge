@@ -1,0 +1,26 @@
+{
+  "id": "github-20260508-626",
+  "title": "9router",
+  "source": "github",
+  "source_url": "https://github.com/decolua/9router",
+  "summary": "9router是一个免费AI编程路由工具，支持多种模型和提供商，具备自动回退和令牌优化功能。",
+  "highlights": [
+    "支持40+提供商，连接Claude、GPT、Gemini等主流模型",
+    "自动回退机制，避免API调用失败",
+    "RTK技术减少40%令牌消耗，提升效率"
+  ],
+  "tags": [
+    "LLM",
+    "Agent",
+    "AI编程",
+    "路由",
+    "令牌优化"
+  ],
+  "language": "unknown",
+  "stars": 149,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-08T02:48:38Z",
+  "updated_at": "2026-05-08T02:48:38Z"
+}

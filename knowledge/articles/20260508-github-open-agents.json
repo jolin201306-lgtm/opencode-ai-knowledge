@@ -1,0 +1,26 @@
+{
+  "id": "github-20260508-361",
+  "title": "open-agents",
+  "source": "github",
+  "source_url": "https://github.com/vercel-labs/open-agents",
+  "summary": "Vercel Labs 开源的云代理构建模板，用于快速搭建 AI 代理应用。",
+  "highlights": [
+    "提供开源的云代理构建模板",
+    "基于 Vercel 生态，易于部署和扩展",
+    "支持快速搭建 AI 代理应用"
+  ],
+  "tags": [
+    "LLM",
+    "Agent",
+    "Open Source",
+    "Vercel",
+    "Template"
+  ],
+  "language": "unknown",
+  "stars": 131,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-08T02:48:35Z",
+  "updated_at": "2026-05-08T02:48:35Z"
+}
