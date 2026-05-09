@@ -1,0 +1,26 @@
+{
+  "id": "github-20260509-62a",
+  "title": "hello-agents",
+  "source": "github",
+  "source_url": "https://github.com/datawhalechina/hello-agents",
+  "summary": "从零开始构建智能体的原理与实践教程，适合入门到进阶学习。",
+  "highlights": [
+    "从零开始系统讲解智能体原理",
+    "提供实践教程，动手构建智能体",
+    "由Datawhale社区维护，内容质量有保障"
+  ],
+  "tags": [
+    "LLM",
+    "Agent",
+    "教程",
+    "实践",
+    "Datawhale"
+  ],
+  "language": "unknown",
+  "stars": 667,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-09T02:43:11Z",
+  "updated_at": "2026-05-09T02:43:11Z"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "github-20260509-b67",
+  "title": "aidlc-workflows",
+  "source": "github",
+  "source_url": "https://github.com/awslabs/aidlc-workflows",
+  "summary": "AI-DLC工作流：为AI编码代理提供自适应工作流引导规则，优化生命周期管理。",
+  "highlights": [
+    "自适应工作流引导规则",
+    "针对AI编码代理的生命周期管理",
+    "开源实现，基于AWS实验室"
+  ],
+  "tags": [
+    "LLM",
+    "Agent",
+    "Workflow",
+    "AI Coding",
+    "Lifecycle Management"
+  ],
+  "language": "unknown",
+  "stars": 58,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-09T02:43:04Z",
+  "updated_at": "2026-05-09T02:43:04Z"
+}

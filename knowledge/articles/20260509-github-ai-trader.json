@@ -1,0 +1,26 @@
+{
+  "id": "github-20260509-9f3",
+  "title": "AI-Trader",
+  "source": "github",
+  "source_url": "https://github.com/HKUDS/AI-Trader",
+  "summary": "AI-Trader是一个基于智能体的全自动交易系统，由HKUDS团队开发，实现100%自动化代理原生交易。",
+  "highlights": [
+    "100%全自动交易，无需人工干预",
+    "基于智能体（Agent）架构，实现原生交易决策",
+    "开源项目，支持社区贡献与定制"
+  ],
+  "tags": [
+    "LLM",
+    "Agent",
+    "自动化交易",
+    "金融AI",
+    "开源"
+  ],
+  "language": "unknown",
+  "stars": 202,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-09T02:43:07Z",
+  "updated_at": "2026-05-09T02:43:07Z"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260509-abd",
+  "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/allenai/emo",
+  "summary": "vLLM从V0到V1的演进，强调在强化学习中先保证正确性再优化。",
+  "highlights": [
+    "从V0到V1的架构升级，聚焦RL场景下的正确性优先",
+    "强调在强化学习训练中先确保模型输出正确再追求效率",
+    "可能涉及vLLM在RL训练中的推理优化与稳定性改进"
+  ],
+  "tags": [
+    "vLLM",
+    "RL",
+    "LLM",
+    "推理优化",
+    "正确性"
+  ],
+  "language": "",
+  "stars": 0,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-09T02:43:16Z",
+  "updated_at": "2026-05-09T02:43:16Z"
+}
