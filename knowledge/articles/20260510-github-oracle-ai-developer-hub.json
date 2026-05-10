@@ -1,0 +1,27 @@
+{
+  "id": "github-20260510-9f0",
+  "title": "oracle-ai-developer-hub",
+  "source": "github",
+  "source_url": "https://github.com/oracle-devrel/oracle-ai-developer-hub",
+  "summary": "Oracle AI开发者中心，提供构建应用、代理和系统的技术资源，基于Oracle AI数据库和OCI服务。",
+  "highlights": [
+    "聚焦Oracle AI数据库与OCI服务集成",
+    "支持AI应用、代理和系统开发",
+    "面向开发者的技术资源集合"
+  ],
+  "tags": [
+    "Oracle",
+    "AI",
+    "Database",
+    "OCI",
+    "Agent",
+    "Developer Hub"
+  ],
+  "language": "unknown",
+  "stars": 90,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-10T02:49:21Z",
+  "updated_at": "2026-05-10T02:49:21Z"
+}

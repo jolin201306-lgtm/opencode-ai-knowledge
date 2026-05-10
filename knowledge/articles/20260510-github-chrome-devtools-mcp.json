@@ -1,0 +1,27 @@
+{
+  "id": "github-20260510-efa",
+  "title": "chrome-devtools-mcp",
+  "source": "github",
+  "source_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+  "summary": "Chrome DevTools MCP 为编码代理提供 Chrome 开发者工具接口，实现浏览器调试自动化。",
+  "highlights": [
+    "将 Chrome DevTools 功能封装为 MCP 协议，便于 AI 代理调用",
+    "支持 DOM 检查、网络监控、控制台交互等核心调试能力",
+    "开源项目，由 ChromeDevTools 官方维护，与 Chrome 生态深度集成"
+  ],
+  "tags": [
+    "LLM",
+    "Agent",
+    "Chrome DevTools",
+    "MCP",
+    "调试工具",
+    "自动化"
+  ],
+  "language": "unknown",
+  "stars": 107,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-10T02:49:17Z",
+  "updated_at": "2026-05-10T02:49:17Z"
+}
