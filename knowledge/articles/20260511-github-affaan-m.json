@@ -1,0 +1,26 @@
+{
+  "id": "github-20260511-e12",
+  "title": "affaan-m",
+  "source": "github",
+  "source_url": "https://github.com/sponsors/affaan-m",
+  "summary": "一个为Claude Code等AI编程助手设计的智能体性能优化系统，集成技能、记忆、安全与研究优先开发。",
+  "highlights": [
+    "支持Claude Code、Codex、Opencode、Cursor等多种AI编程工具",
+    "集成技能、本能、记忆、安全与研究优先开发能力",
+    "提供智能体性能优化的系统化解决方案"
+  ],
+  "tags": [
+    "LLM",
+    "Agent",
+    "AI编程",
+    "性能优化",
+    "Claude Code"
+  ],
+  "language": "unknown",
+  "stars": 1081,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-11T02:58:32Z",
+  "updated_at": "2026-05-11T02:58:32Z"
+}

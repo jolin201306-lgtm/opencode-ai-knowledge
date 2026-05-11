@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260511-69d",
+  "title": "EMO: Pretraining mixture of experts for emergent modularity",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck",
+  "summary": "提出预训练混合专家模型以实现涌现模块化，提升模型性能与效率。",
+  "highlights": [
+    "利用混合专家架构实现模块化预训练",
+    "通过涌现机制自动分配专家子网络",
+    "提升模型在多种任务上的泛化能力"
+  ],
+  "tags": [
+    "LLM",
+    "Mixture of Experts",
+    "Modularity",
+    "Pretraining"
+  ],
+  "language": "",
+  "stars": 0,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-11T02:58:34Z",
+  "updated_at": "2026-05-11T02:58:34Z"
+}
