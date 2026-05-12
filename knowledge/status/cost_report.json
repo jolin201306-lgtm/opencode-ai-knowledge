@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-06T16:38:45Z",
-  "total_calls": 10,
+  "generated_at": "2026-05-11T02:08:31Z",
+  "total_calls": 2,
   "breakdown": {
     "deepseek": {
-      "calls": 10,
-      "input_tokens": 2036,
-      "output_tokens": 1091,
-      "estimated_cost_cny": 0.0042
+      "calls": 2,
+      "input_tokens": 458,
+      "output_tokens": 225,
+      "estimated_cost_cny": 0.0009
     }
   },
   "total": {
-    "input_tokens": 2036,
-    "output_tokens": 1091,
-    "total_cost_cny": 0.0042
+    "input_tokens": 458,
+    "output_tokens": 225,
+    "total_cost_cny": 0.0009
   }
 }

@@ -1,0 +1,18 @@
+{
+  "id": "supervisor-20260512-138",
+  "title": "hiyouga/LlamaFactory",
+  "source": "github",
+  "source_url": "https://github.com/hiyouga/LlamaFactory",
+  "summary": "高效微调100+大语言模型与视觉语言模型的统一框架",
+  "highlights": [],
+  "tags": [
+    "大语言模型",
+    "微调",
+    "高效训练"
+  ],
+  "language": "Python",
+  "stars": 71150,
+  "status": "analyzed",
+  "created_at": "2026-05-12T01:35:51Z",
+  "updated_at": "2026-05-12T01:35:51Z"
+}

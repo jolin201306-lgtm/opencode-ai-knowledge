@@ -1,0 +1,20 @@
+{
+  "id": "supervisor-20260512-439",
+  "title": "bytedance/deer-flow",
+  "source": "github",
+  "source_url": "https://github.com/bytedance/deer-flow",
+  "summary": "字节开源的长时域超级智能体框架，集成沙盒、记忆、工具等模块处理分钟级任务。",
+  "highlights": [],
+  "tags": [
+    "agentic-framework",
+    "multi-agent",
+    "deep-research",
+    "LLM",
+    "Python"
+  ],
+  "language": "Python",
+  "stars": 66959,
+  "status": "analyzed",
+  "created_at": "2026-05-12T01:35:51Z",
+  "updated_at": "2026-05-12T01:35:51Z"
+}

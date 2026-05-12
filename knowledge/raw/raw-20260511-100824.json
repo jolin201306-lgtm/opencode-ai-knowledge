@@ -1,0 +1,30 @@
+{
+  "collected_at": "2026-05-11T02:08:24Z",
+  "count": 3,
+  "items": [
+    {
+      "title": "UI-TARS-desktop",
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "source": "github",
+      "description": "Star\n\n\n  \n\n  \n    \n    \n\n\n      \n        bytedance /\n\n      UI-TARS-desktop  \n\n    \n      The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "stars": 669,
+      "language": "unknown"
+    },
+    {
+      "title": "agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "source": "github",
+      "description": "Star\n\n\n  \n\n  \n    \n    \n\n\n      \n        addyosmani /\n\n      agent-skills  \n\n    \n      Production-grade engineering skills for AI coding agents.",
+      "stars": 1065,
+      "language": "unknown"
+    },
+    {
+      "title": "AI-Trader",
+      "url": "https://github.com/HKUDS/AI-Trader",
+      "source": "github",
+      "description": "Star\n\n\n  \n\n  \n    \n    \n\n\n      \n        HKUDS /\n\n      AI-Trader  \n\n    \n      \"AI-Trader: 100% Fully-Automated Agent-Native Trading\"",
+      "stars": 163,
+      "language": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "supervisor-20260512-089",
+  "title": "langgenius/dify",
+  "source": "github",
+  "source_url": "https://github.com/langgenius/dify",
+  "summary": "生产级智能体工作流开发平台，支持低代码编排与RAG。",
+  "highlights": [],
+  "tags": [
+    "AI Agent",
+    "工作流",
+    "低代码"
+  ],
+  "language": "TypeScript",
+  "stars": 140991,
+  "status": "analyzed",
+  "created_at": "2026-05-12T01:35:51Z",
+  "updated_at": "2026-05-12T01:35:51Z"
+}

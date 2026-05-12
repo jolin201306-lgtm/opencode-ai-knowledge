@@ -5,7 +5,6 @@ import json
 import logging
 import os
 import time
-from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Optional
@@ -30,23 +29,20 @@ class Usage:
     total_tokens: int = 0
 
 
-# ── 模型定价表（USD / 1M tokens） ──────────────────────────────────────
+# ── 模型定价表（CNY / 1M tokens） ──────────────────────────────────────
 PRICING = {
-    # DeepSeek
-    "deepseek-chat": {"input": 0.27, "output": 1.10},
-    "deepseek-reasoner": {"input": 0.55, "output": 2.19},
-    # Qwen
-    "qwen-plus": {"input": 0.56, "output": 1.68},
-    "qwen-max": {"input": 2.80, "output": 8.40},
-    "qwen-turbo": {"input": 0.14, "output": 0.42},
-    # OpenAI
-    "gpt-4o": {"input": 2.50, "output": 10.00},
-    "gpt-4o-mini": {"input": 0.15, "output": 0.60},
-    "gpt-4": {"input": 30.00, "output": 60.00},
+    "deepseek-chat": {"input": 1.0, "output": 2.0},
+    "deepseek-reasoner": {"input": 2.0, "output": 8.0},
+    "qwen-plus": {"input": 0.8, "output": 2.0},
+    "qwen-max": {"input": 4.0, "output": 12.0},
+    "qwen-turbo": {"input": 0.3, "output": 0.6},
+    "gpt-4o": {"input": 15.0, "output": 60.0},
+    "gpt-4o-mini": {"input": 1.0, "output": 4.0},
+    "gpt-4": {"input": 180.0, "output": 360.0},
 }
 
-# ── 模型定价表（CNY / 1M tokens） ──────────────────────────────────────
-PRICING_CNY = {
+# 按提供商分类的默认定价（CNY / 1M tokens）
+PROVIDER_PRICING = {
     "deepseek": {"input": 1.0, "output": 2.0},
     "qwen": {"input": 4.0, "output": 12.0},
     "openai": {"input": 150.0, "output": 600.0},
@@ -87,7 +83,7 @@ class CostTracker:
             估算成本（人民币），保留 4 位小数。
         """
         provider = provider.lower()
-        prices = PRICING_CNY.get(provider, PRICING_CNY["openai"])
+        prices = PROVIDER_PRICING.get(provider, PROVIDER_PRICING["openai"])
 
         total_input = sum(
             r["usage"].prompt_tokens for r in self._records if r["provider"] == provider
@@ -100,6 +96,26 @@ class CostTracker:
         output_cost = (total_output / 1_000_000) * prices["output"]
         return round(input_cost + output_cost, 4)
 
+    def _get_provider_stats(self) -> dict[str, dict]:
+        """按提供商聚合统计信息。
+
+        Returns:
+            以 provider 为 key 的字典，包含 calls、input_tokens、output_tokens、cost。
+        """
+        stats: dict[str, dict] = {}
+        for r in self._records:
+            p = r["provider"]
+            if p not in stats:
+                stats[p] = {"calls": 0, "input_tokens": 0, "output_tokens": 0}
+            stats[p]["calls"] += 1
+            stats[p]["input_tokens"] += r["usage"].prompt_tokens
+            stats[p]["output_tokens"] += r["usage"].completion_tokens
+
+        for p in stats:
+            stats[p]["cost"] = self.estimated_cost(p)
+
+        return stats
+
     def save_to_json(self, filepath: str) -> None:
         """将统计结果保存到 JSON 文件。
 
@@ -110,7 +126,7 @@ class CostTracker:
             logger.info("无成本记录，跳过保存")
             return
 
-        providers = set(r["provider"] for r in self._records)
+        stats = self._get_provider_stats()
         report_data = {
             "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
             "total_calls": len(self._records),
@@ -121,21 +137,16 @@ class CostTracker:
         total_output = 0
         total_cost = 0.0
 
-        for p in providers:
-            calls = [r for r in self._records if r["provider"] == p]
-            input_tokens = sum(r["usage"].prompt_tokens for r in calls)
-            output_tokens = sum(r["usage"].completion_tokens for r in calls)
-            cost = self.estimated_cost(p)
-
-            total_input += input_tokens
-            total_output += output_tokens
-            total_cost += cost
+        for p, s in stats.items():
+            total_input += s["input_tokens"]
+            total_output += s["output_tokens"]
+            total_cost += s["cost"]
 
             report_data["breakdown"][p] = {
-                "calls": len(calls),
-                "input_tokens": input_tokens,
-                "output_tokens": output_tokens,
-                "estimated_cost_cny": cost,
+                "calls": s["calls"],
+                "input_tokens": s["input_tokens"],
+                "output_tokens": s["output_tokens"],
+                "estimated_cost_cny": s["cost"],
             }
 
         report_data["total"] = {
@@ -157,9 +168,10 @@ class CostTracker:
         Args:
             provider: 指定提供商（可选），为 None 时打印所有提供商。
         """
-        providers = (
-            [provider.lower()] if provider else set(r["provider"] for r in self._records)
-        )
+        stats = self._get_provider_stats()
+        if provider:
+            provider = provider.lower()
+            stats = {k: v for k, v in stats.items() if k == provider}
 
         logger.info("=" * 50)
         logger.info("LLM 成本报告")
@@ -170,23 +182,18 @@ class CostTracker:
         total_output = 0
         total_cost = 0.0
 
-        for p in providers:
-            calls = [r for r in self._records if r["provider"] == p]
-            if not calls:
+        for p, s in stats.items():
+            if s["calls"] == 0:
                 continue
 
-            input_tokens = sum(r["usage"].prompt_tokens for r in calls)
-            output_tokens = sum(r["usage"].completion_tokens for r in calls)
-            cost = self.estimated_cost(p)
-
-            total_calls += len(calls)
-            total_input += input_tokens
-            total_output += output_tokens
-            total_cost += cost
+            total_calls += s["calls"]
+            total_input += s["input_tokens"]
+            total_output += s["output_tokens"]
+            total_cost += s["cost"]
 
             logger.info(
                 "  %-10s | 调用: %d 次 | 输入: %d | 输出: %d | 成本: %.4f 元",
-                p, len(calls), input_tokens, output_tokens, cost
+                p, s["calls"], s["input_tokens"], s["output_tokens"], s["cost"]
             )
 
         logger.info("-" * 50)
@@ -218,33 +225,17 @@ class LLMResponse:
     latency_ms: float = 0.0
 
 
-# ── 模型定价表（USD / 1M tokens） ──────────────────────────────────────
-PRICING = {
-    # DeepSeek
-    "deepseek-chat": {"input": 0.27, "output": 1.10},
-    "deepseek-reasoner": {"input": 0.55, "output": 2.19},
-    # Qwen
-    "qwen-plus": {"input": 0.56, "output": 1.68},
-    "qwen-max": {"input": 2.80, "output": 8.40},
-    "qwen-turbo": {"input": 0.14, "output": 0.42},
-    # OpenAI
-    "gpt-4o": {"input": 2.50, "output": 10.00},
-    "gpt-4o-mini": {"input": 0.15, "output": 0.60},
-    "gpt-4": {"input": 30.00, "output": 60.00},
-}
-
-
 def estimate_cost(model: str, usage: Usage) -> float:
-    """估算 API 调用成本（USD）。
+    """估算 API 调用成本（CNY）。
 
     Args:
         model: 模型名称。
         usage: Token 用量统计对象。
 
     Returns:
-        预估成本（美元），保留 6 位小数。
+        预估成本（人民币），保留 6 位小数。
     """
-    price = PRICING.get(model, {"input": 3.00, "output": 9.00})
+    price = PRICING.get(model, {"input": 10.0, "output": 40.0})
     input_cost = (usage.prompt_tokens / 1_000_000) * price["input"]
     output_cost = (usage.completion_tokens / 1_000_000) * price["output"]
     return round(input_cost + output_cost, 6)
@@ -266,35 +257,7 @@ def estimate_tokens(text: str) -> int:
     return max(1, int(len(text) * 0.67))
 
 
-class LLMProvider(ABC):
-    """LLM 提供商抽象基类。"""
-
-    @abstractmethod
-    async def chat(
-        self,
-        messages: list[dict],
-        model: str,
-        temperature: float = 0.7,
-        max_tokens: Optional[int] = None,
-    ) -> LLMResponse:
-        """发送聊天请求并返回响应。
-
-        Args:
-            messages: 聊天消息列表，格式为 [{"role": "...", "content": "..."}]。
-            model: 模型名称。
-            temperature: 温度参数，控制输出随机性（0.0-1.0）。
-            max_tokens: 最大输出 token 数。
-
-        Returns:
-            LLM 响应对象。
-
-        Raises:
-            RuntimeError: API 调用失败时抛出。
-        """
-        ...
-
-
-class OpenAICompatibleProvider(LLMProvider):
+class OpenAICompatibleProvider:
     """OpenAI 兼容 API 实现。
 
     通过 httpx 直接调用兼容 OpenAI 格式的 API 端点。
@@ -498,7 +461,7 @@ async def chat_with_retry(
             tracker.record(response.usage, provider_name)
             cost = estimate_cost(response.model, response.usage)
             logger.info(
-                "LLM 调用成功 | model=%s | tokens=%d | cost=$%.6f | latency=%.0fms",
+                "LLM 调用成功 | model=%s | tokens=%d | cost=¥%.6f | latency=%.0fms",
                 response.model,
                 response.usage.total_tokens,
                 cost,
@@ -574,7 +537,7 @@ if __name__ == "__main__":
     )
     for model in ["deepseek-chat", "qwen-plus", "gpt-4o-mini"]:
         cost = estimate_cost(model, test_usage)
-        logger.info("  %s: $%.6f", model, cost)
+        logger.info("  %s: ¥%.6f", model, cost)
 
     # 测试 Provider 配置
     logger.info("=== Provider 配置 ===")
@@ -600,3 +563,4 @@ if __name__ == "__main__":
         asyncio.run(run_test())
     else:
         logger.info("  跳过: 未配置 API Key，跳过实际调用测试")
+

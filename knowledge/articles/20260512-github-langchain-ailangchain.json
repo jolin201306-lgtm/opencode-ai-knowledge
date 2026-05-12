@@ -1,0 +1,18 @@
+{
+  "id": "supervisor-20260512-672",
+  "title": "langchain-ai/langchain",
+  "source": "github",
+  "source_url": "https://github.com/langchain-ai/langchain",
+  "summary": "LangChain是构建AI代理的工程平台，支持多种LLM和工具集成。",
+  "highlights": [],
+  "tags": [
+    "AI代理",
+    "LLM框架",
+    "开源"
+  ],
+  "language": "Python",
+  "stars": 136460,
+  "status": "analyzed",
+  "created_at": "2026-05-12T01:35:51Z",
+  "updated_at": "2026-05-12T01:35:51Z"
+}

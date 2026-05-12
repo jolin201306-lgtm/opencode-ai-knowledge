@@ -298,3 +298,129 @@ CLI 设计：
 
 编码规范：遵循 PEP 8，Google 风格 docstring
 ```
+
+## week3
+### No.9 Muti-Agent
+
+**主流多Agent设计模式**
+
+| 模式 | 核心动作 | 类比 | Agent 数量 | 适用场景 |
+| :--- | :--- | :--- | :--- | :--- |
+| Router | 分发 | 医院分诊台 | 1 路由 + N 处理 | 输入类型多样 |
+| Orchestrator | 拆解+汇总 | 乐队指挥 | 1 编排 + N 执行 | 复杂任务需拆解 |
+| Divide & Conquer | 切块+合并 | 大扫除 | N 同构 Agent | 大数据量同构处理 |
+| Competition | 竞争+择优 | 广告比稿 | N 竞争 + 1 评审 | 高风险决策 |
+| Supervisor | 执行+审核 | 编辑审稿 | 1 执行 + 1 审核 | 质量要求高 |
+
+**Router路由模式**
+
+```plain
+请帮我编写 patterns/router.py，实现 Router 路由模式：
+需求：
+1. 两层意图分类策略：
+   - 第一层：关键词快速匹配（零成本，不调 LLM）
+   - 第二层：LLM 分类兜底（处理模糊意图）
+2. 三种意图：github_search / knowledge_query / general_chat
+3. 每种意图对应一个处理器函数
+4. github_search 调用 GitHub Search API (urllib.request)；query 参数必须用 urllib.parse.quote 编码（处理中文与空格）
+5. knowledge_query 从本地 knowledge/articles/index.json 检索
+6. general_chat 调用 LLM 直接回答
+7. 统一入口函数 route(query) -> str
+8. 包含 if __name__ == "__main__" 测试入口
+
+依赖：使用 pipeline/model_client.py 的 quick_chat() 函数
+quick_chat() 返回 (text, usage) 元组
+```
+**Supervisor主管/审核模式**
+
+```plain
+请帮我编写 patterns/supervisor.py，实现 Supervisor 监督模式：
+需求：
+1. Worker Agent：接收任务，输出 JSON 格式的分析报告，分析报告保存路径：knowledge/articles
+2. Supervisor Agent：对 Worker 的输出进行质量审核
+   - 评分维度：准确性(1-10)、深度(1-10)、格式(1-10)
+   - 输出 JSON: {"passed": bool, "score": int, "feedback": str}
+3. 审核循环：
+   - 通过（score >= 7）→ 返回结果
+   - 不通过 → 带反馈重做（最多 3 轮）
+   - 超过 3 轮 → 强制返回 + 警告
+4. 函数签名：supervisor(task: str, max_retries: int = 3) -> dict
+5. 返回值包含：output, attempts, final_score, warning(可选)
+6. 包含 if __name__ == "__main__" 的测试入口
+
+依赖：使用 pipeline/model_client.py 的 quick_chat() 函数
+quick_chat() 返回 (text, usage) 元组
+```
+
+### No.10 LangGraph
+
+**创建state**
+```plain
+请帮我编写 workflows/state.py，定义 LangGraph 工作流的共享状态：
+​
+需求：
+1. 使用 TypedDict 定义 KBState 类
+2. 包含以下字段：
+   - sources: list[dict] — 采集到的原始数据
+   - analyses: list[dict] — LLM 分析后的结构化结果
+   - articles: list[dict] — 格式化、去重后的知识条目
+   - review_feedback: str — 审核反馈意见
+   - review_passed: bool — 审核是否通过
+   - iteration: int — 当前审核循环次数（最多 3 次）
+   - cost_tracker: dict — Token 用量追踪
+3. 每个字段加中文注释说明用途和数据格式
+4. 遵循"报告式通信"原则：字段是结构化摘要，不是原始数据
+```
+> **验证**
+>python -c "from workflows.state import KBState; annotations = KBState.__annotations__; print('KBState 字段：'); [print(f'  {name}: {type_hint}') for name, type_hint in annotations.items()]; print(f'\n共 {len(annotations)} 个字段'); state: KBState = {'sources': [], 'analyses': [], 'articles': [], 'review_feedback': '', 'review_passed': False, 'iteration': 0, 'cost_tracker': {}}; print(f'实例创建成功，iteration = {state[\"iteration\"]}')"
+
+**创建nodes**
+```plain
+请帮我编写 workflows/nodes.py，定义 LangGraph 工作流的 5 个节点函数：
+​
+需求：
+1. 每个节点是纯函数：接收 KBState，返回 dict（部分状态更新）
+2. 节点列表：
+   - collect_node: 调用 GitHub Search API 采集 AI 相关仓库（urllib.request）
+   - analyze_node: 用 LLM 对每条数据生成中文摘要、标签、评分
+   - organize_node: 过滤低分条目(< 0.6)、按 URL 去重、如有审核反馈则用 LLM 修正
+   - review_node: LLM 四维度评分（摘要质量/标签准确/分类合理/一致性），iteration >= 2 强制通过
+   - save_node: 将 articles 写入 knowledge/articles/ 目录的 JSON 文件
+3. 使用 workflows/model_client.py 的 chat() 和 chat_json() 函数
+   - chat(prompt, system=...) 返回 (text, usage)
+   - chat_json(prompt, system=...) 返回 (parsed_json, usage)
+   - accumulate_usage(tracker, usage) 累加 token 统计
+4. 使用 workflows/state.py 的 KBState
+5. 每个节点开头打印 [NodeName] 日志
+​
+关键设计点：
+- review_node 的审核 prompt 要求输出 JSON: {"passed": bool, "overall_score": float, "feedback": str, "scores": {...}}
+- organize_node 在 iteration > 0 且有 feedback 时，调用 LLM 做定向修改
+- save_node 同时更新 index.json 索引文件
+```
+**创建graph**
+
+```plain
+请帮我编写 workflows/graph.py，组装 LangGraph 工作流：
+​
+需求：
+1. 使用 langgraph.graph 的 StateGraph, END
+2. 导入 workflows/nodes.py 的 5 个节点函数
+3. 导入 workflows/state.py 的 KBState
+4. 线性边: collect → analyze → organize → review
+5. 条件边: review 之后根据 review_passed 分支
+   - True → save → END
+   - False → organize (回到整理节点修正)
+6. 入口点: collect
+7. build_graph() 函数返回编译后的 app
+8. if __name__ == "__main__" 流式执行并打印每个节点的关键输出
+​
+注意：使用真实的 LangGraph API：
+- StateGraph(KBState)
+- graph.add_node("name", function)
+- graph.add_edge("a", "b")
+- graph.add_conditional_edges("source", router_fn, {"key": "target"})
+- graph.set_entry_point("name")
+- graph.add_edge("save", END)
+- graph.compile()
+```
