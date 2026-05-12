@@ -1,0 +1,25 @@
+{
+  "id": "rss-20260512-91c",
+  "title": "EMO: Pretraining mixture of experts for emergent modularity",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
+  "summary": "提出预训练混合专家模型以实现涌现模块化，提升模型性能与效率。",
+  "highlights": [
+    "通过预训练混合专家架构实现模块化涌现",
+    "在保持模型性能的同时提升计算效率",
+    "为大规模模型设计提供新的构建范式"
+  ],
+  "tags": [
+    "LLM",
+    "MoE",
+    "预训练",
+    "模块化"
+  ],
+  "language": "",
+  "stars": 0,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-12T02:50:29Z",
+  "updated_at": "2026-05-12T02:50:29Z"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "github-20260512-f25",
+  "title": "openhuman",
+  "source": "github",
+  "source_url": "https://github.com/tinyhumansai/openhuman",
+  "summary": "开源个人AI超级智能，注重隐私、简洁与强大性能。",
+  "highlights": [
+    "个人AI超级智能定位",
+    "强调隐私保护",
+    "简单易用且功能强大"
+  ],
+  "tags": [
+    "LLM",
+    "Agent",
+    "AI",
+    "隐私",
+    "开源"
+  ],
+  "language": "unknown",
+  "stars": 366,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-12T02:50:22Z",
+  "updated_at": "2026-05-12T02:50:22Z"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "github-20260512-af7",
+  "title": "react-doctor",
+  "source": "github",
+  "source_url": "https://github.com/millionco/react-doctor",
+  "summary": "一个用于检测和修复LLM代理生成的低质量React代码的工具。",
+  "highlights": [
+    "专注于捕获AI生成代码中的React反模式",
+    "提升LLM代理生成的前端代码质量",
+    "开源且易于集成到开发工作流"
+  ],
+  "tags": [
+    "LLM",
+    "Agent",
+    "React",
+    "代码质量",
+    "静态分析"
+  ],
+  "language": "unknown",
+  "stars": 212,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-12T02:50:24Z",
+  "updated_at": "2026-05-12T02:50:24Z"
+}
