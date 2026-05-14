@@ -1,0 +1,26 @@
+{
+  "id": "github-20260514-d3c",
+  "title": "trycua",
+  "source": "github",
+  "source_url": "https://github.com/sponsors/trycua",
+  "summary": "为计算机使用AI代理提供开源基础设施，包括沙箱、SDK和基准测试，支持控制完整桌面环境。",
+  "highlights": [
+    "支持macOS、Linux、Windows多桌面环境",
+    "提供沙箱和SDK用于训练和评估AI代理",
+    "专注于计算机使用代理的开放基础设施"
+  ],
+  "tags": [
+    "LLM",
+    "Agent",
+    "Open Source",
+    "Infrastructure",
+    "Desktop Automation"
+  ],
+  "language": "unknown",
+  "stars": 245,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-14T02:57:40Z",
+  "updated_at": "2026-05-14T02:57:40Z"
+}

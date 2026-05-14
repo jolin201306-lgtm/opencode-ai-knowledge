@@ -1,0 +1,28 @@
+{
+  "id": "github-20260514-41e",
+  "title": "scientific-agent-skills",
+  "source": "github",
+  "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "summary": "提供面向科研、工程、金融和写作的即用型Agent技能集。",
+  "highlights": [
+    "覆盖研究、科学、工程、分析和金融等多领域",
+    "即用型Agent技能，降低开发门槛",
+    "聚焦专业场景，提升LLM Agent实用性"
+  ],
+  "tags": [
+    "LLM",
+    "Agent",
+    "科研",
+    "工程",
+    "金融",
+    "写作",
+    "分析"
+  ],
+  "language": "unknown",
+  "stars": 99,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-14T02:57:35Z",
+  "updated_at": "2026-05-14T02:57:35Z"
+}
