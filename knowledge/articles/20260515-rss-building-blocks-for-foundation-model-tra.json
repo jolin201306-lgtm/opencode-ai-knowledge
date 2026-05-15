@@ -1,0 +1,26 @@
+{
+  "id": "rss-20260515-521",
+  "title": "Building Blocks for Foundation Model Training and Inference on AWS",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/continuous_async",
+  "summary": "介绍AWS上基础模型训练与推理的构建模块，涵盖异步连续处理技术。",
+  "highlights": [
+    "提供基础模型训练与推理的AWS构建模块",
+    "强调连续异步处理机制",
+    "适用于云上大规模模型部署场景"
+  ],
+  "tags": [
+    "AWS",
+    "Foundation Model",
+    "Training",
+    "Inference",
+    "Cloud Computing"
+  ],
+  "language": "",
+  "stars": 0,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-15T02:58:03Z",
+  "updated_at": "2026-05-15T02:58:03Z"
+}

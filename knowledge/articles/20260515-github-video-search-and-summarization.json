@@ -1,0 +1,26 @@
+{
+  "id": "github-20260515-8c5",
+  "title": "video-search-and-summarization",
+  "source": "github",
+  "source_url": "https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization",
+  "summary": "NVIDIA提供的GPU加速视觉代理与视频分析参考架构套件。",
+  "highlights": [
+    "GPU加速视觉代理架构",
+    "AI驱动的视频分析应用",
+    "参考架构套件设计"
+  ],
+  "tags": [
+    "GPU",
+    "Vision Agent",
+    "Video Analytics",
+    "NVIDIA",
+    "AI"
+  ],
+  "language": "unknown",
+  "stars": 62,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-15T02:57:57Z",
+  "updated_at": "2026-05-15T02:57:57Z"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "github-20260515-f1f",
+  "title": "gstack",
+  "source": "github",
+  "source_url": "https://github.com/garrytan/gstack",
+  "summary": "Garry Tan 分享的 Claude Code 配置，包含23个工具，覆盖CEO、设计师、工程经理等角色。",
+  "highlights": [
+    "提供23个面向不同角色的定制化工具",
+    "覆盖CEO、设计师、工程经理、发布经理、文档工程师和QA",
+    "基于Claude Code的实用开发配置"
+  ],
+  "tags": [
+    "LLM",
+    "Agent",
+    "Claude",
+    "开发工具",
+    "工作流"
+  ],
+  "language": "unknown",
+  "stars": 915,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-15T02:57:59Z",
+  "updated_at": "2026-05-15T02:57:59Z"
+}
