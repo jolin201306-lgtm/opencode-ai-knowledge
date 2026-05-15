@@ -1,0 +1,20 @@
+{
+  "id": "article-20260514-141",
+  "title": "mm7894215/TokenTracker",
+  "source": "github",
+  "source_url": "https://github.com/mm7894215/TokenTracker",
+  "summary": "多AI代理CLI的token使用跟踪器，本地优先、零配置，通过解析15种CLI的token消耗数据，提供统一仪表盘、macOS菜单栏及桌面小部件展示，解决开发者分散管理token成本的痛点，强调隐私和数据自主性。",
+  "highlights": [],
+  "tags": [
+    "Token-Tracking",
+    "Local-First",
+    "CLI-Integration",
+    "Desktop-Widget",
+    "macOS-MenuBar"
+  ],
+  "language": "JavaScript",
+  "stars": 464,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:52:17Z",
+  "updated_at": "2026-05-14T10:52:17Z"
+}

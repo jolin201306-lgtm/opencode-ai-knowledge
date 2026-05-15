@@ -1,0 +1,20 @@
+{
+  "id": "article-20260514-579",
+  "title": "looplj/axonhub",
+  "source": "github",
+  "source_url": "https://github.com/looplj/axonhub",
+  "summary": "开源AI网关，基于Go实现，统一API接入100+LLM，内置负载均衡、故障转移、成本控制和端到端追踪，解决企业多模型管理混乱、成本不可控和高可用性问题。",
+  "highlights": [],
+  "tags": [
+    "LLM-Gateway",
+    "Load-Balancing",
+    "Cost-Control",
+    "Observability",
+    "Go-Architecture"
+  ],
+  "language": "Go",
+  "stars": 3750,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:38:58Z",
+  "updated_at": "2026-05-14T10:38:58Z"
+}

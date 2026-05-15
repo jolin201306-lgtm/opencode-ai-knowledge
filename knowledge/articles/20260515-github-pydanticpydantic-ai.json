@@ -1,0 +1,19 @@
+{
+  "id": "article-20260515-376",
+  "title": "pydantic/pydantic-ai",
+  "source": "github",
+  "source_url": "https://github.com/pydantic/pydantic-ai",
+  "summary": "基于Pydantic V2的类型系统，提供强类型AI Agent框架。通过声明式类型定义LLM输入输出，自动实现结构化解析与函数调用，解决传统Agent开发中prompt管理混乱和结果解析易错的问题。集成主流大模型，支持依赖注入与验证链。",
+  "highlights": [],
+  "tags": [
+    "Agent-Framework",
+    "Type-Safety",
+    "Structured-Output",
+    "LLM-Orchestration"
+  ],
+  "language": "Python",
+  "stars": 17064,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:28:28Z",
+  "updated_at": "2026-05-15T01:28:28Z"
+}

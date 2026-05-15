@@ -1,0 +1,20 @@
+{
+  "id": "article-20260515-657",
+  "title": "divagr18/memlayer",
+  "source": "github",
+  "source_url": "https://github.com/divagr18/memlayer",
+  "summary": "为LLM提供即插即用的持久化内存，三行代码即可集成，结合向量数据库与知识图谱实现类人记忆与召回，解决大模型缺乏长期上下文的痛点，支持任意模型快速接入。",
+  "highlights": [],
+  "tags": [
+    "LLM-Memory",
+    "Persistent-Memory",
+    "Vector-Database",
+    "Knowledge-Graph",
+    "Embedding"
+  ],
+  "language": "Python",
+  "stars": 274,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:42:35Z",
+  "updated_at": "2026-05-15T01:42:35Z"
+}

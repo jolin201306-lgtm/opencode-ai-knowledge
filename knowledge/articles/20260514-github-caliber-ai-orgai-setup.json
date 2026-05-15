@@ -1,0 +1,20 @@
+{
+  "id": "article-20260514-333",
+  "title": "caliber-ai-org/ai-setup",
+  "source": "github",
+  "source_url": "https://github.com/caliber-ai-org/ai-setup",
+  "summary": "基于TypeScript开发的CLI工具，通过单一命令持续同步AI编码助手的配置、Agent技能和MCP协议设置，解决Claude Code、Cursor、Codex等多环境配置文件碎片化问题，支持代码库感知的定制化技能注入，提升Agent响应的上下文相关性。",
+  "highlights": [],
+  "tags": [
+    "CLI-Tool",
+    "Agent-Configuration",
+    "MCP-Integration",
+    "Config-Sync",
+    "Developer-Productivity"
+  ],
+  "language": "TypeScript",
+  "stars": 1059,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:38:58Z",
+  "updated_at": "2026-05-14T10:38:58Z"
+}

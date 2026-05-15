@@ -1,0 +1,19 @@
+{
+  "id": "article-20260515-880",
+  "title": "bigai-nlco/Awesome-AI-Memory",
+  "source": "github",
+  "source_url": "https://github.com/bigai-nlco/Awesome-AI-Memory",
+  "summary": "该仓库是一篇发表在TMLR上的综述论文，系统梳理了LLM/MLLM中的记忆机制，提出了隐式、显式和代理记忆三类范式分类法，为记忆增强的多模态大模型研究提供结构化参考，解决记忆架构设计缺乏统一框架的问题。",
+  "highlights": [],
+  "tags": [
+    "Memory-Paradigms",
+    "LLM-Survey",
+    "Taxonomy-of-Memory",
+    "Agentic-Memory"
+  ],
+  "language": "未指定",
+  "stars": 30,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:42:35Z",
+  "updated_at": "2026-05-15T01:42:35Z"
+}

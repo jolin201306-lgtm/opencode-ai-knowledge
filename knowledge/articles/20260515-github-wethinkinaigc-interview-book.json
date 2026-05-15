@@ -1,0 +1,20 @@
+{
+  "id": "article-20260515-771",
+  "title": "WeThinkIn/AIGC-Interview-Book",
+  "source": "github",
+  "source_url": "https://github.com/WeThinkIn/AIGC-Interview-Book",
+  "summary": "系统性覆盖AIGC、LLM大模型、AI Agent、传统深度学习、计算机视觉、机器学习等AI领域核心知识的面试指南，整合算法原理与实战经验，解决求职者系统性备考痛点，强调知识结构化与高频考点解析。",
+  "highlights": [],
+  "tags": [
+    "Large-Language-Models",
+    "Computer-Vision",
+    "Machine-Learning",
+    "Interview-Preparation",
+    "Knowledge-Base"
+  ],
+  "language": "未指定",
+  "stars": 3710,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:42:35Z",
+  "updated_at": "2026-05-15T01:42:35Z"
+}

@@ -65,44 +65,42 @@ def chat_json(
     """调用 LLM 并解析 JSON 响应（带容错）。
 
     容错策略:
-    1. 去掉 markdown 代码块包裹
-    2. 直接 json.loads
-    3. 失败则用正则匹配第一个 {...} 或 [...] 结构
-    4. 再失败才抛出
-
-    Returns:
-        (parsed_json, usage_dict)
-
-    Raises:
-        json.JSONDecodeError: 三种策略都失败时
+    1. 提取 ```json 代码块内容
+    2. 无代码块则正则匹配最外层 {} 或 []
+    3. 移除非法控制字符
+    4. 尝试修复尾随逗号等常见语法错误
+    5. 失败则抛出带上下文提示的异常
     """
     text, usage = chat(prompt, system=system, **kwargs)
 
-    cleaned = text.strip()
-    if cleaned.startswith("```"):
-        lines = cleaned.split("\n")
-        start = 1
-        end = len(lines)
-        for i in range(len(lines) - 1, 0, -1):
-            if lines[i].strip().startswith("```"):
-                end = i
-                break
-        cleaned = "\n".join(lines[start:end])
+    # 1. 尝试提取 markdown 代码块
+    match = re.search(r"```(?:json)?\s*([\s\S]*?)\s*```", text)
+    if match:
+        cleaned = match.group(1).strip()
+    else:
+        # 2. 匹配最外层 JSON 结构
+        match = re.search(r"(\{[\s\S]*\}|\[[\s\S]*\])", text)
+        cleaned = match.group(1).strip() if match else text.strip()
 
+    # 3. 移除不可见控制字符（除 \n, \r, \t 外）
+    cleaned = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', '', cleaned)
+
+    # 4. 直接解析
     try:
         return json.loads(cleaned), usage
     except json.JSONDecodeError:
         pass
 
-    for pattern in (r"\{[\s\S]*\}", r"\[[\s\S]*\]"):
-        match = re.search(pattern, cleaned)
-        if match:
-            try:
-                return json.loads(match.group()), usage
-            except json.JSONDecodeError:
-                continue
+    # 5. 容错修复（处理尾随逗号等）
+    try:
+        fixed = re.sub(r",\s*([}\]])", r"\1", cleaned)
+        return json.loads(fixed), usage
+    except json.JSONDecodeError:
+        pass
 
-    return json.loads(cleaned), usage
+    # 6. 最终失败，提供清晰调试信息
+    snippet = cleaned[:500] + ("..." if len(cleaned) > 500 else "")
+    raise json.JSONDecodeError(f"LLM 返回 JSON 解析失败。片段:\n{snippet}", cleaned, 0)
 
 
 def accumulate_usage(tracker: dict, new_usage: dict) -> dict:

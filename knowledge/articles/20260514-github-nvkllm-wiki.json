@@ -1,0 +1,19 @@
+{
+  "id": "article-20260514-519",
+  "title": "nvk/llm-wiki",
+  "source": "github",
+  "source_url": "https://github.com/nvk/llm-wiki",
+  "summary": "基于 LLM 的自动化知识库编译系统，通过并行多代理协作实现主题驱动的研究、源文档摄取和结构化的 wiki 生成，为 AI agent 提供动态、可查询的知识底座。其核心架构将 LLM 编排为研究流水线，集成 claude-code/codex 等工具完成工作流。",
+  "highlights": [],
+  "tags": [
+    "Agentic-Workflow",
+    "Knowledge-Base-Compilation",
+    "Multi-Agent-Research",
+    "LLM-Pipeline"
+  ],
+  "language": "Shell",
+  "stars": 415,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:52:17Z",
+  "updated_at": "2026-05-14T10:52:17Z"
+}

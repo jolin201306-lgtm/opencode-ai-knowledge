@@ -1,0 +1,19 @@
+{
+  "id": "article-20260514-657",
+  "title": "yzhao062/agent-style",
+  "source": "github",
+  "source_url": "https://github.com/yzhao062/agent-style",
+  "summary": "一套21条专门用于AI编码与写作代理的提示工程规则集，可无缝嵌入Claude Code、Codex、Copilot、Cursor、Aider等主流工具，通过强制技术写作风格约束，解决AI输出缺乏专业性与一致性的痛点。基于Prompt Engineering范式设计，轻量级即插即用，无需复杂架构。",
+  "highlights": [],
+  "tags": [
+    "Prompt-Engineering",
+    "Style-Rules",
+    "Technical-Writing-Guideline",
+    "AI-Coding-Agent"
+  ],
+  "language": "Python",
+  "stars": 435,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:52:17Z",
+  "updated_at": "2026-05-14T10:52:17Z"
+}

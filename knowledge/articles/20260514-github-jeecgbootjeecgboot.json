@@ -1,0 +1,20 @@
+{
+  "id": "article-20260514-216",
+  "title": "jeecgboot/JeecgBoot",
+  "source": "github",
+  "source_url": "https://github.com/jeecgboot/JeecgBoot",
+  "summary": "融合AI的低代码开发平台，支持零代码搭建与AI辅助代码生成，内置工作流引擎、RAG知识库、MCP插件体系，通过自然语言驱动流程图/表单/系统生成，解决Java企业开发80%重复劳动，兼顾效率与灵活性。",
+  "highlights": [],
+  "tags": [
+    "Low-Code-Platform",
+    "AI-Code-Generation",
+    "Workflow-Engine",
+    "RAG-System",
+    "MCP-Integration"
+  ],
+  "language": "Java",
+  "stars": 46246,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:35:14Z",
+  "updated_at": "2026-05-14T10:35:14Z"
+}

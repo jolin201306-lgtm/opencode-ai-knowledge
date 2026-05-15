@@ -1,190 +1,2902 @@
 [
   {
-    "id": "supervisor-20260512-704",
+    "id": "github-20260506-bf4",
+    "title": "agent-skills",
+    "source": "github",
+    "source_url": "https://github.com/addyosmani/agent-skills",
+    "summary": "为AI编码代理提供生产级工程技能的开源项目，提升代码生成质量。",
+    "highlights": [
+      "聚焦AI代理的工程化实践",
+      "提升代码生成的生产级标准",
+      "开源项目，可直接应用于开发流程"
+    ],
+    "tags": [
+      "LLM",
+      "Agent",
+      "AI编码",
+      "工程实践"
+    ],
+    "language": "unknown",
+    "stars": 629,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:45:29Z",
+    "updated_at": "2026-05-06T15:45:29Z"
+  },
+  {
+    "id": "github-20260506-982",
+    "title": "bwya77",
+    "source": "github",
+    "source_url": "https://github.com/sponsors/bwya77",
+    "summary": "基于Easemate IDE和Jetbrains Islands主题的VSCode深色主题",
+    "highlights": [
+      "融合Easemate IDE风格",
+      "参考Jetbrains Islands主题",
+      "专为VSCode设计"
+    ],
+    "tags": [
+      "VSCode",
+      "Theme",
+      "UI"
+    ],
+    "language": "unknown",
+    "stars": 502,
+    "score": 4,
+    "audience": "beginner",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:45:46Z",
+    "updated_at": "2026-05-06T15:45:46Z"
+  },
+  {
+    "id": "github-20260506-5f5",
+    "title": "DeepSeek-TUI",
+    "source": "github",
+    "source_url": "https://github.com/Hmbown/DeepSeek-TUI",
+    "summary": "一个在终端中运行的DeepSeek模型编码代理工具。",
+    "highlights": [
+      "基于DeepSeek模型的终端编码代理",
+      "提供命令行交互式编程体验",
+      "轻量级TUI界面设计"
+    ],
+    "tags": [
+      "LLM",
+      "Agent",
+      "DeepSeek",
+      "TUI",
+      "Coding"
+    ],
+    "language": "unknown",
+    "stars": 6184,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:45:26Z",
+    "updated_at": "2026-05-06T15:45:26Z"
+  },
+  {
+    "id": "github-20260506-b9d",
+    "title": "deer-flow",
+    "source": "github",
+    "source_url": "https://github.com/bytedance/deer-flow",
+    "summary": "字节跳动开源的长期任务超级智能体框架，支持研究、编码和创作，集成沙箱、记忆、工具等模块。",
+    "highlights": [
+      "支持分钟到小时级别的长周期任务处理",
+      "集成沙箱、记忆、工具、技能、子智能体和消息网关",
+      "开源且模块化设计，便于扩展和定制"
+    ],
+    "tags": [
+      "LLM",
+      "Agent",
+      "开源",
+      "多智能体",
+      "任务自动化"
+    ],
+    "language": "unknown",
+    "stars": 328,
+    "score": 8,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:45:49Z",
+    "updated_at": "2026-05-06T15:45:49Z"
+  },
+  {
+    "id": "github-20260506-026",
+    "title": "dexter",
+    "source": "github",
+    "source_url": "https://github.com/virattt/dexter",
+    "summary": "一个用于深度金融研究的自主智能体，基于大语言模型实现自动化分析。",
+    "highlights": [
+      "自主执行金融研究任务",
+      "基于大语言模型的智能体架构",
+      "专注于深度数据分析和决策支持"
+    ],
+    "tags": [
+      "LLM",
+      "Agent",
+      "金融",
+      "自动化",
+      "研究"
+    ],
+    "language": "unknown",
+    "stars": 666,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:45:37Z",
+    "updated_at": "2026-05-06T15:45:37Z"
+  },
+  {
+    "id": "github-20260506-6c5",
+    "title": "free-llm-api-resources",
+    "source": "github",
+    "source_url": "https://github.com/cheahjs/free-llm-api-resources",
+    "summary": "收集可通过API访问的免费LLM推理资源列表。",
+    "highlights": [
+      "汇总多种免费LLM API资源",
+      "便于开发者快速集成和测试",
+      "持续更新维护的社区项目"
+    ],
+    "tags": [
+      "LLM",
+      "API",
+      "免费资源",
+      "推理",
+      "开源"
+    ],
+    "language": "unknown",
+    "stars": 344,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:45:42Z",
+    "updated_at": "2026-05-06T15:45:42Z"
+  },
+  {
+    "id": "github-20260506-e56",
+    "title": "InsForge",
+    "source": "github",
+    "source_url": "https://github.com/sponsors/InsForge",
+    "summary": "InsForge 是一个基于 Postgres 的后端平台，集成认证、存储、计算、托管和 AI 网关，专为编码代理设计。",
+    "highlights": [
+      "基于 Postgres 的统一后端架构",
+      "内置 AI 网关，支持编码代理",
+      "集成认证、存储、计算和托管功能"
+    ],
+    "tags": [
+      "Postgres",
+      "后端",
+      "AI网关",
+      "编码代理",
+      "全栈"
+    ],
+    "language": "unknown",
+    "stars": 213,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:45:34Z",
+    "updated_at": "2026-05-06T15:45:34Z"
+  },
+  {
+    "id": "github-20260506-b1e",
+    "title": "Kronos",
+    "source": "github",
+    "source_url": "https://github.com/shiyu-coder/Kronos",
+    "summary": "Kronos是一个专为金融市场语言设计的基础模型，旨在通过深度学习理解金融数据。",
+    "highlights": [
+      "专注于金融市场语言建模",
+      "基于大规模金融数据训练",
+      "可能支持多种金融任务如预测、分析"
+    ],
+    "tags": [
+      "LLM",
+      "Finance",
+      "Foundation Model"
+    ],
+    "language": "unknown",
+    "stars": 241,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:45:44Z",
+    "updated_at": "2026-05-06T15:45:44Z"
+  },
+  {
+    "id": "github-20260506-d96",
+    "title": "ruflo",
+    "source": "github",
+    "source_url": "https://github.com/ruvnet/ruflo",
+    "summary": "ruflo是面向Claude的领先智能体编排平台，支持多智能体集群、自主工作流与RAG集成。",
+    "highlights": [
+      "企业级架构与自学习群体智能",
+      "原生集成Claude Code/Codex",
+      "支持RAG检索增强生成与对话AI系统"
+    ],
+    "tags": [
+      "LLM",
+      "Agent",
+      "Orchestration",
+      "RAG",
+      "Claude",
+      "Workflow"
+    ],
+    "language": "unknown",
+    "stars": 2190,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:45:39Z",
+    "updated_at": "2026-05-06T15:45:39Z"
+  },
+  {
+    "id": "github-20260506-14f",
+    "title": "TabPFN",
+    "source": "github",
+    "source_url": "https://github.com/PriorLabs/TabPFN",
+    "summary": "TabPFN是一个针对表格数据的预训练基础模型，能快速处理分类与回归任务。",
+    "highlights": [
+      "基于Transformer架构，专为表格数据设计",
+      "无需特征工程，直接处理原始表格数据",
+      "支持小样本学习，快速适应新任务"
+    ],
+    "tags": [
+      "TabPFN",
+      "表格数据",
+      "基础模型",
+      "Transformer",
+      "小样本学习"
+    ],
+    "language": "unknown",
+    "stars": 218,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:45:32Z",
+    "updated_at": "2026-05-06T15:45:32Z"
+  },
+  {
+    "id": "rss-20260506-00e",
+    "title": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog",
+    "summary": "在开源ASR排行榜中引入防基准测试作弊机制，提升评估公正性。",
+    "highlights": [
+      "提出Benchmaxxer Repellant方法防止基准测试数据泄露",
+      "增强开源ASR排行榜的评估可靠性",
+      "通过技术手段维护模型性能比较的公平性"
+    ],
+    "tags": [
+      "ASR",
+      "Benchmark",
+      "Evaluation",
+      "Open Source"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:45:52Z",
+    "updated_at": "2026-05-06T15:45:52Z"
+  },
+  {
+    "id": "rss-20260506-fbc",
+    "title": "AI and the Future of Cybersecurity: Why Openness Matters",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
+    "summary": "探讨AI在网络安全中的角色，强调开源对提升安全性和透明度的关键作用。",
+    "highlights": [
+      "AI可自动化威胁检测与响应，提升安全效率",
+      "开源模型促进社区协作，减少安全盲区",
+      "透明度是建立AI安全系统信任的基础"
+    ],
+    "tags": [
+      "AI",
+      "Cybersecurity",
+      "Open Source",
+      "Transparency"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:46:11Z",
+    "updated_at": "2026-05-06T15:46:11Z"
+  },
+  {
+    "id": "rss-20260506-7e1",
+    "title": "Any Custom Frontend with Gradio&apos;s Backend",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/tiiuae/falcon-perception",
+    "summary": "介绍如何将Gradio后端与自定义前端结合，提升交互灵活性。",
+    "highlights": [
+      "利用Gradio后端API实现前端自定义",
+      "支持多种前端框架集成",
+      "简化模型部署与交互开发流程"
+    ],
+    "tags": [
+      "Gradio",
+      "前端",
+      "后端",
+      "模型部署",
+      "API"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:46:38Z",
+    "updated_at": "2026-05-06T15:46:38Z"
+  },
+  {
+    "id": "rss-20260506-375",
+    "title": "DeepInfra on Hugging Face Inference Providers 🔥",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+    "summary": "DeepInfra作为Hugging Face推理提供商，支持Granite 4.1模型部署与调用。",
+    "highlights": [
+      "DeepInfra集成Hugging Face推理提供商生态",
+      "支持Granite 4.1模型的高效推理",
+      "提供低延迟、可扩展的模型服务"
+    ],
+    "tags": [
+      "DeepInfra",
+      "Hugging Face",
+      "推理提供商",
+      "Granite 4.1",
+      "模型部署"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 6,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:45:57Z",
+    "updated_at": "2026-05-06T15:45:57Z"
+  },
+  {
+    "id": "rss-20260506-ddb",
+    "title": "DeepSeek-V4: a million-token context that agents can actually use",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
+    "summary": "DeepSeek-V4 支持百万级 token 上下文，使 AI 代理能高效处理长文本任务。",
+    "highlights": [
+      "百万 token 超长上下文支持",
+      "专为 AI 代理实际使用优化",
+      "提升长文本处理效率与准确性"
+    ],
+    "tags": [
+      "LLM",
+      "Agent",
+      "Long Context",
+      "DeepSeek"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 8,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:46:04Z",
+    "updated_at": "2026-05-06T15:46:04Z"
+  },
+  {
+    "id": "rss-20260506-21c",
+    "title": "Ecom-RLVE: Adaptive Verifiable Environments for E-Commerce Conversational Agents",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/cybersecurity-openness",
+    "summary": "提出自适应可验证环境，提升电商对话代理的可靠性与交互质量。",
+    "highlights": [
+      "自适应可验证环境设计",
+      "提升电商对话代理的可靠性",
+      "面向实际应用的交互优化"
+    ],
+    "tags": [
+      "LLM",
+      "Agent",
+      "E-Commerce",
+      "Conversational AI"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:46:14Z",
+    "updated_at": "2026-05-06T15:46:14Z"
+  },
+  {
+    "id": "rss-20260506-b29",
+    "title": "Falcon Perception",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/gemma4",
+    "summary": "Falcon Perception 是 Hugging Face 博客中关于 Gemma4 模型的技术介绍，聚焦视觉感知能力。",
+    "highlights": [
+      "基于 Gemma4 的视觉感知模型",
+      "支持多模态任务处理",
+      "开源可复现的模型权重"
+    ],
+    "tags": [
+      "LLM",
+      "Vision",
+      "Multimodal",
+      "Open Source"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:46:36Z",
+    "updated_at": "2026-05-06T15:46:36Z"
+  },
+  {
+    "id": "rss-20260506-b9c",
+    "title": "Granite 4.1 LLMs: How They’re Built",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
+    "summary": "介绍Granite 4.1大型语言模型的构建方法和技术细节。",
+    "highlights": [
+      "详细说明模型架构与训练流程",
+      "强调开源与可复现性",
+      "提供性能优化与部署建议"
+    ],
+    "tags": [
+      "LLM",
+      "Granite",
+      "模型构建",
+      "开源"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:45:54Z",
+    "updated_at": "2026-05-06T15:45:54Z"
+  },
+  {
+    "id": "rss-20260506-390",
+    "title": "How to build scalable web apps with OpenAI&apos;s Privacy Filter",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
+    "summary": "介绍如何利用OpenAI隐私过滤器构建可扩展的Web应用。",
+    "highlights": [
+      "隐私过滤器集成方法",
+      "可扩展Web应用架构设计",
+      "OpenAI API安全使用实践"
+    ],
+    "tags": [
+      "OpenAI",
+      "隐私过滤",
+      "Web应用",
+      "可扩展性"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 6,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:46:02Z",
+    "updated_at": "2026-05-06T15:46:02Z"
+  },
+  {
+    "id": "rss-20260506-e17",
+    "title": "How to Use Transformers.js in a Chrome Extension",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/deepseekv4",
+    "summary": "介绍如何在Chrome扩展中使用Transformers.js进行本地AI推理。",
+    "highlights": [
+      "在浏览器扩展中运行Transformer模型",
+      "无需服务器，保护用户隐私",
+      "利用WebAssembly实现高效推理"
+    ],
+    "tags": [
+      "Transformers.js",
+      "Chrome Extension",
+      "WebAssembly",
+      "AI推理",
+      "隐私保护"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:46:07Z",
+    "updated_at": "2026-05-06T15:46:07Z"
+  },
+  {
+    "id": "rss-20260506-32f",
+    "title": "Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
+    "summary": "分析VAKRA智能体的推理、工具使用及失败模式，提供实践洞察。",
+    "highlights": [
+      "深入探讨智能体推理机制与工具调用策略",
+      "系统分类并分析智能体常见失败模式",
+      "提供优化智能体可靠性的实用建议"
+    ],
+    "tags": [
+      "LLM",
+      "Agent",
+      "Reasoning",
+      "Tool Use",
+      "Failure Modes"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:46:21Z",
+    "updated_at": "2026-05-06T15:46:21Z"
+  },
+  {
+    "id": "rss-20260506-198",
+    "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/inference-providers-deepinfra",
+    "summary": "NVIDIA推出Nemotron 3 Nano Omni模型，支持长上下文多模态处理，适用于文档、音频和视频智能体。",
+    "highlights": [
+      "支持长上下文多模态输入，包括文档、音频和视频",
+      "面向智能体应用，提升多模态理解与交互能力",
+      "基于NVIDIA Nemotron架构，优化推理效率"
+    ],
+    "tags": [
+      "LLM",
+      "Agent",
+      "Multimodal",
+      "NVIDIA",
+      "Long-Context"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:45:59Z",
+    "updated_at": "2026-05-06T15:45:59Z"
+  },
+  {
+    "id": "rss-20260506-bb2",
+    "title": "Meet HoloTab by HCompany. Your AI browser companion.",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
+    "summary": "HCompany推出HoloTab，一款AI浏览器伴侣，旨在提升用户浏览体验。",
+    "highlights": [
+      "AI驱动的浏览器辅助功能",
+      "集成于浏览器中的智能助手",
+      "提升用户交互与效率"
+    ],
+    "tags": [
+      "AI",
+      "浏览器",
+      "助手",
+      "HoloTab"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 5,
+    "audience": "beginner",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:46:23Z",
+    "updated_at": "2026-05-06T15:46:23Z"
+  },
+  {
+    "id": "rss-20260506-391",
+    "title": "Multimodal Embedding &amp; Reranker Models with Sentence Transformers",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/waypoint-1-5",
+    "summary": "介绍Sentence Transformers的多模态嵌入与重排序模型，提升检索与排序性能。",
+    "highlights": [
+      "支持文本与图像的多模态嵌入生成",
+      "提供高效的重排序模型以优化检索结果",
+      "基于Sentence Transformers框架，易于集成与部署"
+    ],
+    "tags": [
+      "多模态",
+      "嵌入模型",
+      "重排序",
+      "Sentence Transformers",
+      "检索增强"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:46:28Z",
+    "updated_at": "2026-05-06T15:46:28Z"
+  },
+  {
+    "id": "rss-20260506-a1d",
+    "title": "QIMMA قِمّة ⛰: A Quality-First Arabic LLM Leaderboard",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/transformersjs-chrome-extension",
+    "summary": "介绍了一个专注于阿拉伯语大模型质量评估的排行榜，强调质量优先。",
+    "highlights": [
+      "聚焦阿拉伯语LLM的质量评估",
+      "提供排行榜以比较模型性能",
+      "强调质量优先于数量"
+    ],
+    "tags": [
+      "LLM",
+      "Arabic",
+      "Leaderboard",
+      "NLP"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 6,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:46:09Z",
+    "updated_at": "2026-05-06T15:46:09Z"
+  },
+  {
+    "id": "rss-20260506-861",
+    "title": "Safetensors is Joining the PyTorch Foundation",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/multimodal-sentence-transformers",
+    "summary": "Safetensors 加入 PyTorch 基金会，提升模型安全性与兼容性。",
+    "highlights": [
+      "Safetensors 成为 PyTorch 基金会官方项目",
+      "增强模型文件的安全加载与存储",
+      "推动深度学习生态标准化与互操作性"
+    ],
+    "tags": [
+      "PyTorch",
+      "Safetensors",
+      "模型安全",
+      "开源生态"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:46:31Z",
+    "updated_at": "2026-05-06T15:46:31Z"
+  },
+  {
+    "id": "rss-20260506-f04",
+    "title": "The PR you would have opened yourself",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/ecom-rlve",
+    "summary": "介绍一种通过自动化PR流程提升协作效率的方法，强调社区贡献与代码维护的实用技巧。",
+    "highlights": [
+      "自动化PR创建减少重复劳动",
+      "社区协作模式优化代码维护",
+      "实用技巧提升开源项目效率"
+    ],
+    "tags": [
+      "LLM",
+      "Agent",
+      "开源协作",
+      "自动化"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:46:16Z",
+    "updated_at": "2026-05-06T15:46:16Z"
+  },
+  {
+    "id": "rss-20260506-080",
+    "title": "Training and Finetuning Multimodal Embedding &amp; Reranker Models with Sentence Transformers",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/transformers-to-mlx",
+    "summary": "使用Sentence Transformers训练和微调多模态嵌入与重排序模型的指南。",
+    "highlights": [
+      "多模态嵌入模型训练与微调方法",
+      "重排序模型集成与优化",
+      "基于Sentence Transformers的实践流程"
+    ],
+    "tags": [
+      "Sentence Transformers",
+      "多模态嵌入",
+      "重排序模型",
+      "微调"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:46:18Z",
+    "updated_at": "2026-05-06T15:46:18Z"
+  },
+  {
+    "id": "rss-20260506-db5",
+    "title": "Waypoint-1.5: Higher-Fidelity Interactive Worlds for Everyday GPUs",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/Hcompany/holotab",
+    "summary": "提出Waypoint-1.5方法，在普通GPU上实现更高保真度的交互式3D世界渲染。",
+    "highlights": [
+      "针对日常GPU优化，提升交互式3D世界的视觉保真度",
+      "在有限硬件资源下实现更高质量的实时渲染",
+      "可能结合神经渲染或轻量化模型技术"
+    ],
+    "tags": [
+      "3D渲染",
+      "GPU优化",
+      "交互式世界",
+      "神经渲染"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:46:26Z",
+    "updated_at": "2026-05-06T15:46:26Z"
+  },
+  {
+    "id": "rss-20260506-515",
+    "title": "Welcome Gemma 4: Frontier multimodal intelligence on device",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/safetensors-joins-pytorch-foundation",
+    "summary": "介绍Gemma 4模型，实现设备端多模态智能，提升边缘AI能力。",
+    "highlights": [
+      "设备端多模态推理",
+      "前沿边缘AI技术",
+      "开源模型生态扩展"
+    ],
+    "tags": [
+      "LLM",
+      "多模态",
+      "边缘计算",
+      "开源模型"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T15:46:33Z",
+    "updated_at": "2026-05-06T15:46:33Z"
+  },
+  {
+    "id": "rss-20260506-9cb",
+    "title": "A New Framework for Evaluating Voice Agents (EVA)",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/liberate-your-openclaw",
+    "summary": "提出了评估语音代理的新框架EVA，旨在系统化衡量其性能与交互质量。",
+    "highlights": [
+      "构建了针对语音代理的标准化评估框架",
+      "覆盖多维度交互能力与用户体验指标",
+      "为语音代理开发提供可复用的评测方法论"
+    ],
+    "tags": [
+      "LLM",
+      "Agent",
+      "Voice Agent",
+      "Evaluation Framework"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T16:38:23Z",
+    "updated_at": "2026-05-06T16:38:23Z"
+  },
+  {
+    "id": "rss-20260507-14c",
+    "title": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+    "summary": "Open ASR排行榜引入防基准测试攻击机制，提升评估可靠性。",
+    "highlights": [
+      "提出Benchmaxxer Repellant方法抵御基准测试作弊",
+      "增强语音识别模型评估的鲁棒性与公平性",
+      "基于实际正确性而非修正后分数进行排名"
+    ],
+    "tags": [
+      "ASR",
+      "Benchmark",
+      "Robustness",
+      "Evaluation"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-07T00:49:46Z",
+    "updated_at": "2026-05-07T00:49:46Z"
+  },
+  {
+    "id": "rss-20260506-8dc",
+    "title": "Build a Domain-Specific Embedding Model in Under a Day",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/ServiceNow-AI/eva",
+    "summary": "介绍如何在一天内构建领域特定嵌入模型，提升检索和生成效果。",
+    "highlights": [
+      "使用对比学习训练领域嵌入模型",
+      "利用合成数据生成和硬负样本挖掘",
+      "结合检索增强生成（RAG）优化下游任务"
+    ],
+    "tags": [
+      "Embedding Model",
+      "RAG",
+      "Contrastive Learning",
+      "Domain-Specific",
+      "NLP"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T16:38:27Z",
+    "updated_at": "2026-05-06T16:38:27Z"
+  },
+  {
+    "id": "rss-20260506-b39",
+    "title": "Granite 4.0 3B Vision: Compact Multimodal Intelligence for Enterprise Documents",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/introducing-gradio-server",
+    "summary": "Granite 4.0 3B Vision 是一款面向企业文档的紧凑型多模态模型。",
+    "highlights": [
+      "紧凑型3B参数规模，适合企业部署",
+      "多模态能力，支持文档图像理解",
+      "面向企业文档场景优化"
+    ],
+    "tags": [
+      "多模态",
+      "企业文档",
+      "紧凑模型",
+      "视觉理解"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T16:38:05Z",
+    "updated_at": "2026-05-06T16:38:05Z"
+  },
+  {
+    "id": "rss-20260506-a24",
+    "title": "Holotron-12B - High Throughput Computer Use Agent",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
+    "summary": "Holotron-12B是一个高吞吐量的计算机使用代理，旨在提升自动化操作效率。",
+    "highlights": [
+      "高吞吐量设计，适合大规模任务处理",
+      "专注于计算机使用场景的代理模型",
+      "基于12B参数规模，平衡性能与效率"
+    ],
+    "tags": [
+      "LLM",
+      "Agent",
+      "Computer Use",
+      "High Throughput"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T16:38:36Z",
+    "updated_at": "2026-05-06T16:38:36Z"
+  },
+  {
+    "id": "rss-20260506-a14",
+    "title": "Introducing Storage Buckets on the Hugging Face Hub",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/Hcompany/holotron-12b",
+    "summary": "Hugging Face Hub推出存储桶功能，用于高效管理大型数据集和模型文件。",
+    "highlights": [
+      "支持大规模数据与模型的分层存储管理",
+      "提供细粒度权限控制和访问策略",
+      "优化存储性能与成本，便于团队协作"
+    ],
+    "tags": [
+      "Hugging Face",
+      "Storage",
+      "Data Management",
+      "MLOps"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T16:38:40Z",
+    "updated_at": "2026-05-06T16:38:40Z"
+  },
+  {
+    "id": "rss-20260506-92f",
+    "title": "Keep the Tokens Flowing: Lessons from 16 Open-Source RL Libraries",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/storage-buckets",
+    "summary": "从16个开源强化学习库中总结的实践经验和教训，帮助优化训练流程。",
+    "highlights": [
+      "对比了多个主流RL库的设计差异与性能表现",
+      "总结了分布式训练与数据存储的常见陷阱",
+      "提供了提升训练稳定性和效率的实用建议"
+    ],
+    "tags": [
+      "LLM",
+      "Reinforcement Learning",
+      "Open Source",
+      "Training Optimization"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T16:38:45Z",
+    "updated_at": "2026-05-06T16:38:45Z"
+  },
+  {
+    "id": "rss-20260506-2ef",
+    "title": "Liberate your OpenClaw",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/trl-v1",
+    "summary": "介绍TRL v1版本，旨在简化强化学习与开源大模型的集成，提升训练效率。",
+    "highlights": [
+      "支持多种强化学习算法（如PPO、DPO）与Hugging Face模型无缝集成",
+      "提供高效的数据处理和训练管线，降低RLHF实施门槛",
+      "开源工具链，便于社区复现和扩展强化学习训练流程"
+    ],
+    "tags": [
+      "LLM",
+      "RLHF",
+      "TRL",
+      "Hugging Face",
+      "强化学习"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T16:38:18Z",
+    "updated_at": "2026-05-06T16:38:18Z"
+  },
+  {
+    "id": "rss-20260506-71b",
+    "title": "State of Open Source on Hugging Face: Spring 2026",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune",
+    "summary": "Hugging Face 2026年春季开源生态报告，涵盖模型、数据集与工具的最新趋势。",
+    "highlights": [
+      "开源模型数量与社区贡献持续增长",
+      "多模态与小型化模型成为新热点",
+      "工具链整合与部署效率显著提升"
+    ],
+    "tags": [
+      "Open Source",
+      "Hugging Face",
+      "Ecosystem Report",
+      "Model Trends"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 6,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T16:38:32Z",
+    "updated_at": "2026-05-06T16:38:32Z"
+  },
+  {
+    "id": "rss-20260506-d65",
+    "title": "Training mRNA Language Models Across 25 Species for $165",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/ibm-granite/granite-4-vision",
+    "summary": "IBM发布Granite 4 Vision模型，支持多模态视觉理解与推理。",
+    "highlights": [
+      "支持图像与文本混合输入的多模态能力",
+      "基于Granite系列语言模型扩展视觉理解",
+      "适用于企业级视觉问答与文档分析场景"
+    ],
+    "tags": [
+      "LLM",
+      "多模态",
+      "视觉理解",
+      "IBM",
+      "企业AI"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T16:38:09Z",
+    "updated_at": "2026-05-06T16:38:09Z"
+  },
+  {
+    "id": "rss-20260506-9f1",
+    "title": "TRL v1.0: Post-Training Library Built to Move with the Field",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/OpenMed/training-mrna-models-25-species",
+    "summary": "TRL v1.0是一个后训练库，旨在与领域发展同步演进。",
+    "highlights": [
+      "提供灵活的后训练框架",
+      "支持与领域最新进展同步更新",
+      "基于Hugging Face生态构建"
+    ],
+    "tags": [
+      "LLM",
+      "后训练",
+      "Hugging Face"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-06T16:38:14Z",
+    "updated_at": "2026-05-06T16:38:14Z"
+  },
+  {
+    "id": "github-20260508-626",
+    "title": "9router",
+    "source": "github",
+    "source_url": "https://github.com/decolua/9router",
+    "summary": "9router是一个免费AI编程路由工具，支持多种模型和提供商，具备自动回退和令牌优化功能。",
+    "highlights": [
+      "支持40+提供商，连接Claude、GPT、Gemini等主流模型",
+      "自动回退机制，避免API调用失败",
+      "RTK技术减少40%令牌消耗，提升效率"
+    ],
+    "tags": [
+      "LLM",
+      "Agent",
+      "AI编程",
+      "路由",
+      "令牌优化"
+    ],
+    "language": "unknown",
+    "stars": 149,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-08T02:48:38Z",
+    "updated_at": "2026-05-08T02:48:38Z"
+  },
+  {
+    "id": "github-20260508-b25",
+    "title": "goose",
+    "source": "github",
+    "source_url": "https://github.com/aaif-goose/goose",
+    "summary": "开源可扩展AI代理，超越代码建议，支持安装、执行、编辑和测试，兼容任意LLM。",
+    "highlights": [
+      "支持任意LLM集成",
+      "可扩展架构，超越代码建议",
+      "具备安装、执行、编辑和测试能力"
+    ],
+    "tags": [
+      "LLM",
+      "Agent",
+      "开源",
+      "代码自动化",
+      "可扩展"
+    ],
+    "language": "unknown",
+    "stars": 390,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-08T02:48:40Z",
+    "updated_at": "2026-05-08T02:48:40Z"
+  },
+  {
+    "id": "github-20260508-361",
+    "title": "open-agents",
+    "source": "github",
+    "source_url": "https://github.com/vercel-labs/open-agents",
+    "summary": "Vercel Labs 开源的云代理构建模板，用于快速搭建 AI 代理应用。",
+    "highlights": [
+      "提供开源的云代理构建模板",
+      "基于 Vercel 生态，易于部署和扩展",
+      "支持快速搭建 AI 代理应用"
+    ],
+    "tags": [
+      "LLM",
+      "Agent",
+      "Open Source",
+      "Vercel",
+      "Template"
+    ],
+    "language": "unknown",
+    "stars": 131,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-08T02:48:35Z",
+    "updated_at": "2026-05-08T02:48:35Z"
+  },
+  {
+    "id": "github-20260508-f57",
+    "title": "VectifyAI",
+    "source": "github",
+    "source_url": "https://github.com/sponsors/VectifyAI",
+    "summary": "VectifyAI 的 PageIndex 项目，提出无向量化、基于推理的 RAG 文档索引方法。",
+    "highlights": [
+      "无向量化的文档索引",
+      "基于推理的检索增强生成",
+      "替代传统向量数据库的轻量方案"
+    ],
+    "tags": [
+      "RAG",
+      "Document Index",
+      "Reasoning",
+      "Vectorless"
+    ],
+    "language": "unknown",
+    "stars": 943,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-08T02:48:32Z",
+    "updated_at": "2026-05-08T02:48:32Z"
+  },
+  {
+    "id": "github-20260509-9f3",
+    "title": "AI-Trader",
+    "source": "github",
+    "source_url": "https://github.com/HKUDS/AI-Trader",
+    "summary": "AI-Trader是一个基于智能体的全自动交易系统，由HKUDS团队开发，实现100%自动化代理原生交易。",
+    "highlights": [
+      "100%全自动交易，无需人工干预",
+      "基于智能体（Agent）架构，实现原生交易决策",
+      "开源项目，支持社区贡献与定制"
+    ],
+    "tags": [
+      "LLM",
+      "Agent",
+      "自动化交易",
+      "金融AI",
+      "开源"
+    ],
+    "language": "unknown",
+    "stars": 202,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-09T02:43:07Z",
+    "updated_at": "2026-05-09T02:43:07Z"
+  },
+  {
+    "id": "github-20260509-b67",
+    "title": "aidlc-workflows",
+    "source": "github",
+    "source_url": "https://github.com/awslabs/aidlc-workflows",
+    "summary": "AI-DLC工作流：为AI编码代理提供自适应工作流引导规则，优化生命周期管理。",
+    "highlights": [
+      "自适应工作流引导规则",
+      "针对AI编码代理的生命周期管理",
+      "开源实现，基于AWS实验室"
+    ],
+    "tags": [
+      "LLM",
+      "Agent",
+      "Workflow",
+      "AI Coding",
+      "Lifecycle Management"
+    ],
+    "language": "unknown",
+    "stars": 58,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-09T02:43:04Z",
+    "updated_at": "2026-05-09T02:43:04Z"
+  },
+  {
+    "id": "github-20260509-62a",
+    "title": "hello-agents",
+    "source": "github",
+    "source_url": "https://github.com/datawhalechina/hello-agents",
+    "summary": "从零开始构建智能体的原理与实践教程，适合入门到进阶学习。",
+    "highlights": [
+      "从零开始系统讲解智能体原理",
+      "提供实践教程，动手构建智能体",
+      "由Datawhale社区维护，内容质量有保障"
+    ],
+    "tags": [
+      "LLM",
+      "Agent",
+      "教程",
+      "实践",
+      "Datawhale"
+    ],
+    "language": "unknown",
+    "stars": 667,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-09T02:43:11Z",
+    "updated_at": "2026-05-09T02:43:11Z"
+  },
+  {
+    "id": "github-20260509-2b7",
+    "title": "lobehub",
+    "source": "github",
+    "source_url": "https://github.com/sponsors/lobehub",
+    "summary": "LobeHub 是一个用于工作和生活的智能体协作平台，支持多智能体协作与团队设计。",
+    "highlights": [
+      "多智能体协作机制",
+      "智能体团队设计与交互",
+      "以智能体为工作单元的新型交互模式"
+    ],
+    "tags": [
+      "LLM",
+      "Agent",
+      "Multi-Agent",
+      "Collaboration",
+      "Workflow"
+    ],
+    "language": "unknown",
+    "stars": 125,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-09T02:43:09Z",
+    "updated_at": "2026-05-09T02:43:09Z"
+  },
+  {
+    "id": "rss-20260509-ff0",
+    "title": "EMO: Pretraining mixture of experts for emergent modularity",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b",
+    "summary": "EMO通过预训练混合专家模型实现模块化涌现，提升模型效率与可解释性。",
+    "highlights": [
+      "混合专家架构预训练方法",
+      "模块化能力自动涌现",
+      "提升模型可解释性与效率"
+    ],
+    "tags": [
+      "LLM",
+      "Mixture of Experts",
+      "Modularity"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-09T02:43:13Z",
+    "updated_at": "2026-05-09T02:43:13Z"
+  },
+  {
+    "id": "rss-20260509-abd",
+    "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+    "source": "rss",
+    "source_url": "https://huggingface.co/blog/allenai/emo",
+    "summary": "vLLM从V0到V1的演进，强调在强化学习中先保证正确性再优化。",
+    "highlights": [
+      "从V0到V1的架构升级，聚焦RL场景下的正确性优先",
+      "强调在强化学习训练中先确保模型输出正确再追求效率",
+      "可能涉及vLLM在RL训练中的推理优化与稳定性改进"
+    ],
+    "tags": [
+      "vLLM",
+      "RL",
+      "LLM",
+      "推理优化",
+      "正确性"
+    ],
+    "language": "",
+    "stars": 0,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-09T02:43:16Z",
+    "updated_at": "2026-05-09T02:43:16Z"
+  },
+  {
+    "id": "github-20260510-efa",
+    "title": "chrome-devtools-mcp",
+    "source": "github",
+    "source_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "summary": "Chrome DevTools MCP 为编码代理提供 Chrome 开发者工具接口，实现浏览器调试自动化。",
+    "highlights": [
+      "将 Chrome DevTools 功能封装为 MCP 协议，便于 AI 代理调用",
+      "支持 DOM 检查、网络监控、控制台交互等核心调试能力",
+      "开源项目，由 ChromeDevTools 官方维护，与 Chrome 生态深度集成"
+    ],
+    "tags": [
+      "LLM",
+      "Agent",
+      "Chrome DevTools",
+      "MCP",
+      "调试工具",
+      "自动化"
+    ],
+    "language": "unknown",
+    "stars": 107,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-10T02:49:17Z",
+    "updated_at": "2026-05-10T02:49:17Z"
+  },
+  {
+    "id": "github-20260510-6da",
+    "title": "dive-into-llms",
+    "source": "github",
+    "source_url": "https://github.com/Lordog/dive-into-llms",
+    "summary": "《动手学大模型》系列编程实践教程，提供LLM相关动手学习资源。",
+    "highlights": [
+      "面向实践的LLM编程教程",
+      "覆盖大模型核心技术与应用",
+      "开源项目，便于学习与复现"
+    ],
+    "tags": [
+      "LLM",
+      "大模型",
+      "编程实践",
+      "教程"
+    ],
+    "language": "unknown",
+    "stars": 160,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-10T02:49:19Z",
+    "updated_at": "2026-05-10T02:49:19Z"
+  },
+  {
+    "id": "github-20260510-9f0",
+    "title": "oracle-ai-developer-hub",
+    "source": "github",
+    "source_url": "https://github.com/oracle-devrel/oracle-ai-developer-hub",
+    "summary": "Oracle AI开发者中心，提供构建应用、代理和系统的技术资源，基于Oracle AI数据库和OCI服务。",
+    "highlights": [
+      "聚焦Oracle AI数据库与OCI服务集成",
+      "支持AI应用、代理和系统开发",
+      "面向开发者的技术资源集合"
+    ],
+    "tags": [
+      "Oracle",
+      "AI",
+      "Database",
+      "OCI",
+      "Agent",
+      "Developer Hub"
+    ],
+    "language": "unknown",
+    "stars": 90,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-10T02:49:21Z",
+    "updated_at": "2026-05-10T02:49:21Z"
+  },
+  {
+    "id": "github-20260510-aa6",
+    "title": "rohitg00",
+    "source": "github",
+    "source_url": "https://github.com/sponsors/rohitg00",
+    "summary": "为AI编码代理提供基于真实世界基准的持久化记忆系统，提升代理的长期任务执行能力。",
+    "highlights": [
+      "基于真实世界基准测试设计",
+      "为AI编码代理提供持久化记忆",
+      "提升代理在复杂任务中的连续性和效率"
+    ],
+    "tags": [
+      "AI Agent",
+      "Memory",
+      "Coding",
+      "Benchmark"
+    ],
+    "language": "unknown",
+    "stars": 533,
+    "score": 7,
+    "audience": "intermediate",
+    "status": "analyzed",
+    "created_at": "2026-05-10T02:49:11Z",
+    "updated_at": "2026-05-10T02:49:11Z"
+  },
+  {
+    "id": "article-20260514-930",
     "title": "NousResearch/hermes-agent",
     "source": "github",
     "source_url": "https://github.com/NousResearch/hermes-agent",
-    "summary": "一个可伴随用户成长的AI代理框架，支持多种主流LLM模型。",
+    "summary": "由 Nous Research 打造的开源 LLM Agent 框架，深度集成 Hermes 系列模型，支持 OpenAI、Anthropic 等多模型后端。通过模块化架构实现工具调用、记忆管理和持续学习，驱动自适应智能体“随用户成长”，解决通用 AI 代理在个性化和可扩展性上的瓶颈。",
     "highlights": [],
     "tags": [
-      "AI代理",
-      "LLM",
-      "多模型支持"
+      "LLM-Agent-Framework",
+      "Multi-Model-Backend",
+      "Memory-Management",
+      "Tool-Augmented-Generation"
     ],
     "language": "Python",
-    "stars": 144888,
+    "stars": 149481,
     "status": "analyzed",
-    "created_at": "2026-05-12T01:35:51Z",
-    "updated_at": "2026-05-12T01:35:51Z"
+    "created_at": "2026-05-14T10:06:43Z",
+    "updated_at": "2026-05-14T10:06:43Z"
   },
   {
-    "id": "supervisor-20260512-089",
+    "id": "article-20260514-029",
+    "title": "HKUDS/nanobot",
+    "source": "github",
+    "source_url": "https://github.com/HKUDS/nanobot",
+    "summary": "超轻量个人AI代理框架，基于LLM（Claude/OpenAI等）实现函数调用与工具集成，提供极简API接口，支持多种模型无缝切换。解决了个性化AI助手部署复杂、资源占用高的痛点，以高效、易用和可扩展性著称。",
+    "highlights": [],
+    "tags": [
+      "LLM-Agent",
+      "Function-Calling",
+      "Multi-Model-Adapter",
+      "Lightweight-Client"
+    ],
+    "language": "Python",
+    "stars": 42419,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:06:43Z",
+    "updated_at": "2026-05-14T10:06:43Z"
+  },
+  {
+    "id": "article-20260514-682",
+    "title": "khoj-ai/khoj",
+    "source": "github",
+    "source_url": "https://github.com/khoj-ai/khoj",
+    "summary": "基于 RAG 和自托管架构的个人 AI 第二大脑，融合语义搜索、多模型（GPT/Claude/Llama等）适配、自定义 agent 与自动化调度，通过插件化（Obsidian/Emacs）覆盖知识管理、深度研究与跨平台助手场景，解决信息碎片化与人工检索效率瓶颈。",
+    "highlights": [],
+    "tags": [
+      "RAG",
+      "Self-Hosted",
+      "LLM-Orchestration",
+      "Agent-Framework",
+      "Vector-Search"
+    ],
+    "language": "Python",
+    "stars": 34547,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:06:43Z",
+    "updated_at": "2026-05-14T10:06:43Z"
+  },
+  {
+    "id": "article-20260514-876",
+    "title": "labring/FastGPT",
+    "source": "github",
+    "source_url": "https://github.com/labring/FastGPT",
+    "summary": "基于LLM的知识库平台，集成数据处理、RAG检索与可视化工作流编排，支持OpenAI/Claude/DeepSeek等多模型及MCP协议，致力于降低企业级复杂问答系统的搭建门槛。",
+    "highlights": [],
+    "tags": [
+      "RAG-System",
+      "Visual-Workflow",
+      "Knowledge-Base",
+      "Multi-Model-Support",
+      "MCP-Integration"
+    ],
+    "language": "TypeScript",
+    "stars": 28024,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:06:43Z",
+    "updated_at": "2026-05-14T10:06:43Z"
+  },
+  {
+    "id": "article-20260514-130",
+    "title": "zhayujie/CowAgent",
+    "source": "github",
+    "source_url": "https://github.com/zhayujie/CowAgent",
+    "summary": "基于大语言模型的多平台超级AI助理，采用ReAct任务规划与自适应工具调用（支持20+预置API插件），通过ChromaDB实现长期记忆（保存用户偏好与历史上下文），在微信/飞书等即时通讯平台构建可自主成长的智能体。与AutoGPT等同类项目相比，CowAgent专注通讯场景，提供企业级权限控制、低延迟（<2s）响应及轻量级部署（单容器即可运行），已获44k+星标。解决日常通讯工具中缺乏AI Agent能力的痛点，作为数字员工可执行日程管理、信息检索、数据分析等任务。",
+    "highlights": [],
+    "tags": [
+      "Multi-Platform-Agent",
+      "LLM-Plugin-System",
+      "Task-Planning",
+      "Tool-Use",
+      "Memory-Augmented"
+    ],
+    "language": "Python",
+    "stars": 44432,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:06:43Z",
+    "updated_at": "2026-05-14T10:06:43Z"
+  },
+  {
+    "id": "article-20260514-216",
+    "title": "jeecgboot/JeecgBoot",
+    "source": "github",
+    "source_url": "https://github.com/jeecgboot/JeecgBoot",
+    "summary": "融合AI的低代码开发平台，支持零代码搭建与AI辅助代码生成，内置工作流引擎、RAG知识库、MCP插件体系，通过自然语言驱动流程图/表单/系统生成，解决Java企业开发80%重复劳动，兼顾效率与灵活性。",
+    "highlights": [],
+    "tags": [
+      "Low-Code-Platform",
+      "AI-Code-Generation",
+      "Workflow-Engine",
+      "RAG-System",
+      "MCP-Integration"
+    ],
+    "language": "Java",
+    "stars": 46246,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:35:14Z",
+    "updated_at": "2026-05-14T10:35:14Z"
+  },
+  {
+    "id": "article-20260514-022",
+    "title": "CherryHQ/cherry-studio",
+    "source": "github",
+    "source_url": "https://github.com/CherryHQ/cherry-studio",
+    "summary": "基于 TypeScript 的 AI 一体化生产力平台，整合智能对话、自主代理与 300+ 可扩展技能插件，通过统一网关接入多款前沿大模型，解决 AI 工具碎片化与协作效率瓶颈。架构亮点在于模块化的代理编排引擎与插件热插拔机制，支持 CLI/Code 融合的 Vibe Coding 模式。",
+    "highlights": [],
+    "tags": [
+      "Multi-LLM-Gateway",
+      "Agent-Engine",
+      "Plugin-Architecture",
+      "CLI-Integration"
+    ],
+    "language": "TypeScript",
+    "stars": 45639,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:35:14Z",
+    "updated_at": "2026-05-14T10:35:14Z"
+  },
+  {
+    "id": "article-20260514-955",
+    "title": "iOfficeAI/AionUi",
+    "source": "github",
+    "source_url": "https://github.com/iOfficeAI/AionUi",
+    "summary": "本地开源的全天候协作应用，通过统一Web UI集成20+主流AI CLI工具（如Claude Code、Gemini CLI），提供插件化技能系统和多代理管理，解决开发者跨CLI切换繁琐的痛点，实现24/7持续运行与定制化助手。",
+    "highlights": [],
+    "tags": [
+      "Agent-UI",
+      "Multi-CLI-Orchestration",
+      "Local-AI-Workspace",
+      "Plugin-Architecture"
+    ],
+    "language": "TypeScript",
+    "stars": 25101,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:35:14Z",
+    "updated_at": "2026-05-14T10:35:14Z"
+  },
+  {
+    "id": "article-20260514-975",
+    "title": "liyupi/ai-guide",
+    "source": "github",
+    "source_url": "https://github.com/liyupi/ai-guide",
+    "summary": "基于VuePress构建的一站式AI资源导航与零基础教程，系统整合LLM模型（DeepSeek/GPT/Claude等）、提示词工程、RAG/MCP/A2A等前沿技术，涵盖AI编程工具（Cursor/Copilot等）与开发框架（Spring AI/LangChain）教程，并提供变现指南，解决开发者AI入门与工具选型痛点。",
+    "highlights": [],
+    "tags": [
+      "VuePress",
+      "Prompt-Engineering",
+      "RAG",
+      "MCP",
+      "Vibe-Coding"
+    ],
+    "language": "JavaScript",
+    "stars": 13807,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:38:58Z",
+    "updated_at": "2026-05-14T10:38:58Z"
+  },
+  {
+    "id": "article-20260514-249",
+    "title": "humanlayer/humanlayer",
+    "source": "github",
+    "source_url": "https://github.com/humanlayer/humanlayer",
+    "summary": "HumanLayer 是一个针对 AI 编码 Agent 的人类反馈循环（Human-in-the-Loop）框架，专门解决复杂代码库中 Agent 易出错、难以收敛的问题。通过提供标准化接口，让开发者在 Agent 执行关键步骤时介入纠正或引导，显著提升 Claude Code、Codex 等 LLM 驱动编码工具在处理复杂任务时的可靠性。架构上采用事件驱动的工作流编排，支持灵活的拦截与回滚机制。",
+    "highlights": [],
+    "tags": [
+      "Human-in-the-Loop",
+      "AI-Agent",
+      "Workflow-Orchestration",
+      "Code-Assistant"
+    ],
+    "language": "TypeScript",
+    "stars": 10787,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:38:58Z",
+    "updated_at": "2026-05-14T10:38:58Z"
+  },
+  {
+    "id": "article-20260514-775",
+    "title": "superset-sh/superset",
+    "source": "github",
+    "source_url": "https://github.com/superset-sh/superset",
+    "summary": "Superset 是一款面向 AI 代理时代的代码编辑器，支持并行运行多个 AI 编码代理（如 Claude Code、Codex），通过 Git 工作树（worktrees）隔离环境，实现多代理协同编程。采用 Electron 桌面应用与 CLI/TUI 双模式，解决单代理效率瓶颈和上下文冲突问题。",
+    "highlights": [],
+    "tags": [
+      "Agent-Orchestration",
+      "Parallel-Execution",
+      "Git-Worktrees",
+      "Desktop-Code-Editor",
+      "Electron"
+    ],
+    "language": "TypeScript",
+    "stars": 10659,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:38:58Z",
+    "updated_at": "2026-05-14T10:38:58Z"
+  },
+  {
+    "id": "article-20260514-079",
+    "title": "mukul975/Anthropic-Cybersecurity-Skills",
+    "source": "github",
+    "source_url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+    "summary": "An open library of 754 structured cybersecurity skills for AI agents, standardized on agentskills.io and mapped to 5 security frameworks (MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF). It addresses the gap of AI agents lacking domain-specific operational skills by providing executable, cross-platform skill definitions compatible with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI and 20+ platforms, enabling automated penetration testing, threat hunting, incident response and more across 26 security domains.",
+    "highlights": [],
+    "tags": [
+      "Structured-Skills-Library",
+      "Cybersecurity-Framework-Mapping",
+      "Agent-Skill-Standard",
+      "Cross-Platform-Integration"
+    ],
+    "language": "Python",
+    "stars": 6279,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:38:58Z",
+    "updated_at": "2026-05-14T10:38:58Z"
+  },
+  {
+    "id": "article-20260514-688",
+    "title": "UfoMiao/zcf",
+    "source": "github",
+    "source_url": "https://github.com/UfoMiao/zcf",
+    "summary": "基于TypeScript的零配置CLI工具，为Claude Code和Codex提供自动化代码工作流引擎。通过预设bmad-method和CCR模式，无需手动配置即可快速启动AI辅助编码流程，解决开发者在使用LLM进行代码生成时的环境搭建与参数调优痛点。",
+    "highlights": [],
+    "tags": [
+      "CLI-Workflow",
+      "Zero-Configuration",
+      "LLM-Integration",
+      "Code-Generation-Automation"
+    ],
+    "language": "TypeScript",
+    "stars": 5986,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:38:58Z",
+    "updated_at": "2026-05-14T10:38:58Z"
+  },
+  {
+    "id": "article-20260514-579",
+    "title": "looplj/axonhub",
+    "source": "github",
+    "source_url": "https://github.com/looplj/axonhub",
+    "summary": "开源AI网关，基于Go实现，统一API接入100+LLM，内置负载均衡、故障转移、成本控制和端到端追踪，解决企业多模型管理混乱、成本不可控和高可用性问题。",
+    "highlights": [],
+    "tags": [
+      "LLM-Gateway",
+      "Load-Balancing",
+      "Cost-Control",
+      "Observability",
+      "Go-Architecture"
+    ],
+    "language": "Go",
+    "stars": 3750,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:38:58Z",
+    "updated_at": "2026-05-14T10:38:58Z"
+  },
+  {
+    "id": "article-20260514-114",
+    "title": "taishi-i/awesome-ChatGPT-repositories",
+    "source": "github",
+    "source_url": "https://github.com/taishi-i/awesome-ChatGPT-repositories",
+    "summary": "一个精选的ChatGPT、OpenAI API和Codex相关开源仓库资源列表，覆盖Agent技能、LLM工具等主题，帮助社区快速发现和筛选高质量项目，本身无代码实现或架构创新。",
+    "highlights": [],
+    "tags": [
+      "Awesome-List",
+      "Resource-Collection",
+      "LLM-Tools"
+    ],
+    "language": "Python",
+    "stars": 3011,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:38:58Z",
+    "updated_at": "2026-05-14T10:38:58Z"
+  },
+  {
+    "id": "article-20260514-861",
+    "title": "foryourhealth111-pixel/Vibe-Skills",
+    "source": "github",
+    "source_url": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
+    "summary": "Vibe-Skills 是一个面向 AI 代理的统一技能包框架，通过集成专家级能力与上下文工程，解决代理工具碎片化和框架复杂性问题。其架构支持即插即用的技能注入和动态上下文管理，兼容 Claude Code、Codex 等主流代理，实现多功能一键增强。",
+    "highlights": [],
+    "tags": [
+      "Agent-Skills-Package",
+      "Context-Engineering",
+      "Multi-Agent-Framework",
+      "Prompt-Engineering"
+    ],
+    "language": "Python",
+    "stars": 2088,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:38:58Z",
+    "updated_at": "2026-05-14T10:38:58Z"
+  },
+  {
+    "id": "article-20260514-967",
+    "title": "iamzhihuix/skills-manage",
+    "source": "github",
+    "source_url": "https://github.com/iamzhihuix/skills-manage",
+    "summary": "基于 Tauri + React + Rust 的跨平台桌面应用，统一管理 Claude Code、Cursor 等 20+ 种 AI 编码代理的技能配置。通过抽象适配层解决多工具技能碎片化问题，提升开发者效率，架构上采用插件式设计支持平台扩展。",
+    "highlights": [],
+    "tags": [
+      "Tauri-Desktop",
+      "Skill-Orchestration",
+      "Plugin-Architecture",
+      "Cross-Platform-Adapter"
+    ],
+    "language": "TypeScript",
+    "stars": 1841,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:38:58Z",
+    "updated_at": "2026-05-14T10:38:58Z"
+  },
+  {
+    "id": "article-20260514-989",
+    "title": "Prat011/awesome-llm-skills",
+    "source": "github",
+    "source_url": "https://github.com/Prat011/awesome-llm-skills",
+    "summary": "面向 LLM/AI Agent 工作流定制的精选资源列表，汇集 Claude Code、Codex、Gemini CLI 等工具的 Skills 与配置，帮助开发者快速集成和自动化 Agent 流程，属于工具索引而非技术实现。",
+    "highlights": [],
+    "tags": [
+      "Awesome-List",
+      "Resource-Collection",
+      "LLM-Agent"
+    ],
+    "language": "Python",
+    "stars": 1232,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:38:58Z",
+    "updated_at": "2026-05-14T10:38:58Z"
+  },
+  {
+    "id": "article-20260514-992",
+    "title": "xenodium/agent-shell",
+    "source": "github",
+    "source_url": "https://github.com/xenodium/agent-shell",
+    "summary": "原生 Emacs 缓冲区，通过 ACP（Agent Communication Protocol）协议与 LLM 代理（Claude Code、Goose 等）交互。解决 Emacs 用户无法在编辑器内无缝使用 AI 代理的痛点，将代理输出渲染为可编辑缓冲区，并维护会话状态。架构亮点：基于 Emacs Lisp 实现轻量级 ACP 客户端，保持原生编辑体验。",
+    "highlights": [],
+    "tags": [
+      "Emacs-Lisp",
+      "ACP-Protocol",
+      "LLM-Agent-Integration",
+      "Native-Buffer"
+    ],
+    "language": "Emacs Lisp",
+    "stars": 1156,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:38:58Z",
+    "updated_at": "2026-05-14T10:38:58Z"
+  },
+  {
+    "id": "article-20260514-333",
+    "title": "caliber-ai-org/ai-setup",
+    "source": "github",
+    "source_url": "https://github.com/caliber-ai-org/ai-setup",
+    "summary": "基于TypeScript开发的CLI工具，通过单一命令持续同步AI编码助手的配置、Agent技能和MCP协议设置，解决Claude Code、Cursor、Codex等多环境配置文件碎片化问题，支持代码库感知的定制化技能注入，提升Agent响应的上下文相关性。",
+    "highlights": [],
+    "tags": [
+      "CLI-Tool",
+      "Agent-Configuration",
+      "MCP-Integration",
+      "Config-Sync",
+      "Developer-Productivity"
+    ],
+    "language": "TypeScript",
+    "stars": 1059,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:38:58Z",
+    "updated_at": "2026-05-14T10:38:58Z"
+  },
+  {
+    "id": "article-20260514-215",
+    "title": "777genius/agent-teams-ai",
+    "source": "github",
+    "source_url": "https://github.com/777genius/agent-teams-ai",
+    "summary": "多智能体协作平台，将LLM模拟为团队自主执行任务、相互通信和审查，通过看板实现高层管理。支持75+LLM提供商，基于Electron/React构建，采用多智能体通信协议（MCP）和动态任务调度，解决AI驱动软件开发的自动化与协作痛点。",
+    "highlights": [],
+    "tags": [
+      "Multi-Agent-System",
+      "LLM-Orchestration",
+      "Agent-Team-Management",
+      "Kanban-Workflow",
+      "MCP-Protocol"
+    ],
+    "language": "TypeScript",
+    "stars": 913,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:38:58Z",
+    "updated_at": "2026-05-14T10:38:58Z"
+  },
+  {
+    "id": "article-20260514-469",
+    "title": "helixml/helix",
+    "source": "github",
+    "source_url": "https://github.com/helixml/helix",
+    "summary": "私有部署的 AI Agent 集群，每个 Agent 拥有独立 GPU 桌面，支持多种商业/开源模型（Claude、Codex、Gemini、Qwen 等），基于 Kubernetes 编排，集成 RAG 和开放 API，解决企业数据隐私与定制化多模型代理需求。",
+    "highlights": [],
+    "tags": [
+      "Agent-Fleet",
+      "Kubernetes",
+      "GPU-Accelerated",
+      "Multi-Model",
+      "Self-Hosted"
+    ],
+    "language": "Go",
+    "stars": 777,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:38:58Z",
+    "updated_at": "2026-05-14T10:38:58Z"
+  },
+  {
+    "id": "article-20260514-830",
+    "title": "Agent-Field/SWE-AF",
+    "source": "github",
+    "source_url": "https://github.com/Agent-Field/SWE-AF",
+    "summary": "基于多智能体架构的自主软件开发系统，利用LLM（如Claude、Codex、Gemini）驱动代理集群实现从规划到生产级PR的全流程自动化，解决了工程团队在编码、测试和交付环节的效率瓶颈。",
+    "highlights": [],
+    "tags": [
+      "Multi-Agent-System",
+      "Code-Generation",
+      "Autonomous-Software-Engineering",
+      "LLM-Agent",
+      "Production-Workflow"
+    ],
+    "language": "Python",
+    "stars": 764,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:38:58Z",
+    "updated_at": "2026-05-14T10:38:58Z"
+  },
+  {
+    "id": "article-20260514-153",
+    "title": "SixHq/Overture",
+    "source": "github",
+    "source_url": "https://github.com/SixHq/Overture",
+    "summary": "基于MCP协议的开源可视化规划工具，以交互式流程图展示AI编码代理执行计划，解决代理决策黑盒问题，支持Claude、Cursor等多种LLM代理，提升任务透明度与可控性。",
+    "highlights": [],
+    "tags": [
+      "MCP-Server",
+      "Planning-Visualization",
+      "AI-Coding-Agent",
+      "Interactive-Flowchart"
+    ],
+    "language": "TypeScript",
+    "stars": 620,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:52:17Z",
+    "updated_at": "2026-05-14T10:52:17Z"
+  },
+  {
+    "id": "article-20260514-040",
+    "title": "shiwenwen/hope-agent",
+    "source": "github",
+    "source_url": "https://github.com/shiwenwen/hope-agent",
+    "summary": "基于 Rust 的跨设备桌面 AI 助手，支持远程/本地模型无缝切换与任务接力，通过 MCP 协议适配多模型后端，采用本地优先架构兼顾隐私与云端扩展，解决用户多终端 AI 协作中断的痛点。",
+    "highlights": [],
+    "tags": [
+      "Rust-AI-Engine",
+      "Cross-Device-Agent",
+      "MCP-Protocol",
+      "Local-First-Architecture",
+      "Headless-Deployment"
+    ],
+    "language": "Rust",
+    "stars": 534,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:52:17Z",
+    "updated_at": "2026-05-14T10:52:17Z"
+  },
+  {
+    "id": "article-20260514-375",
+    "title": "Team-Commonly/commonly",
+    "source": "github",
+    "source_url": "https://github.com/Team-Commonly/commonly",
+    "summary": "开源的 AI 代理社交平台，基于 HTTP 协议实现人类与任意 AI 代理的互联与协作。内置代理编排与通信的轻量级框架，支持自托管部署，解决多代理系统缺乏统一交互界面的痛点。由 AI 团队自主运维，体现代理自治理念。",
+    "highlights": [],
+    "tags": [
+      "Agent-Orchestration",
+      "HTTP-Agent-Protocol",
+      "Self-Hosted-Platform",
+      "Multi-Agent-System"
+    ],
+    "language": "TypeScript",
+    "stars": 506,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:52:17Z",
+    "updated_at": "2026-05-14T10:52:17Z"
+  },
+  {
+    "id": "article-20260514-141",
+    "title": "mm7894215/TokenTracker",
+    "source": "github",
+    "source_url": "https://github.com/mm7894215/TokenTracker",
+    "summary": "多AI代理CLI的token使用跟踪器，本地优先、零配置，通过解析15种CLI的token消耗数据，提供统一仪表盘、macOS菜单栏及桌面小部件展示，解决开发者分散管理token成本的痛点，强调隐私和数据自主性。",
+    "highlights": [],
+    "tags": [
+      "Token-Tracking",
+      "Local-First",
+      "CLI-Integration",
+      "Desktop-Widget",
+      "macOS-MenuBar"
+    ],
+    "language": "JavaScript",
+    "stars": 464,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:52:17Z",
+    "updated_at": "2026-05-14T10:52:17Z"
+  },
+  {
+    "id": "article-20260514-707",
+    "title": "aldefy/compose-skill",
+    "source": "github",
+    "source_url": "https://github.com/aldefy/compose-skill",
+    "summary": "为Jetpack Compose开发者打造的AI代理技能包，整合Claude Code、Codex等主流AI编码工具，通过嵌入真实AndroidX源码片段提供精准代码指引与最佳实践，解决了在Compose开发中频繁查阅官方API文档的效率痛点，采用模块化Skill配置实现多平台AI工具的无缝集成。",
+    "highlights": [],
+    "tags": [
+      "Jetpack-Compose",
+      "LLM-Integration",
+      "Agent-Skill",
+      "Android-Development",
+      "Developer-Tools"
+    ],
+    "language": "Shell",
+    "stars": 461,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:52:17Z",
+    "updated_at": "2026-05-14T10:52:17Z"
+  },
+  {
+    "id": "article-20260514-384",
+    "title": "swarmclawai/swarmvault",
+    "source": "github",
+    "source_url": "https://github.com/swarmclawai/swarmvault",
+    "summary": "本地优先的 LLM Wiki，集成知识图谱构建、RAG 检索与 Agent 持久化记忆，基于 Andrej Karpathy 的架构模式。作为 Obsidian 的 AI 原生替代，支持 MCP Server 协议，为 Claude Code / Codex 等工具提供结构化记忆存储，解决个人知识管理与 AI 记忆碎片化问题。",
+    "highlights": [],
+    "tags": [
+      "Knowledge-Graph",
+      "RAG",
+      "Local-First",
+      "Agent-Memory",
+      "MCP-Server"
+    ],
+    "language": "TypeScript",
+    "stars": 450,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:52:17Z",
+    "updated_at": "2026-05-14T10:52:17Z"
+  },
+  {
+    "id": "article-20260514-708",
+    "title": "cyhhao/vibe-remote",
+    "source": "github",
+    "source_url": "https://github.com/cyhhao/vibe-remote",
+    "summary": "基于ChatOps的AI代理中央指挥系统，通过统一适配器将Claude Code、OpenCode等代码生成代理接入Slack、Discord、Telegram等六大协作平台，实现实时流式输出与远程调度，解决团队在统一工作流中使用多种AI编程助手的便捷性与集成难题。",
+    "highlights": [],
+    "tags": [
+      "ChatOps",
+      "Multi-Agent-Orchestration",
+      "Real-Time-Streaming",
+      "Cross-Platform-Messaging"
+    ],
+    "language": "Python",
+    "stars": 436,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:52:17Z",
+    "updated_at": "2026-05-14T10:52:17Z"
+  },
+  {
+    "id": "article-20260514-657",
+    "title": "yzhao062/agent-style",
+    "source": "github",
+    "source_url": "https://github.com/yzhao062/agent-style",
+    "summary": "一套21条专门用于AI编码与写作代理的提示工程规则集，可无缝嵌入Claude Code、Codex、Copilot、Cursor、Aider等主流工具，通过强制技术写作风格约束，解决AI输出缺乏专业性与一致性的痛点。基于Prompt Engineering范式设计，轻量级即插即用，无需复杂架构。",
+    "highlights": [],
+    "tags": [
+      "Prompt-Engineering",
+      "Style-Rules",
+      "Technical-Writing-Guideline",
+      "AI-Coding-Agent"
+    ],
+    "language": "Python",
+    "stars": 435,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:52:17Z",
+    "updated_at": "2026-05-14T10:52:17Z"
+  },
+  {
+    "id": "article-20260514-802",
+    "title": "reyamira/models",
+    "source": "github",
+    "source_url": "https://github.com/reyamira/models",
+    "summary": "基于Rust和Ratatui构建的TUI/CLI工具，聚合展示AI模型、基准测试、编码代理及提供商状态，解决开发者频繁查模型信息需切换网页的痛点，采用异步数据获取与终端渲染分离架构，提供沉浸式终端体验。",
+    "highlights": [],
+    "tags": [
+      "Ratatui-TUI",
+      "AI-Model-Browser",
+      "Benchmark-Aggregator",
+      "Rust-CLI"
+    ],
+    "language": "Rust",
+    "stars": 420,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:52:17Z",
+    "updated_at": "2026-05-14T10:52:17Z"
+  },
+  {
+    "id": "article-20260514-519",
+    "title": "nvk/llm-wiki",
+    "source": "github",
+    "source_url": "https://github.com/nvk/llm-wiki",
+    "summary": "基于 LLM 的自动化知识库编译系统，通过并行多代理协作实现主题驱动的研究、源文档摄取和结构化的 wiki 生成，为 AI agent 提供动态、可查询的知识底座。其核心架构将 LLM 编排为研究流水线，集成 claude-code/codex 等工具完成工作流。",
+    "highlights": [],
+    "tags": [
+      "Agentic-Workflow",
+      "Knowledge-Base-Compilation",
+      "Multi-Agent-Research",
+      "LLM-Pipeline"
+    ],
+    "language": "Shell",
+    "stars": 415,
+    "status": "analyzed",
+    "created_at": "2026-05-14T10:52:17Z",
+    "updated_at": "2026-05-14T10:52:17Z"
+  },
+  {
+    "id": "article-20260515-445",
     "title": "langgenius/dify",
     "source": "github",
     "source_url": "https://github.com/langgenius/dify",
-    "summary": "生产级智能体工作流开发平台，支持低代码编排与RAG。",
+    "summary": "开源的代理式工作流开发平台，提供可视化编排、内置RAG引擎、多模型接入（如GPT、Gemini）与MCP协议支持，以低代码/无代码方式解决企业级AI自动化流程构建与部署的复杂度问题。",
     "highlights": [],
     "tags": [
-      "AI Agent",
-      "工作流",
-      "低代码"
+      "Agent-Orchestration",
+      "RAG-Engine",
+      "Low-Code-Platform",
+      "Multi-Model-Gateway",
+      "Workflow-Automation"
     ],
     "language": "TypeScript",
-    "stars": 140991,
+    "stars": 141392,
     "status": "analyzed",
-    "created_at": "2026-05-12T01:35:51Z",
-    "updated_at": "2026-05-12T01:35:51Z"
+    "created_at": "2026-05-15T01:22:47Z",
+    "updated_at": "2026-05-15T01:22:47Z"
   },
   {
-    "id": "supervisor-20260512-672",
+    "id": "article-20260515-131",
     "title": "langchain-ai/langchain",
     "source": "github",
     "source_url": "https://github.com/langchain-ai/langchain",
-    "summary": "LangChain是构建AI代理的工程平台，支持多种LLM和工具集成。",
+    "summary": "LangChain 是一个以智能体工程为核心的开源框架，通过模块化的链式编排、多模型抽象层与工具集成，解决了 LLM 应用开发中提示管理、记忆持久化、数据检索增强及复杂工作流编排等痛点。其架构亮点在于可插拔的组件设计（如 Chains、Agents、Retrievers）与 LangGraph 的有向图执行引擎，支持动态多步骤推理与状态化交互。",
     "highlights": [],
     "tags": [
-      "AI代理",
-      "LLM框架",
-      "开源"
-    ],
-    "language": "Python",
-    "stars": 136460,
-    "status": "analyzed",
-    "created_at": "2026-05-12T01:35:51Z",
-    "updated_at": "2026-05-12T01:35:51Z"
-  },
-  {
-    "id": "supervisor-20260512-197",
-    "title": "Shubhamsaboo/awesome-llm-apps",
-    "source": "github",
-    "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-    "summary": "提供100多个可运行、可定制的AI Agent与RAG应用示例，基于Python。",
-    "highlights": [],
-    "tags": [
-      "AI Agent",
+      "LLM-Framework",
+      "Agent-Orchestration",
       "RAG",
-      "LLM",
-      "Python",
-      "应用示例"
+      "Tool-Integration",
+      "Graph-Based-Workflow"
     ],
     "language": "Python",
-    "stars": 109834,
+    "stars": 136746,
     "status": "analyzed",
-    "created_at": "2026-05-12T01:35:51Z",
-    "updated_at": "2026-05-12T01:35:51Z"
+    "created_at": "2026-05-15T01:22:47Z",
+    "updated_at": "2026-05-15T01:22:47Z"
   },
   {
-    "id": "supervisor-20260512-783",
-    "title": "browser-use/browser-use",
-    "source": "github",
-    "source_url": "https://github.com/browser-use/browser-use",
-    "summary": "让AI代理轻松操控浏览器，自动化在线任务。",
-    "highlights": [],
-    "tags": [
-      "AI代理",
-      "浏览器自动化",
-      "Playwright",
-      "Python",
-      "LLM"
-    ],
-    "language": "Python",
-    "stars": 93440,
-    "status": "analyzed",
-    "created_at": "2026-05-12T01:35:51Z",
-    "updated_at": "2026-05-12T01:35:51Z"
-  },
-  {
-    "id": "supervisor-20260512-783",
-    "title": "infiniflow/ragflow",
-    "source": "github",
-    "source_url": "https://github.com/infiniflow/ragflow",
-    "summary": "领先的开源RAG引擎，融合检索增强生成与智能体能力，为LLM构建上下文层。",
-    "highlights": [],
-    "tags": [
-      "RAG",
-      "AI Agents",
-      "检索增强生成"
-    ],
-    "language": "Python",
-    "stars": 80269,
-    "status": "analyzed",
-    "created_at": "2026-05-12T01:35:51Z",
-    "updated_at": "2026-05-12T01:35:51Z"
-  },
-  {
-    "id": "supervisor-20260512-761",
+    "id": "article-20260515-773",
     "title": "OpenHands/OpenHands",
     "source": "github",
     "source_url": "https://github.com/OpenHands/OpenHands",
-    "summary": "OpenHands是一个AI驱动的开发工具，支持多种LLM，提供智能代理和CLI功能。",
+    "summary": "开源 AI 软件智能体，基于事件驱动架构和沙盒隔离技术，集成 GPT-4、Claude 等多模型，通过自然语言与用户协作完成编码、调试、部署等复杂开发任务，大幅提升开发效率。",
     "highlights": [],
     "tags": [
-      "AI开发",
-      "LLM",
-      "开发者工具"
+      "LLM-Agent",
+      "Event-Driven-Architecture",
+      "Sandbox-Isolation",
+      "Code-Generation",
+      "Multi-Model-Integration"
     ],
     "language": "Python",
-    "stars": 73207,
+    "stars": 73552,
     "status": "analyzed",
-    "created_at": "2026-05-12T01:35:51Z",
-    "updated_at": "2026-05-12T01:35:51Z"
+    "created_at": "2026-05-15T01:22:47Z",
+    "updated_at": "2026-05-15T01:22:47Z"
   },
   {
-    "id": "supervisor-20260512-138",
-    "title": "hiyouga/LlamaFactory",
-    "source": "github",
-    "source_url": "https://github.com/hiyouga/LlamaFactory",
-    "summary": "高效微调100+大语言模型与视觉语言模型的统一框架",
-    "highlights": [],
-    "tags": [
-      "大语言模型",
-      "微调",
-      "高效训练"
-    ],
-    "language": "Python",
-    "stars": 71150,
-    "status": "analyzed",
-    "created_at": "2026-05-12T01:35:51Z",
-    "updated_at": "2026-05-12T01:35:51Z"
-  },
-  {
-    "id": "supervisor-20260512-466",
+    "id": "article-20260515-490",
     "title": "FoundationAgents/MetaGPT",
     "source": "github",
     "source_url": "https://github.com/FoundationAgents/MetaGPT",
-    "summary": "多智能体框架，模拟软件公司，实现自然语言编程。",
+    "summary": "基于LLM的多智能体协作框架，通过模拟软件公司中产品经理、架构师、工程师等角色，利用结构化对话和SOP（标准操作流程）将自然语言需求自动转化为可执行代码。它解决了传统软件开发中需求沟通、团队协作和文档编排的低效问题，实现了从需求到代码的全流程自动化，显著降低开发门槛。",
     "highlights": [],
     "tags": [
-      "agent",
-      "multi-agent",
-      "LLM",
-      "GPT",
-      "AI框架"
+      "Multi-Agent-System",
+      "LLM-Orchestration",
+      "Software-Engineering-Automation",
+      "Role-Playing-Framework"
     ],
     "language": "Python",
-    "stars": 67896,
+    "stars": 67977,
     "status": "analyzed",
-    "created_at": "2026-05-12T01:35:51Z",
-    "updated_at": "2026-05-12T01:35:51Z"
+    "created_at": "2026-05-15T01:28:28Z",
+    "updated_at": "2026-05-15T01:28:28Z"
   },
   {
-    "id": "supervisor-20260512-439",
-    "title": "bytedance/deer-flow",
+    "id": "article-20260515-442",
+    "title": "AstrBotDevs/AstrBot",
     "source": "github",
-    "source_url": "https://github.com/bytedance/deer-flow",
-    "summary": "字节开源的长时域超级智能体框架，集成沙盒、记忆、工具等模块处理分钟级任务。",
+    "source_url": "https://github.com/AstrBotDevs/AstrBot",
+    "summary": "A multi-platform AI Agent framework integrating Discord, QQ, Telegram and multiple LLMs (GPT, Gemini, Llama, etc.), with a plugin architecture and MCP protocol support. Designed as an open-source alternative to closed-source assistants, it solves the cross-platform AI deployment and extension pain points. The unified abstraction layer allows dynamic model/IM switching.",
     "highlights": [],
     "tags": [
-      "agentic-framework",
-      "multi-agent",
-      "deep-research",
-      "LLM",
-      "Python"
+      "Multi-Platform-Agent",
+      "Plugin-Architecture",
+      "LLM-Integration",
+      "MCP-Protocol",
+      "Chatbot-Framework"
     ],
     "language": "Python",
-    "stars": 66959,
+    "stars": 32197,
     "status": "analyzed",
-    "created_at": "2026-05-12T01:35:51Z",
-    "updated_at": "2026-05-12T01:35:51Z"
+    "created_at": "2026-05-15T01:28:28Z",
+    "updated_at": "2026-05-15T01:28:28Z"
+  },
+  {
+    "id": "article-20260515-469",
+    "title": "langchain-ai/langgraph",
+    "source": "github",
+    "source_url": "https://github.com/langchain-ai/langgraph",
+    "summary": "LangGraph 是 LangChain 生态下的有向图状态机框架，通过图结构编排 LLM Agent 的循环、分支与持久化，解决传统单步 Prompt 难以构建可靠、可控的多步骤工作流痛点；支持人机交互、流式输出和多智能体协作，极大提升 Agent 的弹性与可观测性。",
+    "highlights": [],
+    "tags": [
+      "Graph-Based-Agent",
+      "State-Machine",
+      "Agent-Orchestration",
+      "LLM-Workflow",
+      "Multi-Agent-Framework"
+    ],
+    "language": "Python",
+    "stars": 32064,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:28:28Z",
+    "updated_at": "2026-05-15T01:28:28Z"
+  },
+  {
+    "id": "article-20260515-593",
+    "title": "openai/openai-agents-python",
+    "source": "github",
+    "source_url": "https://github.com/openai/openai-agents-python",
+    "summary": "OpenAI 官方的轻量级多智能体工作流框架，基于 Python 实现 Agent 编排与任务委派，支持动态角色分配、上下文共享及工具集成，解决复杂 LLM 应用中的多 Agent 协作与状态管理难题。",
+    "highlights": [],
+    "tags": [
+      "Multi-Agent-System",
+      "Agent-Orchestration",
+      "LLM-Framework",
+      "Async-Task-Scheduling"
+    ],
+    "language": "Python",
+    "stars": 26315,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:28:28Z",
+    "updated_at": "2026-05-15T01:28:28Z"
+  },
+  {
+    "id": "article-20260515-166",
+    "title": "deepset-ai/haystack",
+    "source": "github",
+    "source_url": "https://github.com/deepset-ai/haystack",
+    "summary": "Haystack 是模块化 LLM 编排框架，通过可组合管道和代理工作流显式控制检索、路由、记忆与生成。面向 RAG、语义搜索和对话系统，提供生产级上下文工程能力，核心架构基于组件化管道与多模型适配器。",
+    "highlights": [],
+    "tags": [
+      "RAG",
+      "Agent-Orchestration",
+      "Pipeline-Architecture",
+      "Semantic-Search"
+    ],
+    "language": "MDX",
+    "stars": 25230,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:28:28Z",
+    "updated_at": "2026-05-15T01:28:28Z"
+  },
+  {
+    "id": "article-20260515-464",
+    "title": "mastra-ai/mastra",
+    "source": "github",
+    "source_url": "https://github.com/mastra-ai/mastra",
+    "summary": "来自 Gatsby 团队的全栈 TypeScript 框架，专为构建 AI 代理和工作流应用设计。集成 LLM 调用、模型上下文协议 (MCP)、语音合成 (TTS) 及评估管道，提供声明式工作流编排与 React/Next.js 前端整合能力，显著降低 AI 应用的开发与调试复杂度。",
+    "highlights": [],
+    "tags": [
+      "AI-Agent-Framework",
+      "Workflow-Orchestration",
+      "LLM-Integration",
+      "TypeScript-Stack",
+      "Model-Context-Protocol"
+    ],
+    "language": "TypeScript",
+    "stars": 23894,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:28:28Z",
+    "updated_at": "2026-05-15T01:28:28Z"
+  },
+  {
+    "id": "article-20260515-467",
+    "title": "humanlayer/12-factor-agents",
+    "source": "github",
+    "source_url": "https://github.com/humanlayer/12-factor-agents",
+    "summary": "该仓库定义了构建生产级 LLM 应用的 12 条原则（12-Factor Agents），涵盖可观测性、记忆管理、上下文窗口优化、编排等关键模块，以 TypeScript 实现参考示例，解决了 LLM 软件从原型到可靠部署的架构缺失问题。",
+    "highlights": [],
+    "tags": [
+      "Agent-Orchestration",
+      "Context-Window-Management",
+      "12-Factor-Principles",
+      "Memory-Architecture"
+    ],
+    "language": "TypeScript",
+    "stars": 19804,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:28:28Z",
+    "updated_at": "2026-05-15T01:28:28Z"
+  },
+  {
+    "id": "article-20260515-807",
+    "title": "TransformerOptimus/SuperAGI",
+    "source": "github",
+    "source_url": "https://github.com/TransformerOptimus/SuperAGI",
+    "summary": "SuperAGI 是一个面向开发者的开源自主AI代理框架，基于 LLM（如 GPT-4）构建，支持多代理工作流、向量记忆（Pinecone）、工具调用与任务规划。它解决了自主代理开发中的可靠性、可管理性和可扩展性痛点，提供模块化架构和易用的 API/SDK。",
+    "highlights": [],
+    "tags": [
+      "Autonomous-Agent-Framework",
+      "LLM-Agent",
+      "Vector-Memory",
+      "Tool-Using",
+      "Agent-Orchestration"
+    ],
+    "language": "Python",
+    "stars": 17518,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:28:28Z",
+    "updated_at": "2026-05-15T01:28:28Z"
+  },
+  {
+    "id": "article-20260515-376",
+    "title": "pydantic/pydantic-ai",
+    "source": "github",
+    "source_url": "https://github.com/pydantic/pydantic-ai",
+    "summary": "基于Pydantic V2的类型系统，提供强类型AI Agent框架。通过声明式类型定义LLM输入输出，自动实现结构化解析与函数调用，解决传统Agent开发中prompt管理混乱和结果解析易错的问题。集成主流大模型，支持依赖注入与验证链。",
+    "highlights": [],
+    "tags": [
+      "Agent-Framework",
+      "Type-Safety",
+      "Structured-Output",
+      "LLM-Orchestration"
+    ],
+    "language": "Python",
+    "stars": 17064,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:28:28Z",
+    "updated_at": "2026-05-15T01:28:28Z"
+  },
+  {
+    "id": "article-20260515-545",
+    "title": "raga-ai-hub/RagaAI-Catalyst",
+    "source": "github",
+    "source_url": "https://github.com/raga-ai-hub/RagaAI-Catalyst",
+    "summary": "RagaAI-Catalyst 是专注于多 Agent 系统可观测性的 Python SDK，通过 LLM 调用链追踪、执行图与时间线可视化，解决 Agent 协作中的调试与性能监控痛点，并提供自托管仪表板和评估框架。",
+    "highlights": [],
+    "tags": [
+      "Agent-Observability",
+      "LLM-Tracing",
+      "Multi-Agent-Debugging",
+      "Execution-Graph-Visualization",
+      "Evaluation-Framework"
+    ],
+    "language": "Python",
+    "stars": 16161,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:28:28Z",
+    "updated_at": "2026-05-15T01:28:28Z"
+  },
+  {
+    "id": "article-20260515-443",
+    "title": "VoltAgent/voltagent",
+    "source": "github",
+    "source_url": "https://github.com/VoltAgent/voltagent",
+    "summary": "基于TypeScript的开源AI Agent工程平台，提供多智能体协作、可观测性、MCP协议支持及RAG/TTS能力，解决LLM应用在实际生产中的工程化、调试与编排难题，亮点在于模块化架构与全栈可观测性。",
+    "highlights": [],
+    "tags": [
+      "Multi-Agent-Architecture",
+      "LLM-Observability",
+      "MCP-Protocol",
+      "RAG"
+    ],
+    "language": "TypeScript",
+    "stars": 8920,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:28:28Z",
+    "updated_at": "2026-05-15T01:28:28Z"
+  },
+  {
+    "id": "article-20260515-905",
+    "title": "MervinPraison/PraisonAI",
+    "source": "github",
+    "source_url": "https://github.com/MervinPraison/PraisonAI",
+    "summary": "基于Python的多智能体编排框架，通过5行代码即可部署具备记忆、RAG及100+LLM接入能力的自主自改进代理，解决企业级AI工作流中重复搭建与维护智能体的痛点。架构采用模块化Agent调度与记忆增强机制，支持多代理协同。",
+    "highlights": [],
+    "tags": [
+      "Multi-Agent-Orchestration",
+      "RAG-Integration",
+      "Self-Improving-Agents",
+      "LLM-Agnostic",
+      "Agent-Framework"
+    ],
+    "language": "Python",
+    "stars": 7720,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:28:28Z",
+    "updated_at": "2026-05-15T01:28:28Z"
+  },
+  {
+    "id": "article-20260515-964",
+    "title": "InternLM/MindSearch",
+    "source": "github",
+    "source_url": "https://github.com/InternLM/MindSearch",
+    "summary": "基于LLM的多智能体Web搜索框架，通过多智能体协作实现查询规划、网页浏览与信息综合，提供类似Perplexity.ai的深度答案生成能力，解决传统搜索引擎信息碎片化与长尾查询痛点。",
+    "highlights": [],
+    "tags": [
+      "Multi-Agent-System",
+      "LLM-Search-Engine",
+      "Transformer",
+      "Web-Information-Retrieval",
+      "Agent-Collaboration"
+    ],
+    "language": "JavaScript",
+    "stars": 6855,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:28:28Z",
+    "updated_at": "2026-05-15T01:28:28Z"
+  },
+  {
+    "id": "article-20260515-185",
+    "title": "lavague-ai/LaVague",
+    "source": "github",
+    "source_url": "https://github.com/lavague-ai/LaVague",
+    "summary": "基于 Large Action Model 的 AI Web Agent 框架，将自然语言指令拆解为可执行的浏览器操作序列，内置 RAG 检索增强生成能力，实现无需编程的 Web 任务自动化，显著降低 RPA 和浏览器测试的编写成本。",
+    "highlights": [],
+    "tags": [
+      "Large-Action-Model",
+      "Web-Agent",
+      "Browser-Automation",
+      "LLM-Orchestration"
+    ],
+    "language": "Python",
+    "stars": 6344,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:28:28Z",
+    "updated_at": "2026-05-15T01:28:28Z"
+  },
+  {
+    "id": "article-20260515-346",
+    "title": "PySpur-Dev/pyspur",
+    "source": "github",
+    "source_url": "https://github.com/PySpur-Dev/pyspur",
+    "summary": "PySpur 是一个可视化的 agent 工作流构建平台，通过图编排支持循环、人机协同、多模态和追踪，显著加速 agent 迭代效率。其核心亮点是动态图引擎和丰富的模型接入（DeepSeek、Gemini、Ollama 等），为复杂推理和 RAG 场景提供直觉式调试体验。",
+    "highlights": [],
+    "tags": [
+      "Agent-Orchestration",
+      "Visual-Programming",
+      "Graph-Based-Workflow",
+      "Human-in-the-Loop"
+    ],
+    "language": "TypeScript",
+    "stars": 5720,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:28:28Z",
+    "updated_at": "2026-05-15T01:28:28Z"
+  },
+  {
+    "id": "article-20260515-933",
+    "title": "AgentOps-AI/agentops",
+    "source": "github",
+    "source_url": "https://github.com/AgentOps-AI/agentops",
+    "summary": "为AI agent和LLM应用提供全方位可观测性的Python SDK，集成30+模型和框架（如CrewAI、LangChain、OpenAI Agents），支持实时调用追踪、成本核算、性能基准测试与多维度评估，解决agent开发和部署中缺乏监控与成本管控的痛点，采用插件化架构实现与第三方工具的无缝衔接。",
+    "highlights": [],
+    "tags": [
+      "Agent-Monitoring",
+      "LLM-Cost-Tracking",
+      "Observability-SDK",
+      "Evals-Framework"
+    ],
+    "language": "Python",
+    "stars": 5545,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:28:28Z",
+    "updated_at": "2026-05-15T01:28:28Z"
+  },
+  {
+    "id": "article-20260515-467",
+    "title": "OpenBMB/AgentVerse",
+    "source": "github",
+    "source_url": "https://github.com/OpenBMB/AgentVerse",
+    "summary": "基于LLM的多智能体协作框架，提供任务求解与模拟两大核心框架，通过模块化设计实现智能体间的通信与协调，解决复杂任务分解与多角色仿真的业务痛点。",
+    "highlights": [],
+    "tags": [
+      "Multi-Agent-Systems",
+      "LLM-Orchestration",
+      "Agent-Communication",
+      "Task-Decomposition",
+      "Simulation-Framework"
+    ],
+    "language": "JavaScript",
+    "stars": 5035,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:28:28Z",
+    "updated_at": "2026-05-15T01:28:28Z"
+  },
+  {
+    "id": "article-20260515-624",
+    "title": "truefoundry/cognita",
+    "source": "github",
+    "source_url": "https://github.com/truefoundry/cognita",
+    "summary": "面向生产环境的模块化RAG框架，提供可插拔的文档处理、向量检索、LLM调用与Agent编排组件，内置LLMOps（评估、监控、部署）能力，降低企业级检索增强生成应用的集成与运维复杂度。",
+    "highlights": [],
+    "tags": [
+      "RAG-Framework",
+      "Modular-Architecture",
+      "LLMOps",
+      "Agent-Orchestration"
+    ],
+    "language": "Python",
+    "stars": 4410,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:28:28Z",
+    "updated_at": "2026-05-15T01:28:28Z"
+  },
+  {
+    "id": "article-20260515-771",
+    "title": "WeThinkIn/AIGC-Interview-Book",
+    "source": "github",
+    "source_url": "https://github.com/WeThinkIn/AIGC-Interview-Book",
+    "summary": "系统性覆盖AIGC、LLM大模型、AI Agent、传统深度学习、计算机视觉、机器学习等AI领域核心知识的面试指南，整合算法原理与实战经验，解决求职者系统性备考痛点，强调知识结构化与高频考点解析。",
+    "highlights": [],
+    "tags": [
+      "Large-Language-Models",
+      "Computer-Vision",
+      "Machine-Learning",
+      "Interview-Preparation",
+      "Knowledge-Base"
+    ],
+    "language": "未指定",
+    "stars": 3710,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:42:35Z",
+    "updated_at": "2026-05-15T01:42:35Z"
+  },
+  {
+    "id": "article-20260515-192",
+    "title": "CoderSJX/AI-Resources-Central",
+    "source": "github",
+    "source_url": "https://github.com/CoderSJX/AI-Resources-Central",
+    "summary": "全球优秀AI开源项目的精选索引，涵盖LLM、Agent、提示工程等前沿领域，提供结构化导航和分类，帮助开发者高效发现高质量工具与框架，避免信息过载。",
+    "highlights": [],
+    "tags": [
+      "Awesome-List",
+      "Resource-Collection",
+      "LLM-Ecosystem"
+    ],
+    "language": "未指定",
+    "stars": 1222,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:42:35Z",
+    "updated_at": "2026-05-15T01:42:35Z"
+  },
+  {
+    "id": "article-20260515-657",
+    "title": "divagr18/memlayer",
+    "source": "github",
+    "source_url": "https://github.com/divagr18/memlayer",
+    "summary": "为LLM提供即插即用的持久化内存，三行代码即可集成，结合向量数据库与知识图谱实现类人记忆与召回，解决大模型缺乏长期上下文的痛点，支持任意模型快速接入。",
+    "highlights": [],
+    "tags": [
+      "LLM-Memory",
+      "Persistent-Memory",
+      "Vector-Database",
+      "Knowledge-Graph",
+      "Embedding"
+    ],
+    "language": "Python",
+    "stars": 274,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:42:35Z",
+    "updated_at": "2026-05-15T01:42:35Z"
+  },
+  {
+    "id": "article-20260515-460",
+    "title": "TYH-labs/unsloth-buddy",
+    "source": "github",
+    "source_url": "https://github.com/TYH-labs/unsloth-buddy",
+    "summary": "零摩擦LLM微调技能，面向Claude Code、Gemini CLI等ACP agent，自动化环境搭建与LoRA训练（SFT、DPO、GRPO、视觉），集成Unsloth加速与TRL/MPS/MLX多平台支持，实现端到端微调、诊断、评估与导出。",
+    "highlights": [],
+    "tags": [
+      "LoRA-Training",
+      "Multi-Platform",
+      "Agent-Integration",
+      "Auto-Env-Setup",
+      "GRPO"
+    ],
+    "language": "Python",
+    "stars": 237,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:42:35Z",
+    "updated_at": "2026-05-15T01:42:35Z"
+  },
+  {
+    "id": "article-20260515-100",
+    "title": "romanyn36/agentic-ai-roadmap",
+    "source": "github",
+    "source_url": "https://github.com/romanyn36/agentic-ai-roadmap",
+    "summary": "提供从Python基础到数学、ML/DL、LLM及Agent系统的完整学习路径，结合LangChain/LangGraph等流行框架与实战项目，适合希望系统掌握生产级AI技能的开发者，但内容组织较浅，缺乏深度技术解析。",
+    "highlights": [],
+    "tags": [
+      "Learning-Roadmap",
+      "LangChain",
+      "LangGraph",
+      "LLM",
+      "Agent-System"
+    ],
+    "language": "未指定",
+    "stars": 95,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:42:35Z",
+    "updated_at": "2026-05-15T01:42:35Z"
+  },
+  {
+    "id": "article-20260515-554",
+    "title": "EM-GeekLab/LLMOne",
+    "source": "github",
+    "source_url": "https://github.com/EM-GeekLab/LLMOne",
+    "summary": "企业级LLM自动化部署工具，通过模块化后端适配层集成vLLM、Ollama、Transformer及MindIE等推理引擎，实现AI服务器的即插即用部署，解决企业级LLM服务化过程中环境配置复杂、多框架切换成本高的痛点。",
+    "highlights": [],
+    "tags": [
+      "LLM-Serving",
+      "Automated-Deployment",
+      "Multi-Backend",
+      "vLLM",
+      "Ollama"
+    ],
+    "language": "TypeScript",
+    "stars": 87,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:42:35Z",
+    "updated_at": "2026-05-15T01:42:35Z"
+  },
+  {
+    "id": "article-20260515-880",
+    "title": "bigai-nlco/Awesome-AI-Memory",
+    "source": "github",
+    "source_url": "https://github.com/bigai-nlco/Awesome-AI-Memory",
+    "summary": "该仓库是一篇发表在TMLR上的综述论文，系统梳理了LLM/MLLM中的记忆机制，提出了隐式、显式和代理记忆三类范式分类法，为记忆增强的多模态大模型研究提供结构化参考，解决记忆架构设计缺乏统一框架的问题。",
+    "highlights": [],
+    "tags": [
+      "Memory-Paradigms",
+      "LLM-Survey",
+      "Taxonomy-of-Memory",
+      "Agentic-Memory"
+    ],
+    "language": "未指定",
+    "stars": 30,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:42:35Z",
+    "updated_at": "2026-05-15T01:42:35Z"
+  },
+  {
+    "id": "article-20260515-216",
+    "title": "ethicalByte1443/Insurance-AI-Agent-RAG-Based",
+    "source": "github",
+    "source_url": "https://github.com/ethicalByte1443/Insurance-AI-Agent-RAG-Based",
+    "summary": "全栈保险理赔决策系统，结合FastAPI后端与React TypeScript前端，利用HuggingFace Transformers和Gemma LLM进行条款分析与客户查询处理。采用RAG架构实现知识增强推理，自动化预测理赔批准或拒绝并提供理由与金额估算，解决传统保险理赔效率低、主观性强的痛点。",
+    "highlights": [],
+    "tags": [
+      "RAG-System",
+      "LLM-Agent",
+      "Insurance-Claim-Analysis",
+      "FastAPI",
+      "React-TypeScript"
+    ],
+    "language": "TypeScript",
+    "stars": 22,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:42:35Z",
+    "updated_at": "2026-05-15T01:42:35Z"
+  },
+  {
+    "id": "article-20260515-907",
+    "title": "mac999/LLM-RAG-Agent-Tutorial",
+    "source": "github",
+    "source_url": "https://github.com/mac999/LLM-RAG-Agent-Tutorial",
+    "summary": "一套面向开发者的LLM-RAG-Agent教学教程，基于Jupyter Notebook和LangChain实现，涵盖Transformer、文档问答（PDF RAG）、Agent编排等技术点，配有演示幻灯片，适合快速入门AI应用开发。",
+    "highlights": [],
+    "tags": [
+      "LangChain",
+      "RAG-Tutorial",
+      "Agent-Tutorial",
+      "Jupyter-Notebook"
+    ],
+    "language": "Jupyter Notebook",
+    "stars": 21,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:42:35Z",
+    "updated_at": "2026-05-15T01:42:35Z"
+  },
+  {
+    "id": "article-20260515-236",
+    "title": "markl-a/My-AI-Learning-Notes",
+    "source": "github",
+    "source_url": "https://github.com/markl-a/My-AI-Learning-Notes",
+    "summary": "提供繁中 AI/LLM 学习路径与面试准备材料，涵盖 Transformer、RAG、Agent、Prompt Engineering 等前沿主题，以 Jupyter Notebook 呈现教学代码与笔记，适合初学者系统掌握 LLM 技术栈，但缺乏工程创新与原创贡献。",
+    "highlights": [],
+    "tags": [
+      "LLM-Learning-Path",
+      "RAG",
+      "Prompt-Engineering",
+      "Agent",
+      "Traditional-Chinese"
+    ],
+    "language": "Jupyter Notebook",
+    "stars": 17,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:42:35Z",
+    "updated_at": "2026-05-15T01:42:35Z"
+  },
+  {
+    "id": "article-20260515-028",
+    "title": "rohit180497/Coffee-Shop-AI-Agents",
+    "source": "github",
+    "source_url": "https://github.com/rohit180497/Coffee-Shop-AI-Agents",
+    "summary": "基于LangChain与Pinecone的RAG架构，集成AI代理实现自然语言点单与推荐，利用Apriori算法进行关联规则分析优化套餐组合，结合Android端打造全栈智能咖啡店系统。",
+    "highlights": [],
+    "tags": [
+      "RAG",
+      "Vector-Database",
+      "LLM-Agent",
+      "Association-Rule-Mining",
+      "Mobile-Integration"
+    ],
+    "language": "Jupyter Notebook",
+    "stars": 7,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:42:35Z",
+    "updated_at": "2026-05-15T01:42:35Z"
+  },
+  {
+    "id": "article-20260515-254",
+    "title": "rvats20/python-ollama",
+    "source": "github",
+    "source_url": "https://github.com/rvats20/python-ollama",
+    "summary": "个人实验性质的 Jupyter Notebook 集合，涵盖传统机器学习算法实现、基于 LangChain 和 Ollama 的 RAG 与 LLM Agent 应用，以及生成式 AI 内容。缺乏统一架构和创新，适合入门学习者参考。",
+    "highlights": [],
+    "tags": [
+      "LLM-Agent",
+      "RAG",
+      "Ollama",
+      "Machine-Learning-Pipeline",
+      "Jupyter-Notebook"
+    ],
+    "language": "Jupyter Notebook",
+    "stars": 5,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:42:35Z",
+    "updated_at": "2026-05-15T01:42:35Z"
+  },
+  {
+    "id": "article-20260515-491",
+    "title": "Running0-0/java-ai-path",
+    "source": "github",
+    "source_url": "https://github.com/Running0-0/java-ai-path",
+    "summary": "面向Java开发者的三阶段AI学习路径，从深度学习（DL4J图像分类）到LLM（LangChain4j RAG问答）再到Agent（多Agent协作），通过项目实战系统掌握Java生态下的主流AI框架。",
+    "highlights": [],
+    "tags": [
+      "DeepLearning4J",
+      "LangChain4j",
+      "RAG",
+      "Multi-Agent",
+      "Tutorial-Project"
+    ],
+    "language": "未指定",
+    "stars": 4,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:42:35Z",
+    "updated_at": "2026-05-15T01:42:35Z"
+  },
+  {
+    "id": "article-20260515-259",
+    "title": "Ryuketsukami/turboquant-skill",
+    "source": "github",
+    "source_url": "https://github.com/Ryuketsukami/turboquant-skill",
+    "summary": "实现 Google TurboQuant 压缩算法的 AI agent skill，旨在显著降低 LLM 推理中 KV cache 的内存占用（宣称 6x 减少）并加速推理（宣称 8x 加速），同时声称零精度损失。该技能兼容 Claude Code、Codex CLI 等 Agent Skills 生态，以可插拔方式集成，降低大模型部署成本。",
+    "highlights": [],
+    "tags": [
+      "KV-Cache-Compression",
+      "Model-Quantization",
+      "Agent-Skill",
+      "Inference-Optimization"
+    ],
+    "language": "Python",
+    "stars": 4,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:42:35Z",
+    "updated_at": "2026-05-15T01:42:35Z"
+  },
+  {
+    "id": "article-20260515-427",
+    "title": "EHMikel/LLM_transformer_agents_for_AI_tasks",
+    "source": "github",
+    "source_url": "https://github.com/EHMikel/LLM_transformer_agents_for_AI_tasks",
+    "summary": "该项目使用 PLpgSQL（PostgreSQL 存储过程语言）尝试构建基于 Transformer 的 LLM agent，旨在数据库内执行 AI 任务。由于缺乏详细描述和社区支持，且语言选择非主流，可能仅为一个实验性或教学性质的骨架项目，实际功能和性能存疑。",
+    "highlights": [],
+    "tags": [
+      "PLpgSQL",
+      "LLM-Agent",
+      "PostgreSQL",
+      "Transformer"
+    ],
+    "language": "PLpgSQL",
+    "stars": 3,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:42:35Z",
+    "updated_at": "2026-05-15T01:42:35Z"
+  },
+  {
+    "id": "article-20260515-134",
+    "title": "MDalamin5/Agentic-Ai-Journey-with-HuggingFace-and-LangChain-Academy-Course",
+    "source": "github",
+    "source_url": "https://github.com/MDalamin5/Agentic-Ai-Journey-with-HuggingFace-and-LangChain-Academy-Course",
+    "summary": "HuggingFace 与 LangChain Academy Agentic AI 课程的完整代码实现，深入浅出地演示了基于 LangGraph 的多步推理、自定义工具集成、人机协同（Human-in-the-Loop）及短期/长期记忆机制，并融合 Groq API 与 Ollama 实现本地推理，为构建 LLM 驱动的智能代理系统提供了可复现的教学范例。",
+    "highlights": [],
+    "tags": [
+      "LangGraph",
+      "Agentic-RAG",
+      "Human-in-the-Loop",
+      "Multi-Step-Reasoning",
+      "Long-Short-Term-Memory"
+    ],
+    "language": "Jupyter Notebook",
+    "stars": 3,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:42:35Z",
+    "updated_at": "2026-05-15T01:42:35Z"
+  },
+  {
+    "id": "article-20260515-544",
+    "title": "Mukku27/LLM_Trading_Agent",
+    "source": "github",
+    "source_url": "https://github.com/Mukku27/LLM_Trading_Agent",
+    "summary": "基于Transformer模型（LLM）的加密货币交易分析Demo，通过OpenRouter API调用大语言模型，结合技术指标和市场情绪数据生成交易建议，展示了AI Agent在量化交易中的基础应用。",
+    "highlights": [],
+    "tags": [
+      "LLM-Agent",
+      "Crypto-Trading",
+      "OpenRouter-API",
+      "Technical-Indicators"
+    ],
+    "language": "Python",
+    "stars": 3,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:42:35Z",
+    "updated_at": "2026-05-15T01:42:35Z"
+  },
+  {
+    "id": "article-20260515-155",
+    "title": "musamaanjum/ai-engineer-roadmap",
+    "source": "github",
+    "source_url": "https://github.com/musamaanjum/ai-engineer-roadmap",
+    "summary": "面向软件工程师的AI/LLM工程师学习路线图，涵盖Transformers、RAG、微调、Agent、LangChain、MLOps等核心方向，提供免费/付费课程、5个组合项目及面试准备，旨在系统化指导转型路径。",
+    "highlights": [],
+    "tags": [
+      "LLM-Learning-Path",
+      "Awesome-List",
+      "AI-Career-Path",
+      "MLOps-Curriculum",
+      "Agent-Framework"
+    ],
+    "language": "未指定",
+    "stars": 3,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:42:35Z",
+    "updated_at": "2026-05-15T01:42:35Z"
+  },
+  {
+    "id": "article-20260515-327",
+    "title": "Init-Abdellm/AAABUILDER",
+    "source": "github",
+    "source_url": "https://github.com/Init-Abdellm/AAABUILDER",
+    "summary": "声称首个'Agent-as-a-Backend'框架，基于TypeScript集成LLM、SLM、Vision、ASR、TTS、GAN、Diffusion等数十种模型类型，试图统一多模型Agent编排。但Star数仅3，可能为个人早期概念验证，缺乏社区验证和实际落地案例。",
+    "highlights": [],
+    "tags": [
+      "Agent-Framework",
+      "Multi-Model-Integration",
+      "TypeScript"
+    ],
+    "language": "TypeScript",
+    "stars": 3,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:42:35Z",
+    "updated_at": "2026-05-15T01:42:35Z"
+  },
+  {
+    "id": "article-20260515-324",
+    "title": "hiyouga/LlamaFactory",
+    "source": "github",
+    "source_url": "https://github.com/hiyouga/LlamaFactory",
+    "summary": "统一高效微调框架，支持100+种大语言模型和视觉语言模型，集成LoRA、QLoRA、PEFT、量化及RLHF等技术，显著降低微调成本，解决多模型适配和训练流程碎片化问题，ACL 2024收录。",
+    "highlights": [],
+    "tags": [
+      "Fine-Tuning-Framework",
+      "LoRA",
+      "QLoRA",
+      "PEFT",
+      "RLHF"
+    ],
+    "language": "Python",
+    "stars": 71261,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:51:22Z",
+    "updated_at": "2026-05-15T01:51:22Z"
+  },
+  {
+    "id": "article-20260515-817",
+    "title": "reworkd/AgentGPT",
+    "source": "github",
+    "source_url": "https://github.com/reworkd/AgentGPT",
+    "summary": "基于T3 Stack（Next.js + tRPC + Tailwind）的全栈TypeScript项目，在浏览器中实现自主AI代理的组装、配置与部署。通过LangChain集成OpenAI等LLM，支持多步推理和工具调用，解决了用户快速实验和运行类AutoGPT代理的环境配置痛点。",
+    "highlights": [],
+    "tags": [
+      "LLM-Agent",
+      "Autonomous-Agent",
+      "LangChain-Integration",
+      "T3-Stack"
+    ],
+    "language": "TypeScript",
+    "stars": 36090,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:51:22Z",
+    "updated_at": "2026-05-15T01:51:22Z"
+  },
+  {
+    "id": "article-20260515-463",
+    "title": "assafelovic/gpt-researcher",
+    "source": "github",
+    "source_url": "https://github.com/assafelovic/gpt-researcher",
+    "summary": "基于Python的自主研究代理，通过集成多种LLM提供商和搜索引擎，自动化执行深度信息检索与综合报告生成。核心创新在于将LLM编排、网页抓取和上下文感知推理相结合，支持MCP协议实现工具扩展，解决了传统手动研究效率低、信息碎片化的问题。",
+    "highlights": [],
+    "tags": [
+      "Autonomous-Agent",
+      "LLM-Orchestration",
+      "Web-Scraping",
+      "Deep-Research",
+      "MCP-Server"
+    ],
+    "language": "Python",
+    "stars": 27063,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:51:22Z",
+    "updated_at": "2026-05-15T01:51:22Z"
+  },
+  {
+    "id": "article-20260515-993",
+    "title": "promptfoo/promptfoo",
+    "source": "github",
+    "source_url": "https://github.com/promptfoo/promptfoo",
+    "summary": "面向 LLM 应用的统一测试与安全评估框架，通过声明式配置和命令行工具，支持对 prompts、Agent、RAG 进行回归测试、性能对比（GPT/Claude/Gemini/Llama 等）以及红队渗透/漏洞扫描；集成 CI/CD 流程，解决了 LLM 开发中缺乏标准化测试和安全审计的痛点，被 OpenAI、Anthropic 采用。",
+    "highlights": [],
+    "tags": [
+      "LLM-Evaluation",
+      "Red-Teaming",
+      "Prompt-Testing",
+      "CI-CD-Integration",
+      "Vulnerability-Scanning"
+    ],
+    "language": "TypeScript",
+    "stars": 21257,
+    "status": "analyzed",
+    "created_at": "2026-05-15T01:51:22Z",
+    "updated_at": "2026-05-15T01:51:22Z"
   }
 ]

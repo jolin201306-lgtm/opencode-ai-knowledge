@@ -1,0 +1,20 @@
+{
+  "id": "article-20260515-028",
+  "title": "rohit180497/Coffee-Shop-AI-Agents",
+  "source": "github",
+  "source_url": "https://github.com/rohit180497/Coffee-Shop-AI-Agents",
+  "summary": "基于LangChain与Pinecone的RAG架构，集成AI代理实现自然语言点单与推荐，利用Apriori算法进行关联规则分析优化套餐组合，结合Android端打造全栈智能咖啡店系统。",
+  "highlights": [],
+  "tags": [
+    "RAG",
+    "Vector-Database",
+    "LLM-Agent",
+    "Association-Rule-Mining",
+    "Mobile-Integration"
+  ],
+  "language": "Jupyter Notebook",
+  "stars": 7,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:42:35Z",
+  "updated_at": "2026-05-15T01:42:35Z"
+}

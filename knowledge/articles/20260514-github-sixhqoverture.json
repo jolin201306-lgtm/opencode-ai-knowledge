@@ -1,0 +1,19 @@
+{
+  "id": "article-20260514-153",
+  "title": "SixHq/Overture",
+  "source": "github",
+  "source_url": "https://github.com/SixHq/Overture",
+  "summary": "基于MCP协议的开源可视化规划工具，以交互式流程图展示AI编码代理执行计划，解决代理决策黑盒问题，支持Claude、Cursor等多种LLM代理，提升任务透明度与可控性。",
+  "highlights": [],
+  "tags": [
+    "MCP-Server",
+    "Planning-Visualization",
+    "AI-Coding-Agent",
+    "Interactive-Flowchart"
+  ],
+  "language": "TypeScript",
+  "stars": 620,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:52:17Z",
+  "updated_at": "2026-05-14T10:52:17Z"
+}

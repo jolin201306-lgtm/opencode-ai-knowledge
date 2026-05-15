@@ -1,0 +1,20 @@
+{
+  "id": "article-20260515-773",
+  "title": "OpenHands/OpenHands",
+  "source": "github",
+  "source_url": "https://github.com/OpenHands/OpenHands",
+  "summary": "开源 AI 软件智能体，基于事件驱动架构和沙盒隔离技术，集成 GPT-4、Claude 等多模型，通过自然语言与用户协作完成编码、调试、部署等复杂开发任务，大幅提升开发效率。",
+  "highlights": [],
+  "tags": [
+    "LLM-Agent",
+    "Event-Driven-Architecture",
+    "Sandbox-Isolation",
+    "Code-Generation",
+    "Multi-Model-Integration"
+  ],
+  "language": "Python",
+  "stars": 73552,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:22:47Z",
+  "updated_at": "2026-05-15T01:22:47Z"
+}

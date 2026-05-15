@@ -1,0 +1,20 @@
+{
+  "id": "article-20260515-131",
+  "title": "langchain-ai/langchain",
+  "source": "github",
+  "source_url": "https://github.com/langchain-ai/langchain",
+  "summary": "LangChain 是一个以智能体工程为核心的开源框架，通过模块化的链式编排、多模型抽象层与工具集成，解决了 LLM 应用开发中提示管理、记忆持久化、数据检索增强及复杂工作流编排等痛点。其架构亮点在于可插拔的组件设计（如 Chains、Agents、Retrievers）与 LangGraph 的有向图执行引擎，支持动态多步骤推理与状态化交互。",
+  "highlights": [],
+  "tags": [
+    "LLM-Framework",
+    "Agent-Orchestration",
+    "RAG",
+    "Tool-Integration",
+    "Graph-Based-Workflow"
+  ],
+  "language": "Python",
+  "stars": 136746,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:22:47Z",
+  "updated_at": "2026-05-15T01:22:47Z"
+}

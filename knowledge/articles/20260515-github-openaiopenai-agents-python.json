@@ -1,0 +1,19 @@
+{
+  "id": "article-20260515-593",
+  "title": "openai/openai-agents-python",
+  "source": "github",
+  "source_url": "https://github.com/openai/openai-agents-python",
+  "summary": "OpenAI 官方的轻量级多智能体工作流框架，基于 Python 实现 Agent 编排与任务委派，支持动态角色分配、上下文共享及工具集成，解决复杂 LLM 应用中的多 Agent 协作与状态管理难题。",
+  "highlights": [],
+  "tags": [
+    "Multi-Agent-System",
+    "Agent-Orchestration",
+    "LLM-Framework",
+    "Async-Task-Scheduling"
+  ],
+  "language": "Python",
+  "stars": 26315,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:28:28Z",
+  "updated_at": "2026-05-15T01:28:28Z"
+}

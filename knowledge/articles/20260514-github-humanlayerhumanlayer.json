@@ -1,0 +1,19 @@
+{
+  "id": "article-20260514-249",
+  "title": "humanlayer/humanlayer",
+  "source": "github",
+  "source_url": "https://github.com/humanlayer/humanlayer",
+  "summary": "HumanLayer 是一个针对 AI 编码 Agent 的人类反馈循环（Human-in-the-Loop）框架，专门解决复杂代码库中 Agent 易出错、难以收敛的问题。通过提供标准化接口，让开发者在 Agent 执行关键步骤时介入纠正或引导，显著提升 Claude Code、Codex 等 LLM 驱动编码工具在处理复杂任务时的可靠性。架构上采用事件驱动的工作流编排，支持灵活的拦截与回滚机制。",
+  "highlights": [],
+  "tags": [
+    "Human-in-the-Loop",
+    "AI-Agent",
+    "Workflow-Orchestration",
+    "Code-Assistant"
+  ],
+  "language": "TypeScript",
+  "stars": 10787,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:38:58Z",
+  "updated_at": "2026-05-14T10:38:58Z"
+}

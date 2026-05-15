@@ -1,0 +1,20 @@
+{
+  "id": "article-20260514-707",
+  "title": "aldefy/compose-skill",
+  "source": "github",
+  "source_url": "https://github.com/aldefy/compose-skill",
+  "summary": "为Jetpack Compose开发者打造的AI代理技能包，整合Claude Code、Codex等主流AI编码工具，通过嵌入真实AndroidX源码片段提供精准代码指引与最佳实践，解决了在Compose开发中频繁查阅官方API文档的效率痛点，采用模块化Skill配置实现多平台AI工具的无缝集成。",
+  "highlights": [],
+  "tags": [
+    "Jetpack-Compose",
+    "LLM-Integration",
+    "Agent-Skill",
+    "Android-Development",
+    "Developer-Tools"
+  ],
+  "language": "Shell",
+  "stars": 461,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:52:17Z",
+  "updated_at": "2026-05-14T10:52:17Z"
+}

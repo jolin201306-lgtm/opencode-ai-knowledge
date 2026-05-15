@@ -1,0 +1,20 @@
+{
+  "id": "article-20260515-324",
+  "title": "hiyouga/LlamaFactory",
+  "source": "github",
+  "source_url": "https://github.com/hiyouga/LlamaFactory",
+  "summary": "统一高效微调框架，支持100+种大语言模型和视觉语言模型，集成LoRA、QLoRA、PEFT、量化及RLHF等技术，显著降低微调成本，解决多模型适配和训练流程碎片化问题，ACL 2024收录。",
+  "highlights": [],
+  "tags": [
+    "Fine-Tuning-Framework",
+    "LoRA",
+    "QLoRA",
+    "PEFT",
+    "RLHF"
+  ],
+  "language": "Python",
+  "stars": 71261,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:51:22Z",
+  "updated_at": "2026-05-15T01:51:22Z"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "article-20260514-384",
+  "title": "swarmclawai/swarmvault",
+  "source": "github",
+  "source_url": "https://github.com/swarmclawai/swarmvault",
+  "summary": "本地优先的 LLM Wiki，集成知识图谱构建、RAG 检索与 Agent 持久化记忆，基于 Andrej Karpathy 的架构模式。作为 Obsidian 的 AI 原生替代，支持 MCP Server 协议，为 Claude Code / Codex 等工具提供结构化记忆存储，解决个人知识管理与 AI 记忆碎片化问题。",
+  "highlights": [],
+  "tags": [
+    "Knowledge-Graph",
+    "RAG",
+    "Local-First",
+    "Agent-Memory",
+    "MCP-Server"
+  ],
+  "language": "TypeScript",
+  "stars": 450,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:52:17Z",
+  "updated_at": "2026-05-14T10:52:17Z"
+}

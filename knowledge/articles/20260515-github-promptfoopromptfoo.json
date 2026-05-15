@@ -1,0 +1,20 @@
+{
+  "id": "article-20260515-993",
+  "title": "promptfoo/promptfoo",
+  "source": "github",
+  "source_url": "https://github.com/promptfoo/promptfoo",
+  "summary": "面向 LLM 应用的统一测试与安全评估框架，通过声明式配置和命令行工具，支持对 prompts、Agent、RAG 进行回归测试、性能对比（GPT/Claude/Gemini/Llama 等）以及红队渗透/漏洞扫描；集成 CI/CD 流程，解决了 LLM 开发中缺乏标准化测试和安全审计的痛点，被 OpenAI、Anthropic 采用。",
+  "highlights": [],
+  "tags": [
+    "LLM-Evaluation",
+    "Red-Teaming",
+    "Prompt-Testing",
+    "CI-CD-Integration",
+    "Vulnerability-Scanning"
+  ],
+  "language": "TypeScript",
+  "stars": 21257,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:51:22Z",
+  "updated_at": "2026-05-15T01:51:22Z"
+}

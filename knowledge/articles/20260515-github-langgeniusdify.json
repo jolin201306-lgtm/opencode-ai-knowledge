@@ -1,0 +1,20 @@
+{
+  "id": "article-20260515-445",
+  "title": "langgenius/dify",
+  "source": "github",
+  "source_url": "https://github.com/langgenius/dify",
+  "summary": "开源的代理式工作流开发平台，提供可视化编排、内置RAG引擎、多模型接入（如GPT、Gemini）与MCP协议支持，以低代码/无代码方式解决企业级AI自动化流程构建与部署的复杂度问题。",
+  "highlights": [],
+  "tags": [
+    "Agent-Orchestration",
+    "RAG-Engine",
+    "Low-Code-Platform",
+    "Multi-Model-Gateway",
+    "Workflow-Automation"
+  ],
+  "language": "TypeScript",
+  "stars": 141392,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:22:47Z",
+  "updated_at": "2026-05-15T01:22:47Z"
+}

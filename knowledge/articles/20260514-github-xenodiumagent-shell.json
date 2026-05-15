@@ -1,0 +1,19 @@
+{
+  "id": "article-20260514-992",
+  "title": "xenodium/agent-shell",
+  "source": "github",
+  "source_url": "https://github.com/xenodium/agent-shell",
+  "summary": "原生 Emacs 缓冲区，通过 ACP（Agent Communication Protocol）协议与 LLM 代理（Claude Code、Goose 等）交互。解决 Emacs 用户无法在编辑器内无缝使用 AI 代理的痛点，将代理输出渲染为可编辑缓冲区，并维护会话状态。架构亮点：基于 Emacs Lisp 实现轻量级 ACP 客户端，保持原生编辑体验。",
+  "highlights": [],
+  "tags": [
+    "Emacs-Lisp",
+    "ACP-Protocol",
+    "LLM-Agent-Integration",
+    "Native-Buffer"
+  ],
+  "language": "Emacs Lisp",
+  "stars": 1156,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:38:58Z",
+  "updated_at": "2026-05-14T10:38:58Z"
+}

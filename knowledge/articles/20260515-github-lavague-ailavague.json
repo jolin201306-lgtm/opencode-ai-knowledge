@@ -1,0 +1,19 @@
+{
+  "id": "article-20260515-185",
+  "title": "lavague-ai/LaVague",
+  "source": "github",
+  "source_url": "https://github.com/lavague-ai/LaVague",
+  "summary": "基于 Large Action Model 的 AI Web Agent 框架，将自然语言指令拆解为可执行的浏览器操作序列，内置 RAG 检索增强生成能力，实现无需编程的 Web 任务自动化，显著降低 RPA 和浏览器测试的编写成本。",
+  "highlights": [],
+  "tags": [
+    "Large-Action-Model",
+    "Web-Agent",
+    "Browser-Automation",
+    "LLM-Orchestration"
+  ],
+  "language": "Python",
+  "stars": 6344,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:28:28Z",
+  "updated_at": "2026-05-15T01:28:28Z"
+}

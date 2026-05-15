@@ -1,0 +1,20 @@
+{
+  "id": "article-20260515-554",
+  "title": "EM-GeekLab/LLMOne",
+  "source": "github",
+  "source_url": "https://github.com/EM-GeekLab/LLMOne",
+  "summary": "企业级LLM自动化部署工具，通过模块化后端适配层集成vLLM、Ollama、Transformer及MindIE等推理引擎，实现AI服务器的即插即用部署，解决企业级LLM服务化过程中环境配置复杂、多框架切换成本高的痛点。",
+  "highlights": [],
+  "tags": [
+    "LLM-Serving",
+    "Automated-Deployment",
+    "Multi-Backend",
+    "vLLM",
+    "Ollama"
+  ],
+  "language": "TypeScript",
+  "stars": 87,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:42:35Z",
+  "updated_at": "2026-05-15T01:42:35Z"
+}

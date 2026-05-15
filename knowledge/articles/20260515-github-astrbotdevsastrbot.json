@@ -1,0 +1,20 @@
+{
+  "id": "article-20260515-442",
+  "title": "AstrBotDevs/AstrBot",
+  "source": "github",
+  "source_url": "https://github.com/AstrBotDevs/AstrBot",
+  "summary": "A multi-platform AI Agent framework integrating Discord, QQ, Telegram and multiple LLMs (GPT, Gemini, Llama, etc.), with a plugin architecture and MCP protocol support. Designed as an open-source alternative to closed-source assistants, it solves the cross-platform AI deployment and extension pain points. The unified abstraction layer allows dynamic model/IM switching.",
+  "highlights": [],
+  "tags": [
+    "Multi-Platform-Agent",
+    "Plugin-Architecture",
+    "LLM-Integration",
+    "MCP-Protocol",
+    "Chatbot-Framework"
+  ],
+  "language": "Python",
+  "stars": 32197,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:28:28Z",
+  "updated_at": "2026-05-15T01:28:28Z"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "article-20260515-427",
+  "title": "EHMikel/LLM_transformer_agents_for_AI_tasks",
+  "source": "github",
+  "source_url": "https://github.com/EHMikel/LLM_transformer_agents_for_AI_tasks",
+  "summary": "该项目使用 PLpgSQL（PostgreSQL 存储过程语言）尝试构建基于 Transformer 的 LLM agent，旨在数据库内执行 AI 任务。由于缺乏详细描述和社区支持，且语言选择非主流，可能仅为一个实验性或教学性质的骨架项目，实际功能和性能存疑。",
+  "highlights": [],
+  "tags": [
+    "PLpgSQL",
+    "LLM-Agent",
+    "PostgreSQL",
+    "Transformer"
+  ],
+  "language": "PLpgSQL",
+  "stars": 3,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:42:35Z",
+  "updated_at": "2026-05-15T01:42:35Z"
+}

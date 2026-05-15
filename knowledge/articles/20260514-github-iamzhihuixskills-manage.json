@@ -1,0 +1,19 @@
+{
+  "id": "article-20260514-967",
+  "title": "iamzhihuix/skills-manage",
+  "source": "github",
+  "source_url": "https://github.com/iamzhihuix/skills-manage",
+  "summary": "基于 Tauri + React + Rust 的跨平台桌面应用，统一管理 Claude Code、Cursor 等 20+ 种 AI 编码代理的技能配置。通过抽象适配层解决多工具技能碎片化问题，提升开发者效率，架构上采用插件式设计支持平台扩展。",
+  "highlights": [],
+  "tags": [
+    "Tauri-Desktop",
+    "Skill-Orchestration",
+    "Plugin-Architecture",
+    "Cross-Platform-Adapter"
+  ],
+  "language": "TypeScript",
+  "stars": 1841,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:38:58Z",
+  "updated_at": "2026-05-14T10:38:58Z"
+}

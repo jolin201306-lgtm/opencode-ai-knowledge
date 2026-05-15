@@ -1,0 +1,19 @@
+{
+  "id": "article-20260514-708",
+  "title": "cyhhao/vibe-remote",
+  "source": "github",
+  "source_url": "https://github.com/cyhhao/vibe-remote",
+  "summary": "基于ChatOps的AI代理中央指挥系统，通过统一适配器将Claude Code、OpenCode等代码生成代理接入Slack、Discord、Telegram等六大协作平台，实现实时流式输出与远程调度，解决团队在统一工作流中使用多种AI编程助手的便捷性与集成难题。",
+  "highlights": [],
+  "tags": [
+    "ChatOps",
+    "Multi-Agent-Orchestration",
+    "Real-Time-Streaming",
+    "Cross-Platform-Messaging"
+  ],
+  "language": "Python",
+  "stars": 436,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:52:17Z",
+  "updated_at": "2026-05-14T10:52:17Z"
+}

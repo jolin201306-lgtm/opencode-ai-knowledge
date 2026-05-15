@@ -1,0 +1,20 @@
+{
+  "id": "article-20260514-975",
+  "title": "liyupi/ai-guide",
+  "source": "github",
+  "source_url": "https://github.com/liyupi/ai-guide",
+  "summary": "基于VuePress构建的一站式AI资源导航与零基础教程，系统整合LLM模型（DeepSeek/GPT/Claude等）、提示词工程、RAG/MCP/A2A等前沿技术，涵盖AI编程工具（Cursor/Copilot等）与开发框架（Spring AI/LangChain）教程，并提供变现指南，解决开发者AI入门与工具选型痛点。",
+  "highlights": [],
+  "tags": [
+    "VuePress",
+    "Prompt-Engineering",
+    "RAG",
+    "MCP",
+    "Vibe-Coding"
+  ],
+  "language": "JavaScript",
+  "stars": 13807,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:38:58Z",
+  "updated_at": "2026-05-14T10:38:58Z"
+}

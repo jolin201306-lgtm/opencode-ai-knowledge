@@ -1,0 +1,20 @@
+{
+  "id": "article-20260514-469",
+  "title": "helixml/helix",
+  "source": "github",
+  "source_url": "https://github.com/helixml/helix",
+  "summary": "私有部署的 AI Agent 集群，每个 Agent 拥有独立 GPU 桌面，支持多种商业/开源模型（Claude、Codex、Gemini、Qwen 等），基于 Kubernetes 编排，集成 RAG 和开放 API，解决企业数据隐私与定制化多模型代理需求。",
+  "highlights": [],
+  "tags": [
+    "Agent-Fleet",
+    "Kubernetes",
+    "GPU-Accelerated",
+    "Multi-Model",
+    "Self-Hosted"
+  ],
+  "language": "Go",
+  "stars": 777,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:38:58Z",
+  "updated_at": "2026-05-14T10:38:58Z"
+}

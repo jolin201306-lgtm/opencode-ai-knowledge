@@ -1,0 +1,19 @@
+{
+  "id": "article-20260514-079",
+  "title": "mukul975/Anthropic-Cybersecurity-Skills",
+  "source": "github",
+  "source_url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+  "summary": "An open library of 754 structured cybersecurity skills for AI agents, standardized on agentskills.io and mapped to 5 security frameworks (MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF). It addresses the gap of AI agents lacking domain-specific operational skills by providing executable, cross-platform skill definitions compatible with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI and 20+ platforms, enabling automated penetration testing, threat hunting, incident response and more across 26 security domains.",
+  "highlights": [],
+  "tags": [
+    "Structured-Skills-Library",
+    "Cybersecurity-Framework-Mapping",
+    "Agent-Skill-Standard",
+    "Cross-Platform-Integration"
+  ],
+  "language": "Python",
+  "stars": 6279,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:38:58Z",
+  "updated_at": "2026-05-14T10:38:58Z"
+}

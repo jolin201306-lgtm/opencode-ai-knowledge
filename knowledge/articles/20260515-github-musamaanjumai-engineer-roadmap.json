@@ -1,0 +1,20 @@
+{
+  "id": "article-20260515-155",
+  "title": "musamaanjum/ai-engineer-roadmap",
+  "source": "github",
+  "source_url": "https://github.com/musamaanjum/ai-engineer-roadmap",
+  "summary": "面向软件工程师的AI/LLM工程师学习路线图，涵盖Transformers、RAG、微调、Agent、LangChain、MLOps等核心方向，提供免费/付费课程、5个组合项目及面试准备，旨在系统化指导转型路径。",
+  "highlights": [],
+  "tags": [
+    "LLM-Learning-Path",
+    "Awesome-List",
+    "AI-Career-Path",
+    "MLOps-Curriculum",
+    "Agent-Framework"
+  ],
+  "language": "未指定",
+  "stars": 3,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:42:35Z",
+  "updated_at": "2026-05-15T01:42:35Z"
+}

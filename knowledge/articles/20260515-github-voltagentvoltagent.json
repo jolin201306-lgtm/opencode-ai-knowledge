@@ -1,0 +1,19 @@
+{
+  "id": "article-20260515-443",
+  "title": "VoltAgent/voltagent",
+  "source": "github",
+  "source_url": "https://github.com/VoltAgent/voltagent",
+  "summary": "基于TypeScript的开源AI Agent工程平台，提供多智能体协作、可观测性、MCP协议支持及RAG/TTS能力，解决LLM应用在实际生产中的工程化、调试与编排难题，亮点在于模块化架构与全栈可观测性。",
+  "highlights": [],
+  "tags": [
+    "Multi-Agent-Architecture",
+    "LLM-Observability",
+    "MCP-Protocol",
+    "RAG"
+  ],
+  "language": "TypeScript",
+  "stars": 8920,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:28:28Z",
+  "updated_at": "2026-05-15T01:28:28Z"
+}

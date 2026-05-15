@@ -1,0 +1,19 @@
+{
+  "id": "article-20260515-346",
+  "title": "PySpur-Dev/pyspur",
+  "source": "github",
+  "source_url": "https://github.com/PySpur-Dev/pyspur",
+  "summary": "PySpur 是一个可视化的 agent 工作流构建平台，通过图编排支持循环、人机协同、多模态和追踪，显著加速 agent 迭代效率。其核心亮点是动态图引擎和丰富的模型接入（DeepSeek、Gemini、Ollama 等），为复杂推理和 RAG 场景提供直觉式调试体验。",
+  "highlights": [],
+  "tags": [
+    "Agent-Orchestration",
+    "Visual-Programming",
+    "Graph-Based-Workflow",
+    "Human-in-the-Loop"
+  ],
+  "language": "TypeScript",
+  "stars": 5720,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:28:28Z",
+  "updated_at": "2026-05-15T01:28:28Z"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "article-20260515-807",
+  "title": "TransformerOptimus/SuperAGI",
+  "source": "github",
+  "source_url": "https://github.com/TransformerOptimus/SuperAGI",
+  "summary": "SuperAGI 是一个面向开发者的开源自主AI代理框架，基于 LLM（如 GPT-4）构建，支持多代理工作流、向量记忆（Pinecone）、工具调用与任务规划。它解决了自主代理开发中的可靠性、可管理性和可扩展性痛点，提供模块化架构和易用的 API/SDK。",
+  "highlights": [],
+  "tags": [
+    "Autonomous-Agent-Framework",
+    "LLM-Agent",
+    "Vector-Memory",
+    "Tool-Using",
+    "Agent-Orchestration"
+  ],
+  "language": "Python",
+  "stars": 17518,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:28:28Z",
+  "updated_at": "2026-05-15T01:28:28Z"
+}

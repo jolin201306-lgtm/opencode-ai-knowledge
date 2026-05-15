@@ -1,0 +1,20 @@
+{
+  "id": "article-20260515-236",
+  "title": "markl-a/My-AI-Learning-Notes",
+  "source": "github",
+  "source_url": "https://github.com/markl-a/My-AI-Learning-Notes",
+  "summary": "提供繁中 AI/LLM 学习路径与面试准备材料，涵盖 Transformer、RAG、Agent、Prompt Engineering 等前沿主题，以 Jupyter Notebook 呈现教学代码与笔记，适合初学者系统掌握 LLM 技术栈，但缺乏工程创新与原创贡献。",
+  "highlights": [],
+  "tags": [
+    "LLM-Learning-Path",
+    "RAG",
+    "Prompt-Engineering",
+    "Agent",
+    "Traditional-Chinese"
+  ],
+  "language": "Jupyter Notebook",
+  "stars": 17,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:42:35Z",
+  "updated_at": "2026-05-15T01:42:35Z"
+}

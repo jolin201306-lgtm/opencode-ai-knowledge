@@ -1,0 +1,20 @@
+{
+  "id": "article-20260514-040",
+  "title": "shiwenwen/hope-agent",
+  "source": "github",
+  "source_url": "https://github.com/shiwenwen/hope-agent",
+  "summary": "基于 Rust 的跨设备桌面 AI 助手，支持远程/本地模型无缝切换与任务接力，通过 MCP 协议适配多模型后端，采用本地优先架构兼顾隐私与云端扩展，解决用户多终端 AI 协作中断的痛点。",
+  "highlights": [],
+  "tags": [
+    "Rust-AI-Engine",
+    "Cross-Device-Agent",
+    "MCP-Protocol",
+    "Local-First-Architecture",
+    "Headless-Deployment"
+  ],
+  "language": "Rust",
+  "stars": 534,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:52:17Z",
+  "updated_at": "2026-05-14T10:52:17Z"
+}

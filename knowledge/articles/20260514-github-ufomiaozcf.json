@@ -1,0 +1,19 @@
+{
+  "id": "article-20260514-688",
+  "title": "UfoMiao/zcf",
+  "source": "github",
+  "source_url": "https://github.com/UfoMiao/zcf",
+  "summary": "基于TypeScript的零配置CLI工具，为Claude Code和Codex提供自动化代码工作流引擎。通过预设bmad-method和CCR模式，无需手动配置即可快速启动AI辅助编码流程，解决开发者在使用LLM进行代码生成时的环境搭建与参数调优痛点。",
+  "highlights": [],
+  "tags": [
+    "CLI-Workflow",
+    "Zero-Configuration",
+    "LLM-Integration",
+    "Code-Generation-Automation"
+  ],
+  "language": "TypeScript",
+  "stars": 5986,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:38:58Z",
+  "updated_at": "2026-05-14T10:38:58Z"
+}

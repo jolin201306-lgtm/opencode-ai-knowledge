@@ -1,0 +1,18 @@
+{
+  "id": "article-20260515-327",
+  "title": "Init-Abdellm/AAABUILDER",
+  "source": "github",
+  "source_url": "https://github.com/Init-Abdellm/AAABUILDER",
+  "summary": "声称首个'Agent-as-a-Backend'框架，基于TypeScript集成LLM、SLM、Vision、ASR、TTS、GAN、Diffusion等数十种模型类型，试图统一多模型Agent编排。但Star数仅3，可能为个人早期概念验证，缺乏社区验证和实际落地案例。",
+  "highlights": [],
+  "tags": [
+    "Agent-Framework",
+    "Multi-Model-Integration",
+    "TypeScript"
+  ],
+  "language": "TypeScript",
+  "stars": 3,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:42:35Z",
+  "updated_at": "2026-05-15T01:42:35Z"
+}

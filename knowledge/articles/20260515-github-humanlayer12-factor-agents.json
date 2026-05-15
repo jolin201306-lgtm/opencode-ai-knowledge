@@ -1,0 +1,19 @@
+{
+  "id": "article-20260515-467",
+  "title": "humanlayer/12-factor-agents",
+  "source": "github",
+  "source_url": "https://github.com/humanlayer/12-factor-agents",
+  "summary": "该仓库定义了构建生产级 LLM 应用的 12 条原则（12-Factor Agents），涵盖可观测性、记忆管理、上下文窗口优化、编排等关键模块，以 TypeScript 实现参考示例，解决了 LLM 软件从原型到可靠部署的架构缺失问题。",
+  "highlights": [],
+  "tags": [
+    "Agent-Orchestration",
+    "Context-Window-Management",
+    "12-Factor-Principles",
+    "Memory-Architecture"
+  ],
+  "language": "TypeScript",
+  "stars": 19804,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:28:28Z",
+  "updated_at": "2026-05-15T01:28:28Z"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "article-20260514-930",
+  "title": "NousResearch/hermes-agent",
+  "source": "github",
+  "source_url": "https://github.com/NousResearch/hermes-agent",
+  "summary": "由 Nous Research 打造的开源 LLM Agent 框架，深度集成 Hermes 系列模型，支持 OpenAI、Anthropic 等多模型后端。通过模块化架构实现工具调用、记忆管理和持续学习，驱动自适应智能体“随用户成长”，解决通用 AI 代理在个性化和可扩展性上的瓶颈。",
+  "highlights": [],
+  "tags": [
+    "LLM-Agent-Framework",
+    "Multi-Model-Backend",
+    "Memory-Management",
+    "Tool-Augmented-Generation"
+  ],
+  "language": "Python",
+  "stars": 149481,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:06:43Z",
+  "updated_at": "2026-05-14T10:06:43Z"
+}

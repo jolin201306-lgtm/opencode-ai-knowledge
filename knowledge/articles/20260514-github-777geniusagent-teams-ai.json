@@ -1,0 +1,20 @@
+{
+  "id": "article-20260514-215",
+  "title": "777genius/agent-teams-ai",
+  "source": "github",
+  "source_url": "https://github.com/777genius/agent-teams-ai",
+  "summary": "多智能体协作平台，将LLM模拟为团队自主执行任务、相互通信和审查，通过看板实现高层管理。支持75+LLM提供商，基于Electron/React构建，采用多智能体通信协议（MCP）和动态任务调度，解决AI驱动软件开发的自动化与协作痛点。",
+  "highlights": [],
+  "tags": [
+    "Multi-Agent-System",
+    "LLM-Orchestration",
+    "Agent-Team-Management",
+    "Kanban-Workflow",
+    "MCP-Protocol"
+  ],
+  "language": "TypeScript",
+  "stars": 913,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:38:58Z",
+  "updated_at": "2026-05-14T10:38:58Z"
+}

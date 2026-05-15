@@ -398,6 +398,13 @@ quick_chat() 返回 (text, usage) 元组
 - organize_node 在 iteration > 0 且有 feedback 时，调用 LLM 做定向修改
 - save_node 同时更新 index.json 索引文件
 ```
+
+>**环境变量配置**
+>GITHUB_QUERY="AI agent LLM"        # 搜索关键词
+>GITHUB_PER_PAGE=15                 # 每次采集数量
+>GITHUB_SINCE="2026-05-01"          # 起始日期（可选）
+>GITHUB_TOKEN="ghp_xxx"             # GitHub Personal Access Token（可选）
+
 **创建graph**
 
 ```plain
@@ -424,3 +431,138 @@ quick_chat() 返回 (text, usage) 元组
 - graph.add_edge("save", END)
 - graph.compile()
 ```
+
+### No.11 reviewer-Agent
+
+**review_node审核节点**
+```plain
+请帮我编写 workflows/reviewer.py 中的 review_node 函数：
+​
+需求：
+1. Reviewer 审核的对象是 state["analyses"]（不是 articles，articles 在 organize 之后才存在）
+2. 5 维度评分，每维 1-10 分，权重如下：
+   - summary_quality (摘要质量): 25%
+   - technical_depth (技术深度): 25%
+   - relevance (相关性): 20%
+   - originality (原创性): 15%
+   - formatting (格式规范): 15%
+3. 用代码重算加权总分（不要信任模型算术）
+4. 加权总分 >= 7.0 为通过
+5. 只审核前 5 条 analyses（控 token 消耗）
+6. temperature=0.1（评分一致性）
+7. LLM 调用失败时自动通过（不阻塞流程）
+8. 返回 {review_passed, review_feedback, iteration, cost_tracker}
+​
+依赖：
+- chat_json(prompt, system=..., temperature=...) 返回 (parsed_json, usage)
+- accumulate_usage(tracker, usage)
+- KBState 的 plan, analyses, iteration, cost_tracker 字段
+```
+
+**revise_node修订节点**
+
+```plain
+请帮我编写 workflows/reviser.py 中的 revise_node 函数：
+​
+需求：
+1. 读 state["analyses"] 和 state["review_feedback"]
+2. 把 feedback 注入修改 prompt
+3. 调 LLM 返回修改后的 analyses 列表
+4. temperature=0.4（允许创造性改写）
+5. analyses 或 feedback 空时跳过（返回 {}）
+6. 返回 {"analyses": improved, "cost_tracker": tracker}
+```
+
+**workflows/human_flag.py**
+
+```plain
+"""HumanFlag Agent — 人工介入节点（异常终点）"""
+​
+import json
+import os
+from datetime import datetime, timezone
+​
+from workflows.state import KBState
+​
+​
+def human_flag_node(state: KBState) -> dict:
+    """审核循环超过上限时的兜底 —— 写入 pending_review/ 目录"""
+    analyses = state.get("analyses", [])
+    iteration = state.get("iteration", 0)
+    feedback = state.get("review_feedback", "")
+​
+    print(f"[HumanFlag] ⚠️ 达到 {iteration} 次审核仍未通过")
+    print(f"[HumanFlag] 最后反馈: {feedback[:200]}")
+​
+    base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    pending_dir = os.path.join(base, "knowledge", "pending_review")
+    os.makedirs(pending_dir, exist_ok=True)
+​
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d-%H%M%S")
+    filepath = os.path.join(pending_dir, f"pending-{today}.json")
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump({
+            "timestamp": today,
+            "iterations_used": iteration,
+            "last_feedback": feedback,
+            "analyses": analyses,
+        }, f, ensure_ascii=False, indent=2)
+​
+    print(f"[HumanFlag] 已保存到 {filepath}")
+    return {"needs_human_review": True}
+ ```
+
+ 在 `workflows/state.py` 的 KBState 里加一行：
+
+```plain
+class KBState(TypedDict):
+    # plan 字段是 11-3 才加 · 本节还没有
+    sources: list[dict]
+    analyses: list[dict]
+    articles: list[dict]
+    review_feedback: str
+    review_passed: bool
+    iteration: int
+    needs_human_review: bool   # ← 新增：HumanFlag 节点设为 True
+    cost_tracker: dict
+```
+
+
+**更新 graph.py 为 3 路条件路由**
+
+```plain
+请修改 workflows/graph.py 支持 3 路条件路由：
+1. import revise_node 和 human_flag_node
+2. 注册为节点 "revise" 和 "human_flag"
+3. 重写路由函数 should_continue → route_after_review，返回 3 个分支：
+   - 通过 → "organize"
+   - 不通过且 iteration < 3 → "revise"
+   - 不通过且 iteration >= 3 → "human_flag"
+4. 添加 graph.add_edge("revise", "review") 形成循环
+5. 添加 graph.add_edge("human_flag", END)
+```
+
+
+**planner计划节点**
+
+```plain
+请帮我编写 workflows/planner.py：
+​
+需求：
+1. plan_strategy(target_count=None) 函数，根据目标采集量返回策略 dict
+2. 三档策略：
+   - lite (target<10): per_source_limit=5, relevance_threshold=0.7, max_iterations=1
+   - standard (10<=target<20): 10, 0.5, 2
+   - full (target>=20): 20, 0.4, 3
+3. target_count 默认从环境变量 PLANNER_TARGET_COUNT 读取（默认 10）
+4. planner_node(state) 函数：LangGraph 节点包装，调 plan_strategy 并返回 {"plan": plan}
+5. 每个策略 dict 包含 rationale 字段说明"为什么这么选"
+```
+
+**注释**
+>1. workflows/nodes.py 修订
+>节点调用链：明确 planner 节点在流程最前端的位置。
+>流转逻辑：补充了各节点如何读取 plan 字段（如 per_source_limit, relevance_threshold）的细节。
+>2. workflows/graph.py 修订
+>流程路由：清晰划分为 6 个阶段（策略 -> 采集 -> 分析 -> 整理 -> 审核 -> 修正/终止）。
+>路由说明：详细描述了 route_after_review 函数基于动态阈值的三路分支逻辑（通过/修正/人工审核）。

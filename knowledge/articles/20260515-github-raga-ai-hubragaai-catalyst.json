@@ -1,0 +1,20 @@
+{
+  "id": "article-20260515-545",
+  "title": "raga-ai-hub/RagaAI-Catalyst",
+  "source": "github",
+  "source_url": "https://github.com/raga-ai-hub/RagaAI-Catalyst",
+  "summary": "RagaAI-Catalyst 是专注于多 Agent 系统可观测性的 Python SDK，通过 LLM 调用链追踪、执行图与时间线可视化，解决 Agent 协作中的调试与性能监控痛点，并提供自托管仪表板和评估框架。",
+  "highlights": [],
+  "tags": [
+    "Agent-Observability",
+    "LLM-Tracing",
+    "Multi-Agent-Debugging",
+    "Execution-Graph-Visualization",
+    "Evaluation-Framework"
+  ],
+  "language": "Python",
+  "stars": 16161,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:28:28Z",
+  "updated_at": "2026-05-15T01:28:28Z"
+}

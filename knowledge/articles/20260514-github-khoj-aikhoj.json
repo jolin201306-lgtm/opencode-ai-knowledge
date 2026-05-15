@@ -1,0 +1,20 @@
+{
+  "id": "article-20260514-682",
+  "title": "khoj-ai/khoj",
+  "source": "github",
+  "source_url": "https://github.com/khoj-ai/khoj",
+  "summary": "基于 RAG 和自托管架构的个人 AI 第二大脑，融合语义搜索、多模型（GPT/Claude/Llama等）适配、自定义 agent 与自动化调度，通过插件化（Obsidian/Emacs）覆盖知识管理、深度研究与跨平台助手场景，解决信息碎片化与人工检索效率瓶颈。",
+  "highlights": [],
+  "tags": [
+    "RAG",
+    "Self-Hosted",
+    "LLM-Orchestration",
+    "Agent-Framework",
+    "Vector-Search"
+  ],
+  "language": "Python",
+  "stars": 34547,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:06:43Z",
+  "updated_at": "2026-05-14T10:06:43Z"
+}

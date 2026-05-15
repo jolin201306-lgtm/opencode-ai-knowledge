@@ -1,0 +1,20 @@
+{
+  "id": "article-20260515-467",
+  "title": "OpenBMB/AgentVerse",
+  "source": "github",
+  "source_url": "https://github.com/OpenBMB/AgentVerse",
+  "summary": "基于LLM的多智能体协作框架，提供任务求解与模拟两大核心框架，通过模块化设计实现智能体间的通信与协调，解决复杂任务分解与多角色仿真的业务痛点。",
+  "highlights": [],
+  "tags": [
+    "Multi-Agent-Systems",
+    "LLM-Orchestration",
+    "Agent-Communication",
+    "Task-Decomposition",
+    "Simulation-Framework"
+  ],
+  "language": "JavaScript",
+  "stars": 5035,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:28:28Z",
+  "updated_at": "2026-05-15T01:28:28Z"
+}

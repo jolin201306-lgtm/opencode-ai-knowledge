@@ -1,0 +1,20 @@
+{
+  "id": "article-20260515-464",
+  "title": "mastra-ai/mastra",
+  "source": "github",
+  "source_url": "https://github.com/mastra-ai/mastra",
+  "summary": "来自 Gatsby 团队的全栈 TypeScript 框架，专为构建 AI 代理和工作流应用设计。集成 LLM 调用、模型上下文协议 (MCP)、语音合成 (TTS) 及评估管道，提供声明式工作流编排与 React/Next.js 前端整合能力，显著降低 AI 应用的开发与调试复杂度。",
+  "highlights": [],
+  "tags": [
+    "AI-Agent-Framework",
+    "Workflow-Orchestration",
+    "LLM-Integration",
+    "TypeScript-Stack",
+    "Model-Context-Protocol"
+  ],
+  "language": "TypeScript",
+  "stars": 23894,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:28:28Z",
+  "updated_at": "2026-05-15T01:28:28Z"
+}

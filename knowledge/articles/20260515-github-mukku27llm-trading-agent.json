@@ -1,0 +1,19 @@
+{
+  "id": "article-20260515-544",
+  "title": "Mukku27/LLM_Trading_Agent",
+  "source": "github",
+  "source_url": "https://github.com/Mukku27/LLM_Trading_Agent",
+  "summary": "基于Transformer模型（LLM）的加密货币交易分析Demo，通过OpenRouter API调用大语言模型，结合技术指标和市场情绪数据生成交易建议，展示了AI Agent在量化交易中的基础应用。",
+  "highlights": [],
+  "tags": [
+    "LLM-Agent",
+    "Crypto-Trading",
+    "OpenRouter-API",
+    "Technical-Indicators"
+  ],
+  "language": "Python",
+  "stars": 3,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:42:35Z",
+  "updated_at": "2026-05-15T01:42:35Z"
+}

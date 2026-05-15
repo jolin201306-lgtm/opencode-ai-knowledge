@@ -1,0 +1,18 @@
+{
+  "id": "article-20260514-989",
+  "title": "Prat011/awesome-llm-skills",
+  "source": "github",
+  "source_url": "https://github.com/Prat011/awesome-llm-skills",
+  "summary": "面向 LLM/AI Agent 工作流定制的精选资源列表，汇集 Claude Code、Codex、Gemini CLI 等工具的 Skills 与配置，帮助开发者快速集成和自动化 Agent 流程，属于工具索引而非技术实现。",
+  "highlights": [],
+  "tags": [
+    "Awesome-List",
+    "Resource-Collection",
+    "LLM-Agent"
+  ],
+  "language": "Python",
+  "stars": 1232,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:38:58Z",
+  "updated_at": "2026-05-14T10:38:58Z"
+}

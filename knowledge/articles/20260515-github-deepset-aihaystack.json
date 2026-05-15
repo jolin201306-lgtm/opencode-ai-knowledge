@@ -1,0 +1,19 @@
+{
+  "id": "article-20260515-166",
+  "title": "deepset-ai/haystack",
+  "source": "github",
+  "source_url": "https://github.com/deepset-ai/haystack",
+  "summary": "Haystack 是模块化 LLM 编排框架，通过可组合管道和代理工作流显式控制检索、路由、记忆与生成。面向 RAG、语义搜索和对话系统，提供生产级上下文工程能力，核心架构基于组件化管道与多模型适配器。",
+  "highlights": [],
+  "tags": [
+    "RAG",
+    "Agent-Orchestration",
+    "Pipeline-Architecture",
+    "Semantic-Search"
+  ],
+  "language": "MDX",
+  "stars": 25230,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:28:28Z",
+  "updated_at": "2026-05-15T01:28:28Z"
+}

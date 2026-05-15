@@ -1,0 +1,20 @@
+{
+  "id": "article-20260515-905",
+  "title": "MervinPraison/PraisonAI",
+  "source": "github",
+  "source_url": "https://github.com/MervinPraison/PraisonAI",
+  "summary": "基于Python的多智能体编排框架，通过5行代码即可部署具备记忆、RAG及100+LLM接入能力的自主自改进代理，解决企业级AI工作流中重复搭建与维护智能体的痛点。架构采用模块化Agent调度与记忆增强机制，支持多代理协同。",
+  "highlights": [],
+  "tags": [
+    "Multi-Agent-Orchestration",
+    "RAG-Integration",
+    "Self-Improving-Agents",
+    "LLM-Agnostic",
+    "Agent-Framework"
+  ],
+  "language": "Python",
+  "stars": 7720,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:28:28Z",
+  "updated_at": "2026-05-15T01:28:28Z"
+}

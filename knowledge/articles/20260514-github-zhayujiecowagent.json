@@ -1,0 +1,20 @@
+{
+  "id": "article-20260514-130",
+  "title": "zhayujie/CowAgent",
+  "source": "github",
+  "source_url": "https://github.com/zhayujie/CowAgent",
+  "summary": "基于大语言模型的多平台超级AI助理，采用ReAct任务规划与自适应工具调用（支持20+预置API插件），通过ChromaDB实现长期记忆（保存用户偏好与历史上下文），在微信/飞书等即时通讯平台构建可自主成长的智能体。与AutoGPT等同类项目相比，CowAgent专注通讯场景，提供企业级权限控制、低延迟（<2s）响应及轻量级部署（单容器即可运行），已获44k+星标。解决日常通讯工具中缺乏AI Agent能力的痛点，作为数字员工可执行日程管理、信息检索、数据分析等任务。",
+  "highlights": [],
+  "tags": [
+    "Multi-Platform-Agent",
+    "LLM-Plugin-System",
+    "Task-Planning",
+    "Tool-Use",
+    "Memory-Augmented"
+  ],
+  "language": "Python",
+  "stars": 44432,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:06:43Z",
+  "updated_at": "2026-05-14T10:06:43Z"
+}

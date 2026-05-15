@@ -1,0 +1,20 @@
+{
+  "id": "article-20260514-830",
+  "title": "Agent-Field/SWE-AF",
+  "source": "github",
+  "source_url": "https://github.com/Agent-Field/SWE-AF",
+  "summary": "基于多智能体架构的自主软件开发系统，利用LLM（如Claude、Codex、Gemini）驱动代理集群实现从规划到生产级PR的全流程自动化，解决了工程团队在编码、测试和交付环节的效率瓶颈。",
+  "highlights": [],
+  "tags": [
+    "Multi-Agent-System",
+    "Code-Generation",
+    "Autonomous-Software-Engineering",
+    "LLM-Agent",
+    "Production-Workflow"
+  ],
+  "language": "Python",
+  "stars": 764,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:38:58Z",
+  "updated_at": "2026-05-14T10:38:58Z"
+}

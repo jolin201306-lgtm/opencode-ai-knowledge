@@ -1,0 +1,20 @@
+{
+  "id": "article-20260515-469",
+  "title": "langchain-ai/langgraph",
+  "source": "github",
+  "source_url": "https://github.com/langchain-ai/langgraph",
+  "summary": "LangGraph 是 LangChain 生态下的有向图状态机框架，通过图结构编排 LLM Agent 的循环、分支与持久化，解决传统单步 Prompt 难以构建可靠、可控的多步骤工作流痛点；支持人机交互、流式输出和多智能体协作，极大提升 Agent 的弹性与可观测性。",
+  "highlights": [],
+  "tags": [
+    "Graph-Based-Agent",
+    "State-Machine",
+    "Agent-Orchestration",
+    "LLM-Workflow",
+    "Multi-Agent-Framework"
+  ],
+  "language": "Python",
+  "stars": 32064,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:28:28Z",
+  "updated_at": "2026-05-15T01:28:28Z"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "article-20260515-933",
+  "title": "AgentOps-AI/agentops",
+  "source": "github",
+  "source_url": "https://github.com/AgentOps-AI/agentops",
+  "summary": "为AI agent和LLM应用提供全方位可观测性的Python SDK，集成30+模型和框架（如CrewAI、LangChain、OpenAI Agents），支持实时调用追踪、成本核算、性能基准测试与多维度评估，解决agent开发和部署中缺乏监控与成本管控的痛点，采用插件化架构实现与第三方工具的无缝衔接。",
+  "highlights": [],
+  "tags": [
+    "Agent-Monitoring",
+    "LLM-Cost-Tracking",
+    "Observability-SDK",
+    "Evals-Framework"
+  ],
+  "language": "Python",
+  "stars": 5545,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:28:28Z",
+  "updated_at": "2026-05-15T01:28:28Z"
+}

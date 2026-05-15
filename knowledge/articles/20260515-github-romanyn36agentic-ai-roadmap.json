@@ -1,0 +1,20 @@
+{
+  "id": "article-20260515-100",
+  "title": "romanyn36/agentic-ai-roadmap",
+  "source": "github",
+  "source_url": "https://github.com/romanyn36/agentic-ai-roadmap",
+  "summary": "提供从Python基础到数学、ML/DL、LLM及Agent系统的完整学习路径，结合LangChain/LangGraph等流行框架与实战项目，适合希望系统掌握生产级AI技能的开发者，但内容组织较浅，缺乏深度技术解析。",
+  "highlights": [],
+  "tags": [
+    "Learning-Roadmap",
+    "LangChain",
+    "LangGraph",
+    "LLM",
+    "Agent-System"
+  ],
+  "language": "未指定",
+  "stars": 95,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:42:35Z",
+  "updated_at": "2026-05-15T01:42:35Z"
+}

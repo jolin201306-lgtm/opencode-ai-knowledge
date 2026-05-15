@@ -1,0 +1,19 @@
+{
+  "id": "article-20260514-861",
+  "title": "foryourhealth111-pixel/Vibe-Skills",
+  "source": "github",
+  "source_url": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
+  "summary": "Vibe-Skills 是一个面向 AI 代理的统一技能包框架，通过集成专家级能力与上下文工程，解决代理工具碎片化和框架复杂性问题。其架构支持即插即用的技能注入和动态上下文管理，兼容 Claude Code、Codex 等主流代理，实现多功能一键增强。",
+  "highlights": [],
+  "tags": [
+    "Agent-Skills-Package",
+    "Context-Engineering",
+    "Multi-Agent-Framework",
+    "Prompt-Engineering"
+  ],
+  "language": "Python",
+  "stars": 2088,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:38:58Z",
+  "updated_at": "2026-05-14T10:38:58Z"
+}

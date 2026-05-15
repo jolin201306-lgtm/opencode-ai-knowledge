@@ -1,0 +1,20 @@
+{
+  "id": "article-20260514-775",
+  "title": "superset-sh/superset",
+  "source": "github",
+  "source_url": "https://github.com/superset-sh/superset",
+  "summary": "Superset 是一款面向 AI 代理时代的代码编辑器，支持并行运行多个 AI 编码代理（如 Claude Code、Codex），通过 Git 工作树（worktrees）隔离环境，实现多代理协同编程。采用 Electron 桌面应用与 CLI/TUI 双模式，解决单代理效率瓶颈和上下文冲突问题。",
+  "highlights": [],
+  "tags": [
+    "Agent-Orchestration",
+    "Parallel-Execution",
+    "Git-Worktrees",
+    "Desktop-Code-Editor",
+    "Electron"
+  ],
+  "language": "TypeScript",
+  "stars": 10659,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:38:58Z",
+  "updated_at": "2026-05-14T10:38:58Z"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "article-20260515-491",
+  "title": "Running0-0/java-ai-path",
+  "source": "github",
+  "source_url": "https://github.com/Running0-0/java-ai-path",
+  "summary": "面向Java开发者的三阶段AI学习路径，从深度学习（DL4J图像分类）到LLM（LangChain4j RAG问答）再到Agent（多Agent协作），通过项目实战系统掌握Java生态下的主流AI框架。",
+  "highlights": [],
+  "tags": [
+    "DeepLearning4J",
+    "LangChain4j",
+    "RAG",
+    "Multi-Agent",
+    "Tutorial-Project"
+  ],
+  "language": "未指定",
+  "stars": 4,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:42:35Z",
+  "updated_at": "2026-05-15T01:42:35Z"
+}

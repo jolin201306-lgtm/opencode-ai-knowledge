@@ -1,0 +1,20 @@
+{
+  "id": "article-20260514-876",
+  "title": "labring/FastGPT",
+  "source": "github",
+  "source_url": "https://github.com/labring/FastGPT",
+  "summary": "基于LLM的知识库平台，集成数据处理、RAG检索与可视化工作流编排，支持OpenAI/Claude/DeepSeek等多模型及MCP协议，致力于降低企业级复杂问答系统的搭建门槛。",
+  "highlights": [],
+  "tags": [
+    "RAG-System",
+    "Visual-Workflow",
+    "Knowledge-Base",
+    "Multi-Model-Support",
+    "MCP-Integration"
+  ],
+  "language": "TypeScript",
+  "stars": 28024,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:06:43Z",
+  "updated_at": "2026-05-14T10:06:43Z"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "article-20260515-624",
+  "title": "truefoundry/cognita",
+  "source": "github",
+  "source_url": "https://github.com/truefoundry/cognita",
+  "summary": "面向生产环境的模块化RAG框架，提供可插拔的文档处理、向量检索、LLM调用与Agent编排组件，内置LLMOps（评估、监控、部署）能力，降低企业级检索增强生成应用的集成与运维复杂度。",
+  "highlights": [],
+  "tags": [
+    "RAG-Framework",
+    "Modular-Architecture",
+    "LLMOps",
+    "Agent-Orchestration"
+  ],
+  "language": "Python",
+  "stars": 4410,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:28:28Z",
+  "updated_at": "2026-05-15T01:28:28Z"
+}

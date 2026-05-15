@@ -1,0 +1,20 @@
+{
+  "id": "article-20260515-216",
+  "title": "ethicalByte1443/Insurance-AI-Agent-RAG-Based",
+  "source": "github",
+  "source_url": "https://github.com/ethicalByte1443/Insurance-AI-Agent-RAG-Based",
+  "summary": "全栈保险理赔决策系统，结合FastAPI后端与React TypeScript前端，利用HuggingFace Transformers和Gemma LLM进行条款分析与客户查询处理。采用RAG架构实现知识增强推理，自动化预测理赔批准或拒绝并提供理由与金额估算，解决传统保险理赔效率低、主观性强的痛点。",
+  "highlights": [],
+  "tags": [
+    "RAG-System",
+    "LLM-Agent",
+    "Insurance-Claim-Analysis",
+    "FastAPI",
+    "React-TypeScript"
+  ],
+  "language": "TypeScript",
+  "stars": 22,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:42:35Z",
+  "updated_at": "2026-05-15T01:42:35Z"
+}

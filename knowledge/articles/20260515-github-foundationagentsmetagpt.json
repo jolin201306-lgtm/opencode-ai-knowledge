@@ -1,0 +1,19 @@
+{
+  "id": "article-20260515-490",
+  "title": "FoundationAgents/MetaGPT",
+  "source": "github",
+  "source_url": "https://github.com/FoundationAgents/MetaGPT",
+  "summary": "基于LLM的多智能体协作框架，通过模拟软件公司中产品经理、架构师、工程师等角色，利用结构化对话和SOP（标准操作流程）将自然语言需求自动转化为可执行代码。它解决了传统软件开发中需求沟通、团队协作和文档编排的低效问题，实现了从需求到代码的全流程自动化，显著降低开发门槛。",
+  "highlights": [],
+  "tags": [
+    "Multi-Agent-System",
+    "LLM-Orchestration",
+    "Software-Engineering-Automation",
+    "Role-Playing-Framework"
+  ],
+  "language": "Python",
+  "stars": 67977,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:28:28Z",
+  "updated_at": "2026-05-15T01:28:28Z"
+}

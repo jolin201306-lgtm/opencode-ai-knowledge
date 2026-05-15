@@ -1,0 +1,20 @@
+{
+  "id": "article-20260515-134",
+  "title": "MDalamin5/Agentic-Ai-Journey-with-HuggingFace-and-LangChain-Academy-Course",
+  "source": "github",
+  "source_url": "https://github.com/MDalamin5/Agentic-Ai-Journey-with-HuggingFace-and-LangChain-Academy-Course",
+  "summary": "HuggingFace 与 LangChain Academy Agentic AI 课程的完整代码实现，深入浅出地演示了基于 LangGraph 的多步推理、自定义工具集成、人机协同（Human-in-the-Loop）及短期/长期记忆机制，并融合 Groq API 与 Ollama 实现本地推理，为构建 LLM 驱动的智能代理系统提供了可复现的教学范例。",
+  "highlights": [],
+  "tags": [
+    "LangGraph",
+    "Agentic-RAG",
+    "Human-in-the-Loop",
+    "Multi-Step-Reasoning",
+    "Long-Short-Term-Memory"
+  ],
+  "language": "Jupyter Notebook",
+  "stars": 3,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:42:35Z",
+  "updated_at": "2026-05-15T01:42:35Z"
+}

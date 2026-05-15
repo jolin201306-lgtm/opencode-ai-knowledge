@@ -1,0 +1,19 @@
+{
+  "id": "article-20260514-029",
+  "title": "HKUDS/nanobot",
+  "source": "github",
+  "source_url": "https://github.com/HKUDS/nanobot",
+  "summary": "超轻量个人AI代理框架，基于LLM（Claude/OpenAI等）实现函数调用与工具集成，提供极简API接口，支持多种模型无缝切换。解决了个性化AI助手部署复杂、资源占用高的痛点，以高效、易用和可扩展性著称。",
+  "highlights": [],
+  "tags": [
+    "LLM-Agent",
+    "Function-Calling",
+    "Multi-Model-Adapter",
+    "Lightweight-Client"
+  ],
+  "language": "Python",
+  "stars": 42419,
+  "status": "analyzed",
+  "created_at": "2026-05-14T10:06:43Z",
+  "updated_at": "2026-05-14T10:06:43Z"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "article-20260515-460",
+  "title": "TYH-labs/unsloth-buddy",
+  "source": "github",
+  "source_url": "https://github.com/TYH-labs/unsloth-buddy",
+  "summary": "零摩擦LLM微调技能，面向Claude Code、Gemini CLI等ACP agent，自动化环境搭建与LoRA训练（SFT、DPO、GRPO、视觉），集成Unsloth加速与TRL/MPS/MLX多平台支持，实现端到端微调、诊断、评估与导出。",
+  "highlights": [],
+  "tags": [
+    "LoRA-Training",
+    "Multi-Platform",
+    "Agent-Integration",
+    "Auto-Env-Setup",
+    "GRPO"
+  ],
+  "language": "Python",
+  "stars": 237,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:42:35Z",
+  "updated_at": "2026-05-15T01:42:35Z"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "article-20260515-964",
+  "title": "InternLM/MindSearch",
+  "source": "github",
+  "source_url": "https://github.com/InternLM/MindSearch",
+  "summary": "基于LLM的多智能体Web搜索框架，通过多智能体协作实现查询规划、网页浏览与信息综合，提供类似Perplexity.ai的深度答案生成能力，解决传统搜索引擎信息碎片化与长尾查询痛点。",
+  "highlights": [],
+  "tags": [
+    "Multi-Agent-System",
+    "LLM-Search-Engine",
+    "Transformer",
+    "Web-Information-Retrieval",
+    "Agent-Collaboration"
+  ],
+  "language": "JavaScript",
+  "stars": 6855,
+  "status": "analyzed",
+  "created_at": "2026-05-15T01:28:28Z",
+  "updated_at": "2026-05-15T01:28:28Z"
+}
