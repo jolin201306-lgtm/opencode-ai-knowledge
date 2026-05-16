@@ -1,0 +1,26 @@
+{
+  "id": "github-20260516-979",
+  "title": "skills",
+  "source": "github",
+  "source_url": "https://github.com/anthropics/skills",
+  "summary": "Anthropic官方发布的Agent技能公共仓库，提供可复用的智能体技能实现。",
+  "highlights": [
+    "由Anthropic官方维护，权威性高",
+    "聚焦Agent技能的可复用实现",
+    "公开仓库便于社区贡献与学习"
+  ],
+  "tags": [
+    "LLM",
+    "Agent",
+    "Anthropic",
+    "开源",
+    "技能库"
+  ],
+  "language": "unknown",
+  "stars": 689,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-16T02:47:24Z",
+  "updated_at": "2026-05-16T02:47:24Z"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "github-20260516-031",
+  "title": "czlonkowski",
+  "source": "github",
+  "source_url": "https://github.com/sponsors/czlonkowski",
+  "summary": "一个MCP工具，支持在Claude Desktop等AI平台中构建n8n工作流。",
+  "highlights": [
+    "集成Claude Desktop/Code、Windsurf、Cursor等AI工具",
+    "通过MCP协议自动化构建n8n工作流",
+    "降低低代码工作流与AI代理的集成门槛"
+  ],
+  "tags": [
+    "MCP",
+    "n8n",
+    "工作流自动化",
+    "Claude",
+    "AI集成"
+  ],
+  "language": "unknown",
+  "stars": 68,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-16T02:47:26Z",
+  "updated_at": "2026-05-16T02:47:26Z"
+}
