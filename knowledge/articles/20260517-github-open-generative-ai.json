@@ -1,0 +1,27 @@
+{
+  "id": "github-20260517-946",
+  "title": "Open-Generative-AI",
+  "source": "github",
+  "source_url": "https://github.com/Anil-matcha/Open-Generative-AI",
+  "summary": "开源AI视频与图像生成平台，集成200+模型，无内容过滤，支持自托管。",
+  "highlights": [
+    "集成200+模型，包括Flux、Midjourney、Kling等",
+    "无内容过滤，支持自由创作",
+    "MIT许可，可自托管部署"
+  ],
+  "tags": [
+    "AI视频生成",
+    "AI图像生成",
+    "开源",
+    "自托管",
+    "Flux",
+    "Midjourney"
+  ],
+  "language": "unknown",
+  "stars": 317,
+  "score": 7,
+  "audience": "intermediate",
+  "status": "analyzed",
+  "created_at": "2026-05-17T02:55:28Z",
+  "updated_at": "2026-05-17T02:55:28Z"
+}
